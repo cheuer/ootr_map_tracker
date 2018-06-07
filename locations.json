@@ -1695,7 +1695,7 @@
 							{
 								"name": "Ganon's Castle",
 								"color": "#c3b103",
-								"access_rules": [ "goal_allmedal,lightmed,forestmed,firemed,watermed,shadowmed,spiritmed", "goal_alldungeon,lightmed,forestmed,firemed,watermed,shadowmed,spiritmed,kemerald,gruby,zsapphire", "goal_vanilla,shadowmed,spiritmed", "goal_open" ],
+								"access_rules": [ "goal_allmedal,lightmed,forestmed,firemed,watermed,shadowmed,spiritmed", "goal_alldungeon,lightmed,forestmed,firemed,watermed,shadowmed,spiritmed,kemerald,gruby,zsapphire", "goal_vanilla,shadowmed,spiritmed,lightarrow", "goal_open" ],
 								"sections": [
 									{
 										"name": "Forest Trial",
