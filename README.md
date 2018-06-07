@@ -1,15 +1,13 @@
-=================================================
-OoTR Map Tracker
-Created by Darkened5ky and Spleebie
-=================================================
+# OoTR Map Tracker
+## Created by Darkened5ky and Spleebie
 
 
-SETUP:
+### Setup
 
 Copy the zip file into Documents\EmoTracker\packs and then restart EmoTracker.
 
 
-USAGE:
+### Usage
 
 When you first start, set the open door / open forest / goal conditions at the bottom left. These affect what locations will show as available. Also set which medallion or stone you got for free. The order of the medallions and stones don't correspond to the pause menu but to the dungeon locations. So once you find out what you get from the child dungeons, mark the three at the bottom even if they're medallions.
 
