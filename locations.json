@@ -112,7 +112,7 @@
 				"color": "#00c325",
 				"sections": [
 					{
-						"name": "Wolfos Grotto Chest",
+						"name": "Wolfos Grotto",
 						"item_count": 1,
 						"access_rules": [ "bombs", "[bombs],bombchu","ms,hammer" ]
 					}
@@ -322,7 +322,7 @@
 								"color": "#c36202",
 								"sections": [
 									{
-										"name": "Hammer Rocks Chest",
+										"name": "Hammer Rocks",
 										"item_count": 1,
 										"access_rules": [ "hammer,ms" ]
 									}
@@ -346,7 +346,7 @@
 								"access_rules": [ "@Fortress Entrance" ],
 								"sections": [
 									{
-										"name": "Rooftop Chest",
+										"name": "Rooftop",
 										"access_rules": [ "ms,hoverboots", "ms,hookshot,[longshot]"],
 										"item_count": 1
 									}
@@ -478,7 +478,7 @@
 						"access_rules": [ "@Wasteland Entrance" ],
 						"sections": [
 							{
-								"name": "Structure Chest",
+								"name": "Structure",
 								"item_count": 1,
 								"capture_item": true,
 								"access_rules": [ "din,magic", "bow,firearrow,magic", "{soa}" ]
@@ -547,7 +547,7 @@
 								"access_rules": [ "lift2,ms,[spirit_keys:3],spirit_keys:1" ]
 							},
 							{
-								"name": "Map Chest",
+								"name": "Map",
 								"item_count": 1,
 								"access_rules": [ "requiem,magic,din", "firearrow,magic,bow,lift2,[spirit_keys:3],spirit_keys:1,ms" ]
 							},
@@ -560,34 +560,34 @@
 								"sprit_keys:5,requiem,boomerang,slingshot" ]
 							},
 							{
-								"name": "Sun Block Room Chest",
+								"name": "Sun Block Room",
 								"item_count": 1,
 								"access_rules": [ "spirit_keys:5,bombs,requiem", "din,magic,bombs,requiem", "din,magic,bombs,lift2,ms", "bow,firearrow,magic,ms,bombs,lift2", "din,magic,spirit_keys:2,requiem", "din,magic,spirit_keys:2,lift2,ms", "bow,firearrow,magic,ms,spirit_keys:2,lift2" ]
 							},
 							{
-								"name": "Statue Hand Chest",
+								"name": "Statue Hand",
 								"item_count": 1,
 								"access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,ms,zl" ]
 							},
 							{
-								"name": "NE Main Room Chest",
+								"name": "NE Main Room",
 								"item_count": 1,
 								"access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,ms,zl,hookshot" ]
 							},
 							{
-								"name": "Silver Gauntlets Chest",
+								"name": "Silver Gauntlets",
 								"item_count": 1,
 								"capture_item": true,
 								"access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,ms", "spirit_keys:5,requiem", "{soa}" ]
 							},
 							{
-								"name": "Mirror Shield Chest",
+								"name": "Mirror Shield",
 								"item_count": 1,
 								"capture_item": true,
 								"access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms", "{soa}" ]
 							},
 							{
-								"name": "Near Four Armos Chest",
+								"name": "Near Four Armos",
 								"item_count": 1,
 								"access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms,mirrorshield" ]
 							},
@@ -597,12 +597,12 @@
 								"access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms,[lens],[magic]" ]
 							},
 							{
-								"name": "Boss Key Chest",
+								"name": "Boss Key",
 								"item_count": 1,
 								"access_rules": [ "[spirit_keys:5],spirit_keys:3,zl,bow,hookshot,bombs,ms,lift2", "[spirit_keys:5],spirit_keys:3,zl,bow,hookshot,[bombs],bombchu,ms,lift2",  "[spirit_keys:5],spirit_keys:3,zl,bow,hookshot,hammer,ms,lift2" ]
 							},
 							{
-								"name": "Topmost Chest",
+								"name": "Topmost",
 								"item_count": 1,
 								"access_rules": [ "[spirit_keys:5],spirit_keys:4,hookshot,mirrorshield,lift2,ms", "[spirit_keys:5],spirit_keys:4,bow,mirrorshield,lift2,ms", "[spirit_keys:5],spirit_keys:4,bombs,mirrorshield,lift2,ms" ]
 							},
@@ -869,17 +869,17 @@
 						"color": "#8100c3",
 						"sections": [
 							{
-								"name": "Shield Grave Chest",
+								"name": "Shield Grave",
 								"item_count": 1
 							},
 							{
-								"name": "Heart Piece Grave Chest",
+								"name": "Heart Piece Grave",
 								"item_count": 1,
 								"capture_item": true,
 								"access_rules": [ "sunsong", "{soa}" ]
 							},
 							{
-								"name": "Composer Grave Chest",
+								"name": "Composer Grave",
 								"item_count": 1,
 								"capture_item": true,
 								"access_rules": [ "din,magic", "bow,firearrows,mastersword,magic", "{soa}" ]
@@ -941,7 +941,7 @@
 								"access_rules": [ "zl,[kokirisword]", "{soa}" ]
 							},
 							{
-								"name": "Invisible Chest",
+								"name": "Invisible",
 								"item_count": 1,
 								"access_rules": [ "zl,[lens],[magic]" ]
 							},
@@ -984,7 +984,7 @@
 						"color": "#8100c3",
 						"sections": [
 							{
-								"name": "Hookshot Chest",
+								"name": "Hookshot",
 								"item_count": 1,
 								"access_rules": [ "ms" ]
 							}
@@ -1007,82 +1007,82 @@
 								"hosted_item": "shadow_keys"
 							},
 							{
-								"name": "Map Chest",
+								"name": "Map",
 								"item_count": 1
 							},
 							{
-								"name": "Hover Boots Chest",
+								"name": "Hover Boots",
 								"item_count": 1
 							},
 							{
-								"name": "Compass Chest",
+								"name": "Compass",
 								"item_count": 1,
 								"access_rules": [ "hoverboots" ]
 							},
 							{
-								"name": "Early Silver Rupee Chest",
+								"name": "Early Silver Rupee",
 								"item_count": 1,
 								"access_rules": [ "hoverboots" ]
 							},
 							
 							
 							{
-								"name": "Invisible Blades Visible Chest",
+								"name": "Invisible Blades Visible",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:1,hoverboots" ]
 							},
 							{
-								"name": "Invisible Blades Invisible Chest",
+								"name": "Invisible Blades Invisible",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:1,hoverboots" ]
 							},
 							{
-								"name": "Falling Spikes Lower Chest",
+								"name": "Falling Spikes Lower",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:1,hoverboots" ]
 							},
 							{
-								"name": "Falling Spikes Upper Chest",
+								"name": "Falling Spikes Upper",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:1,hoverboots,lift1" ]
 							},
 							{
-								"name": "Falling Spikes Switch Chest",
+								"name": "Falling Spikes Switch",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:1,hoverboots,lift1" ]
 							},
 							{
-								"name": "Invisible Spikes Chest",
+								"name": "Invisible Spikes",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:2,hoverboots" ]
 							},
 							{
-								"name": "Wind Hint Chest",
+								"name": "Wind Hint",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:2,hookshot" ]
 							},
 							{
-								"name": "After Wind Enemy Chest",
+								"name": "After Wind Enemy",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:2,hookshot" ]
 							},
 							{
-								"name": "After Wind Hidden Chest",
+								"name": "After Wind Hidden",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:2,hookshot" ]
 							},
 							{
-								"name": "Spike Walls Left Chest",
+								"name": "Spike Walls Left",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:3,lift1,zl" ]
 							},
 							{
-								"name": "Boss Key Chest",
+								"name": "Boss Key",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:3,lift1,zl" ]
 							},
 							{
-								"name": "Hidden Floormaster Chest",
+								"name": "Hidden Floormaster",
 								"item_count": 1,
 								"capture_item": true,
 								"access_rules": [ "shadow_keys:3,lift1,zl", "{soa}" ]
@@ -1110,7 +1110,7 @@
 								"color": "#c30017",
 								"sections": [
 									{
-										"name": "Bombable Chest",
+										"name": "Bombable",
 										"item_count": 1,
 										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
 									},
@@ -1359,15 +1359,15 @@
 						"access_rules": [ "rutoletter,ms,zl" ],
 						"sections": [
 							{
-								"name": "Map Chest",
+								"name": "Map",
 								"item_count": 1
 							},
 							{
-								"name": "Compass Chest",
+								"name": "Compass",
 								"item_count": 1
 							},
 							{
-								"name": "Iron Boots Chest",
+								"name": "Iron Boots",
 								"item_count": 1
 							},
 							{
@@ -1434,17 +1434,17 @@
 						"access_rules": [ "rutoletter" ],
 						"sections": [
 							{
-								"name": "Boomerang Chest",
+								"name": "Boomerang",
 								"item_count": 1,
 								"access_rules": [ "slingshot", "bombs", "boomerang" ]
 							},
 							{
-								"name": "Map Chest",
+								"name": "Map",
 								"item_count": 1,
 								"access_rules": [ "boomerang" ]
 							},
 							{
-								"name": "Compass Chest",
+								"name": "Compass",
 								"item_count": 1,
 								"access_rules": [ "boomerang" ]
 							},
@@ -1514,7 +1514,7 @@
 								"hosted_item": "forest_keys"
 							},
 							{
-								"name": "First Chest",
+								"name": "First",
 								"item_count": 1
 							},
 							{
@@ -1523,60 +1523,60 @@
 							},
 							//NW
 							{
-								"name": "Well Chest",
+								"name": "Well",
 								"item_count": 1,
 								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale" ]
 							},
 							{
-								"name": "Map Chest",
+								"name": "Map",
 								"item_count": 1,
 								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale" ]
 							},
 							//NE
 							{
-								"name": "Outside Hookshot Chest",
+								"name": "Outside Hookshot",
 								"item_count": 1,
 								"access_rules": [ "bow", "timesong" ]
 							},
 							
 							{
-								"name": "Falling Room Chest",
+								"name": "Falling Room",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:5,bow", "forest_keys:5,din,magic" ]
 							},
 							{
-								"name": "Block Push Chest",
+								"name": "Block Push",
 								"item_count": 1,
 								"access_rules": [ "lift1,forest_keys:1,bow" ]
 							},
 							{
-								"name": "Boss Key Chest",
+								"name": "Boss Key",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:2,bow" ]
 							},
 							{
-								"name": "Floormaster Chest",
+								"name": "Floormaster",
 								"item_count": 1,
 								"capture_item": true,
 								"access_rules": [ "forest_keys:2,bow", "hoverboots", "{soa}" ]
 							},
 							{
-								"name": "Bow Chest",
+								"name": "Bow",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:3" ]
 							},
 							{
-								"name": "Red Poe Chest",
+								"name": "Red Poe",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:3" ]
 							},
 							{
-								"name": "Blue Poe Chest",
+								"name": "Blue Poe",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:3" ]
 							},
 							{
-								"name": "Near Boss Chest",
+								"name": "Near Boss",
 								"item_count": 1,
 								"access_rules": [ "bow,lift1,forest_keys:3" ]
 							},
@@ -1733,7 +1733,7 @@
 										"access_rules": [ "lift3,[zl],[lens],[magic]" ]
 									},
 									{
-										"name": "Boss Key Chest",
+										"name": "Boss Key",
 										"item_count": 1
 									}
 								],
@@ -1794,7 +1794,7 @@
 						"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ],
 						"sections": [
 							{
-								"name": "Redead Grotto Chest",
+								"name": "Redead Grotto",
 								"item_count": 1
 							}
 						],
