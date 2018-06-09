@@ -347,7 +347,8 @@
 				"img": "images/poachersaw.png"
 			},
 			{
-				"img": "images/brokensword.png"
+				"img": "images/brokensword.png",
+				"codes": "brokensword"
 			},
 			{
 				"img": "images/Prescription.png"
@@ -1106,7 +1107,7 @@
 	{
 		"name": "Gerudo Training Ground Small Keys",
 		"type": "consumable",
-		"max_quantity": 8,
+		"max_quantity": 9,
 		"img": "images/small_key.png",
 		"codes": "gtg_keys"
 	},

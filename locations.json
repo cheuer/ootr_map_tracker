@@ -1136,7 +1136,7 @@
 							{
 								"name": "Biggoron",
 								"color": "#c30017",
-								"access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance" ],
+								"access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance", "brokensword" ],
 								"sections": [
 									{
 										"name": "Item",
@@ -1523,12 +1523,12 @@
 							},
 							//NW
 							{
-								"name": "Well",
+								"name": "Map",
 								"item_count": 1,
 								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale" ]
 							},
 							{
-								"name": "Map",
+								"name": "Well",
 								"item_count": 1,
 								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale" ]
 							},
@@ -1537,12 +1537,6 @@
 								"name": "Outside Hookshot",
 								"item_count": 1,
 								"access_rules": [ "bow", "timesong" ]
-							},
-							
-							{
-								"name": "Falling Room",
-								"item_count": 1,
-								"access_rules": [ "forest_keys:5,bow", "forest_keys:5,din,magic" ]
 							},
 							{
 								"name": "Block Push",
@@ -1561,12 +1555,12 @@
 								"access_rules": [ "forest_keys:2,bow", "hoverboots", "{soa}" ]
 							},
 							{
-								"name": "Bow",
+								"name": "Red Poe",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:3" ]
 							},
 							{
-								"name": "Red Poe",
+								"name": "Bow",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:3" ]
 							},
@@ -1574,6 +1568,11 @@
 								"name": "Blue Poe",
 								"item_count": 1,
 								"access_rules": [ "forest_keys:3" ]
+							},
+							{
+								"name": "Falling Room",
+								"item_count": 1,
+								"access_rules": [ "forest_keys:5,bow", "forest_keys:5,din,magic" ]
 							},
 							{
 								"name": "Near Boss",
