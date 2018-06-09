@@ -1000,7 +1000,7 @@
 					{
 						"name": "Shadow Temple",
 						"color": "#8100c3",
-						"access_rules": [ "nocturne,din,magic,lens,ms,hoverboots", "nocturne,din,magic,lens,ms,hookshot" ],
+						"access_rules": [ "nocturne,din,magic,[lens],ms,hoverboots", "nocturne,din,magic,[lens],ms,hookshot" ],
 						"sections": [
 							{
 								"name": "Keys",
