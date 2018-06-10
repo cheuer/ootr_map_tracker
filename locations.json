@@ -244,7 +244,7 @@
 					{
 						"name": "Water Temple",
 						"color": "#0071c3",
-						"access_rules": [ "ms,ironboots,hookshot,zoratunic", "ms,ironboots,hookshot,bottle,zl,wallet2" ],
+						"access_rules": [ "ms,ironboots,hookshot,[zoratunic]", "ms,ironboots,hookshot,bottle,zl,wallet2" ],
 						"sections": [
 							{
 								"name": "Keys",
@@ -291,7 +291,7 @@
 							{
 								"name": "Dark Link",
 								"item_count": 1,
-								"access_rules": [ "water_keys:6,[water_keys:2],zl" ]
+								"access_rules": [ "[water_keys:6],water_keys:2,zl" ]
 							},
 							{
 								"name": "River",
@@ -581,12 +581,6 @@
 								"access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,ms", "spirit_keys:5,requiem", "{soa}" ]
 							},
 							{
-								"name": "Mirror Shield",
-								"item_count": 1,
-								"capture_item": true,
-								"access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms", "{soa}" ]
-							},
-							{
 								"name": "Near Four Armos",
 								"item_count": 1,
 								"access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms,mirrorshield" ]
@@ -595,6 +589,12 @@
 								"name": "Hallway Invisible Chests",
 								"item_count": 2,
 								"access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms,[lens],[magic]" ]
+							},
+							{
+								"name": "Mirror Shield",
+								"item_count": 1,
+								"capture_item": true,
+								"access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms", "{soa}" ]
 							},
 							{
 								"name": "Boss Key",
@@ -882,7 +882,7 @@
 								"name": "Composer Grave",
 								"item_count": 1,
 								"capture_item": true,
-								"access_rules": [ "din,magic", "bow,firearrows,mastersword,magic", "{soa}" ]
+								"access_rules": [ "din,magic", "bow,firearrows,ms,magic", "{soa}" ]
 							},
 							{
 								"name": "Song from Composer Grave",
