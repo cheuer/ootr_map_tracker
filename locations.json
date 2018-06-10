@@ -216,6 +216,11 @@
 								"access_rules": [ "[goldscale],ironboots,hookshot", "goldscale" ] 
 							},
 							{
+								"name": "Lab Rooftop HP",
+								"item_count": 1,
+								"access_rules": [ "ms,hookshot","bean" ]
+							},
+							{
 								"name": "Child Fishing",
 								"item_count": 1,
 								"capture_item": true,
@@ -792,6 +797,11 @@
 								"access_rules": [ "[ms],[hookshot]" ]
 							},
 							{
+								"name": "Impa's Cow HP",
+								"item_count": 1,
+								"access_rules": [ "[ms],[longshot]", "bombs" ]
+							},
+							{
 								"name": "Sheik in Kakariko",
 								"hosted_item": "song_from_kakariko",
 								"capture_item": true,
@@ -802,6 +812,11 @@
 								"hosted_item": "song_from_windmill",
 								"capture_item": true,
 								"access_rules": [ "ms", "{soa}" ]
+							},
+							{
+								"name": "Windmill HP",
+								"item_count": 1,
+								"access_rules": [ "timesong","boomerang" ]
 							},
 							{
 								"name": "Shooting Gallery",
@@ -889,6 +904,10 @@
 								"hosted_item": "song_from_tomb",
 								"capture_item": true,
 								"access_rules": [ "zeldasong", "{soa}" ]
+							},
+							{
+								"name": "Dampé HP",
+								"item_count": 1,
 							}
 						],
 						"map_locations": [
@@ -984,9 +1003,14 @@
 						"color": "#8100c3",
 						"sections": [
 							{
-								"name": "Hookshot",
-								"item_count": 1,
+								"name": "Dampé Race",
+								"item_count": 2,
 								"access_rules": [ "ms" ]
+							},
+							{
+								"name": "Graveyard HP",
+								"item_count": 1,
+								"access_rules": [ "bean","[longshot],hookshot" ]
 							}
 						],
 						"map_locations": [
@@ -1290,6 +1314,15 @@
 										"name": "Crater Fairy Reward",
 										"item_count": 1,
 										"access_rules": [ "ms,hammer,zl" ]
+									},
+									{
+										"name": "Volcano HP",
+										"item_count": 1,
+										"access_rules": [ "ms,bean,bolero" ]
+									},
+									{
+										"name": "Wall HP",
+										"item_count": 1 //doesn't seem to have any logic associated with it...?
 									}
 								],
 								"map_locations": [
@@ -1410,7 +1443,7 @@
 						"access_rules": [ "rutoletter" ],
 						"sections": [
 							{
-								"name": "Zora's Fountain Fairy Reward",
+								"name": "Fairy Reward",
 								"item_count": 1,
 								"access_rules": [ "bombs,zl", "[bombs],bombchu,zl" ]
 							}
@@ -1582,6 +1615,7 @@
 							{
 								"name": "Phantom Ganon",
 								"hosted_item": "forest",
+								"item_count": 1,
 								"access_rules": [ "bow,lift1,forest_keys:3" ]
 							}
 						],
@@ -1676,6 +1710,7 @@
 							{
 								"name": "Volvagia",
 								"hosted_item": "fire",
+								"item_count": 1,
 								"access_rules": [ "hammer,hoverboots", "hammer,fire_keys:7,timesong", "hammer, fire_keys:6,hoverboots,timesong", "hammer,fire_keys:7,bombs", "hammer, fire_keys:6,hoverboots,bombs", "hammer,fire_keys:7,[bombs],bombchu", "hammer, fire_keys:6,hoverboots,[bombs],bombchu" ]
 							}
 						],
