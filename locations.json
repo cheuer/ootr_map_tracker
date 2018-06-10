@@ -43,6 +43,7 @@
 					{
 						"name": "Queen Ghoma",
 						"hosted_item": "dekutree",
+						"item_count": 1,
 						"access_rules": [ "[slingshot]" ]
 					}
 				],
@@ -196,6 +197,25 @@
 						]
 					},
 					{
+						"name": "Tektite Grotto",
+						"color": "#0071c3",
+						"access_rules": [ "[bombs],hammer", "bombs" ],
+						"sections": [
+							{
+								"name": "Underwater HP",
+								"item_count": 1,
+								"access_rules": [ "goldscale", "ms,ironboots"]
+							}
+						],
+						"map_locations": [
+							{
+								"map": "adult",
+								"x": "1265",
+								"y": "965"
+							}
+						]
+					},
+					{
 						"name": "Lake Hylia",
 						"color": "#0071c3",
 						"sections": [
@@ -307,6 +327,7 @@
 							{
 								"name": "Morpha",
 								"hosted_item": "water",
+								"item_count": 1,
 								"access_rules": [ "longshot" ]
 							}
 						],
@@ -512,6 +533,11 @@
 								"name": "Desert Colossus Fairy",
 								"item_count": 1,
 								"access_rules": [ "bombs,zl", "[bombs],bombchu,zl" ]
+							},
+							{
+								"name": "Colossus HP",
+								"item_count": 1,
+								"access_rules": [ "bean" ]
 							}
 						],
 						"map_locations": [
@@ -614,6 +640,7 @@
 							{
 								"name": "Twinrova",
 								"hosted_item": "spirit",
+								"item_count": 1,
 								"access_rules": [ "[spirit_keys:5],spirit_keys:4,mirrorshield,bombs,hookshot,lift2,ms" ]
 							}
 						],
@@ -1081,6 +1108,11 @@
 								"access_rules": [ "shadow_keys:2,hoverboots" ]
 							},
 							{
+								"name": "Skull Key",
+								"item_count": 1,
+								"access_rules": [ "shadow_keys:2,hookshot" ]
+							},
+							{
 								"name": "Wind Hint",
 								"item_count": 1,
 								"access_rules": [ "shadow_keys:2,hookshot" ]
@@ -1114,6 +1146,7 @@
 							{
 								"name": "Bongo Bongo",
 								"hosted_item": "shadow",
+								"item_count": 1,
 								"access_rules": [ "shadow_keys:4,lift1,zl,bow" ]
 							}
 						],
@@ -1137,6 +1170,10 @@
 										"name": "Bombable",
 										"item_count": 1,
 										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
+									},
+									{
+										"name": "Trail HP",
+										"item_count": 1
 									},
 									{
 										"name": "Mountain Summit Fairy Reward",
@@ -1191,6 +1228,11 @@
 										"item_count": 1,
 										"capture_item": true,
 										"access_rules": [ "zl,sariasong", "{soa}" ]
+									},
+									{
+										"name": "Spinning Pot",
+										"item_count": 1,
+										"access_rules": [ "bombs,zl", "lift1,zl", "din,magic,zl" ] //review
 									}
 								],
 								"map_locations": [
@@ -1283,6 +1325,7 @@
 									{
 										"name": "King Dodongo",
 										"hosted_item": "dc",
+										"item_count": 1,
 										"access_rules": [ "@Dodongo's Cavern/End of Bridge" ]
 									}
 								],
@@ -1322,7 +1365,8 @@
 									},
 									{
 										"name": "Wall HP",
-										"item_count": 1 //doesn't seem to have any logic associated with it...?
+										"item_count": 1, //doesn't seem to have any logic associated with it...? I'mma put my own
+										"access_rules": [ "bombs","ms,bolero"]
 									}
 								],
 								"map_locations": [
@@ -1354,6 +1398,16 @@
 								"name": "Frogs in the Rain",
 								"item_count": 1,
 								"access_rules": [ "stormsong" ]
+							},
+							{
+								"name": "Lower HP",
+								"item_count": 1,
+								"access_rules": [ "ms,hoverboots", "bombs", "silverscale" ] //review, do we wanna create an adult ZR and put it there, or do we wanna just put this location on both maps?
+							},
+							{
+								"name": "Upper HP",
+								"item_count": 1,
+								"access_rules": [ "ms,hoverboots", "bombs", "silverscale" ] //review, same question as above
 							}
 						],
 						"map_locations": [
@@ -1397,6 +1451,10 @@
 							},
 							{
 								"name": "Compass",
+								"item_count": 1
+							},
+							{
+								"name": "HP",
 								"item_count": 1
 							},
 							{
@@ -1446,6 +1504,15 @@
 								"name": "Fairy Reward",
 								"item_count": 1,
 								"access_rules": [ "bombs,zl", "[bombs],bombchu,zl" ]
+							},
+							{
+								"name": "Underwater HP",
+								"item_count": 1,
+								"access_rules": [ "ironboots" ]
+							},
+							{
+								"name": "Ice Platform HP",
+								"item_count": 1
 							}
 						],
 						"map_locations": [
@@ -1484,6 +1551,7 @@
 							{
 								"name": "Barinade",
 								"hosted_item": "jabujabu",
+								"item_count": 1,
 								"access_rules": [ "boomerang" ]
 							}
 						],
