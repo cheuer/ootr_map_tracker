@@ -408,7 +408,7 @@
 									{
 										"name": "Hidden Ceiling",
 										"item_count": 1,
-										"access_rules": [ "gtg_keys:2,[lens],[magic]" ]
+										"access_rules": [ "gtg_keys:1,[gtg_keys:2],[lens],[magic]" ]
 									},
 									{
 										"name": "Maze Path",
@@ -1386,7 +1386,7 @@
 						]
 					},
 					{
-						"name": "Zora's Domain",
+						"name": "Adult Zora's Domain",
 						"color": "#0071c3",
 						"access_rules": [ "zl" ],
 						"sections": [
@@ -1431,7 +1431,7 @@
 					{
 						"name": "Jabu Jabu's Belly",
 						"color": "#0071c3",
-						"access_rules": [ "rutoletter" ],
+						"access_rules": [ "@Zora's Domain,rutoletter" ],
 						"sections": [
 							{
 								"name": "Boomerang",
