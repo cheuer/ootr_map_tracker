@@ -1157,5 +1157,13 @@
 		"type": "toggle",
 		"img": "images/boss_key.png",
 		"codes": "bosskey"
+	},
+
+	//misc
+	{
+		"name": "Dampe Gravedigging",
+		"type": "toggle",
+		"img": "images/dampe.png",
+		"codes": "dampe_gravedigging"
 	}
 ]

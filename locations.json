@@ -10,6 +10,11 @@
 			{
 				"name": "Kokiri Sword Chest",
 				"item_count": 1
+			},
+			{
+				"name": "Storm Grotto",
+				"item_count": 1,
+				"access_rules": [ "stormsong" ]
 			}
 		],
 		"map_locations": [
@@ -72,6 +77,11 @@
 						"name": "Target in Woods",
 						"item_count": 1,
 						"access_rules": [ "slingshot" ]
+					},
+					{
+						"name": "GC Portal Grotto",
+						"item_count": 1,
+						"access_rules": [ "[bombs],bombchu", "[ms],hammer" ]
 					},
 					{
 						"name": "Deku Salesman (Grotto)",
@@ -193,6 +203,24 @@
 								"map": "child",
 								"x": 1500,
 								"y": 1000
+							}
+						]
+					},
+					{
+						"name": "West Bombable Grotto",
+						"color": "#c3b103",
+						"access_rules": [ "[bombs],bombchu", "ms,hammer" ],
+						"sections": [
+							{
+								"name": "Grotto Chest",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "child",
+								"x": 1437,
+								"y": 915
 							}
 						]
 					},
@@ -328,7 +356,7 @@
 								"name": "Morpha",
 								"hosted_item": "water",
 								"item_count": 1,
-								"access_rules": [ "longshot" ]
+								"access_rules": [ "[longshot],hookshot,hammer,hoverboots" ]
 							}
 						],
 						"map_locations": [
@@ -351,6 +379,14 @@
 										"name": "Hammer Rocks",
 										"item_count": 1,
 										"access_rules": [ "hammer,ms" ]
+									},
+									{
+										"name": "Waterfall HP",
+										"item_count": 1
+									},
+									{
+										"name": "Crate HP",
+										"item_count": 1
 									}
 								],
 								"map_locations": [
@@ -537,7 +573,7 @@
 							{
 								"name": "Colossus HP",
 								"item_count": 1,
-								"access_rules": [ "bean" ]
+								"access_rules": [ "bean", "{soa}" ]
 							}
 						],
 						"map_locations": [
@@ -580,7 +616,7 @@
 							{
 								"name": "Map",
 								"item_count": 1,
-								"access_rules": [ "requiem,magic,din", "firearrow,magic,bow,lift2,[spirit_keys:3],spirit_keys:1,ms" ]
+								"access_rules": [ "requiem,magic,din", "firearrow,magic,bow,lift2,[spirit_keys:3],spirit_keys:1,ms", "requiem,[spirit_keys:5],spirit_keys:1" ]
 							},
 							{
 								"name": "Child Climb East/North",
@@ -784,7 +820,7 @@
 								"access_rules": [ "[lens],[magic]", "{soa}" ]
 							},
 							{
-								"name": "Dog Lady",
+								"name": "Save Richard",
 								"item_count": 1
 							}
 						],
@@ -815,6 +851,10 @@
 								"access_rules": [ "[ms],[hookshot]" ]
 							},
 							{
+								"name": "Potion Shop Grotto",
+								"item_count": 1
+							},
+							{
 								"name": "Impa's Cow HP",
 								"item_count": 1,
 								"access_rules": [ "[ms],[longshot]", "bombs" ]
@@ -842,7 +882,7 @@
 								"access_rules": [ "bow,ms" ]
 							},
 							{
-								"name": "Bombable Grotto",
+								"name": "Redead Grotto",
 								"item_count": 1,
 								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
 							}
@@ -925,7 +965,7 @@
 								"name": "Composer Grave",
 								"item_count": 1,
 								"capture_item": true,
-								"access_rules": [ "din,magic", "bow,firearrows,ms,magic", "{soa}" ]
+								"access_rules": [ "din,magic,zl", "bow,firearrows,ms,magic,zl", "{soa}" ]
 							},
 							{
 								"name": "Song from Composer Grave",
@@ -935,10 +975,25 @@
 							},
 							{
 								"name": "Dampé HP",
+								"hosted_item": "dampe_gravedigging"
+							},
+							{
+								"name": "Dampé Race",
+								"item_count": 2,
+								"access_rules": [ "ms" ]
+							},
+							{
+								"name": "Crate HP",
 								"item_count": 1,
+								"access_rules": [ "bean","[hookshot],[boomerang]" ]
 							}
 						],
 						"map_locations": [
+							{
+								"map": "adult",
+								"x": 2217,
+								"y": 872
+							},
 							{
 								"map": "child",
 								"x": 2217,
@@ -1023,29 +1078,6 @@
 								"map": "child",
 								"x": 2050,
 								"y": 870
-							}
-						]
-					},
-					{
-						"name": "Graveyard",
-						"color": "#8100c3",
-						"sections": [
-							{
-								"name": "Dampé Race",
-								"item_count": 2,
-								"access_rules": [ "ms" ]
-							},
-							{
-								"name": "Graveyard HP",
-								"item_count": 1,
-								"access_rules": [ "bean","[longshot],hookshot" ]
-							}
-						],
-						"map_locations": [
-							{
-								"map": "adult",
-								"x": 2217,
-								"y": 872
 							}
 						]
 					},
@@ -1158,7 +1190,7 @@
 						]
 					},
 					{
-						"name": "Death Mountain Entrance",
+						"name": "Death Mountain Trail",
 						"access_rules": [ "" ],
 						"children": [
 							{
@@ -1166,13 +1198,18 @@
 								"color": "#c30017",
 								"sections": [
 									{
-										"name": "Bombable",
+										"name": "Bombable Wall",
 										"item_count": 1,
 										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
 									},
 									{
 										"name": "Trail HP",
 										"item_count": 1
+									},
+									{
+										"name": "Storm Grotto",
+										"item_count": 1,
+										"access_rules": [ "stormsong" ]
 									},
 									{
 										"name": "Summit Fairy",
@@ -1231,7 +1268,7 @@
 									{
 										"name": "Spinning Pot",
 										"item_count": 1,
-										"access_rules": [ "bombs,zl", "lift1,zl", "bombs,din,magic", "lift1,din,magic" ]
+										"access_rules": [ "bombs,zl", "lift1,zl", "bombs,din,magic", "lift1,din,magic", "{soa}" ]
 									}
 								],
 								"map_locations": [
@@ -1345,12 +1382,12 @@
 							{
 								"name": "Death Mountain Crater",
 								"color": "#c30017",
-								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "bolero", "zl,lift1" ],
+								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "bolero", "lift1" ],
 								"sections": [
 									{
 										"name": "Sheik in Crater",
 										"capture_item": true,
-										"access_rules": [ "", "{soa}" ],
+										"access_rules": [ "hoverboots", "bolero", "hookshot", "{soa}" ],
 										"hosted_item": "song_from_crater"
 									},
 									{
@@ -1359,13 +1396,18 @@
 										"access_rules": [ "ms,hammer,zl" ]
 									},
 									{
-										"name": "Volcano HP",
+										"name": "Crater Grotto",
 										"item_count": 1,
-										"access_rules": [ "ms,bean,bolero" ]
+										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
 									},
 									{
 										"name": "Wall HP",
 										"item_count": 1
+									},
+									{
+										"name": "Volcano HP",
+										"item_count": 1,
+										"access_rules": [ "ms,bean,bolero", "{soa}" ]
 									}
 								],
 								"map_locations": [
@@ -1397,6 +1439,10 @@
 								"name": "Frogs in the Rain",
 								"item_count": 1,
 								"access_rules": [ "stormsong" ]
+							},
+							{
+								"name": "Open Grotto",
+								"item_count": 1
 							},
 							{
 								"name": "Lower HP",
@@ -1510,7 +1556,7 @@
 							{
 								"name": "Underwater HP",
 								"item_count": 1,
-								"access_rules": [ "ironboots" ]
+								"access_rules": [ "ironboots", "{soa}" ]
 							},
 							{
 								"name": "Ice Platform HP",
@@ -1578,6 +1624,10 @@
 								"name": "Song from Malon",
 								"hosted_item": "song_from_malon",
 								"access_rules": [ "[zeldaletter],ocarina" ]
+							},
+							{
+								"name": "Tower HP",
+								"item_count": 1
 							}
 						],
 						"map_locations": [
@@ -1868,7 +1918,7 @@
 						]
 					},
 					{
-						"name": "Hyrule Field Grotto",
+						"name": "Salesman Grotto (Bomb)",
 						"color": "#c3b103",
 						"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ],
 						"sections": [
@@ -1887,6 +1937,51 @@
 								"map": "adult",
 								"x": 934,
 								"y": 1416
+							}
+						]
+					},
+					{
+						"name": "Open Grotto",
+						"color": "#c3b103",
+						"sections": [
+							{
+								"name": "Grotto Chest",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "child",
+								"x": 985,
+								"y": 1455
+							},
+							{
+								"map": "adult",
+								"x": 985,
+								"y": 1455
+							}
+						]
+					},
+					{
+						"name": "Bombable Grotto",
+						"color": "#c3b103",
+						"access_rules": [ "[bombs],bombchu", "[ms],hammer" ],
+						"sections": [
+							{
+								"name": "Grotto Chest",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "child",
+								"x": 1192,
+								"y": 1460
+							},
+							{
+								"map": "adult",
+								"x": 1192,
+								"y": 1460
 							}
 						]
 					}
