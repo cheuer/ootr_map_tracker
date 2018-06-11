@@ -34,11 +34,11 @@
 						"item_count": 1
 					},
 					{
-						"name": "Compass Room",
+						"name": "Slingshot Room",
 						"item_count": 2
 					},
 					{
-						"name": "Slingshot Room",
+						"name": "Compass Room",
 						"item_count": 2
 					},
 					{
@@ -1233,13 +1233,13 @@
 							{
 								"name": "Biggoron",
 								"color": "#c30017",
-								"access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance", "brokensword" ],
+								"access_rules": [  ],
 								"sections": [
 									{
 										"name": "Item",
 										"item_count": 1,
 										"capture_item": true,
-										"access_rules": [ "", "{soa}" ]
+										"access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance", "brokensword", "{soa}" ]
 									}
 								],
 								"map_locations": [
@@ -1677,17 +1677,17 @@
 							{
 								"name": "Map",
 								"item_count": 1,
-								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale" ]
+								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale", "forest_keys:1,hoverboots" ]
 							},
 							{
 								"name": "Well",
 								"item_count": 1,
-								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale" ]
+								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale", "forest_keys:1,hoverboots" ]
 							},
 							{
 								"name": "Outside Hookshot",
 								"item_count": 1,
-								"access_rules": [ "bow", "timesong" ]
+								"access_rules": [ "bow", "timesong", "forest_keys:1,hoverboots" ]
 							},
 							{
 								"name": "Block Push",
