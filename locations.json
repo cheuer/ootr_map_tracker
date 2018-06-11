@@ -233,7 +233,7 @@
 							{
 								"name": "Lake Hylia Lab",
 								"item_count": 1,
-								"access_rules": [ "[goldscale],ironboots,hookshot", "goldscale" ] 
+								"access_rules": [ "[goldscale],ironboots,hookshot", "goldscale" ]
 							},
 							{
 								"name": "Lab Rooftop HP",
@@ -705,6 +705,10 @@
 						"color": "#c3b103",
 						"sections": [
 							{
+								"name": "Zelda",
+								"hosted_item": "zeldaletter"
+							},
+							{
 								"name": "Impa at Castle",
 								"hosted_item": "song_from_impa"
 							}
@@ -799,20 +803,7 @@
 							{
 								"name": "Anjus Chickens",
 								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "child",
-								"x": 1984,
-								"y": 862
-							}
-						]
-					},
-					{
-						"name": "Kakariko Village",
-						"color": "#8100c3",
-						"sections": [
+							},
 							{
 								"name": "Anju as Adult",
 								"item_count": 1,
@@ -849,9 +840,19 @@
 								"name": "Shooting Gallery",
 								"item_count": 1,
 								"access_rules": [ "bow,ms" ]
+							},
+							{
+								"name": "Bombable Grotto",
+								"item_count": 1,
+								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
 							}
 						],
 						"map_locations": [
+							{
+								"map": "child",
+								"x": 1984,
+								"y": 862
+							},
 							{
 								"map": "adult",
 								"x": 1984,
@@ -1075,8 +1076,6 @@
 								"item_count": 1,
 								"access_rules": [ "hoverboots" ]
 							},
-							
-							
 							{
 								"name": "Invisible Blades Visible",
 								"item_count": 1,
@@ -1147,7 +1146,7 @@
 								"name": "Bongo Bongo",
 								"hosted_item": "shadow",
 								"item_count": 1,
-								"access_rules": [ "shadow_keys:4,lift1,zl,bow" ]
+								"access_rules": [ "[shadow_keys:5],shadow_keys:4,zl,bow", "[shadow_keys:5],shadow_keys:4,zl,longshot" ]
 							}
 						],
 						"map_locations": [
@@ -1176,7 +1175,7 @@
 										"item_count": 1
 									},
 									{
-										"name": "Mountain Summit Fairy Reward",
+										"name": "Summit Fairy",
 										"item_count": 1,
 										"access_rules": [ "bombs,zl", "ms,hammer,zl" ]
 									}
@@ -1232,7 +1231,7 @@
 									{
 										"name": "Spinning Pot",
 										"item_count": 1,
-										"access_rules": [ "bombs,zl", "lift1,zl", "din,magic,zl" ] //review
+										"access_rules": [ "bombs,zl", "lift1,zl", "bombs,din,magic", "lift1,din,magic" ]
 									}
 								],
 								"map_locations": [
@@ -1309,7 +1308,8 @@
 									},
 									{
 										"name": "Bomb Bag",
-										"item_count": 1
+										"item_count": 1,
+										"access_rules": [ "slingshot", "ms,bow", "ms,[hoverboots]" ]
 									},
 									{
 										"name": "End of Bridge",
@@ -1365,8 +1365,7 @@
 									},
 									{
 										"name": "Wall HP",
-										"item_count": 1, //doesn't seem to have any logic associated with it...? I'mma put my own
-										"access_rules": [ "bombs","ms,bolero"]
+										"item_count": 1
 									}
 								],
 								"map_locations": [
@@ -1401,18 +1400,21 @@
 							},
 							{
 								"name": "Lower HP",
-								"item_count": 1,
-								"access_rules": [ "ms,hoverboots", "bombs", "silverscale" ] //review, do we wanna create an adult ZR and put it there, or do we wanna just put this location on both maps?
+								"item_count": 1
 							},
 							{
 								"name": "Upper HP",
-								"item_count": 1,
-								"access_rules": [ "ms,hoverboots", "bombs", "silverscale" ] //review, same question as above
+								"item_count": 1
 							}
 						],
 						"map_locations": [
 							{
 								"map": "child",
+								"x": 2082,
+								"y": 1120
+							},
+							{
+								"map": "adult",
 								"x": 2082,
 								"y": 1120
 							}
@@ -1498,7 +1500,7 @@
 					{
 						"name": "Zora's Fountain",
 						"color": "#0071c3",
-						"access_rules": [ "rutoletter" ],
+						"access_rules": [ "@Zora's Domain,rutoletter" ],
 						"sections": [
 							{
 								"name": "Fairy Reward",
@@ -1622,7 +1624,6 @@
 								"name": "Chest Behind Lobby",
 								"item_count": 1
 							},
-							//NW
 							{
 								"name": "Map",
 								"item_count": 1,
@@ -1633,7 +1634,6 @@
 								"item_count": 1,
 								"access_rules": [ "timesong", "bow,ironboots", "bow,hookshot", "bow,goldscale" ]
 							},
-							//NE
 							{
 								"name": "Outside Hookshot",
 								"item_count": 1,
@@ -1889,35 +1889,12 @@
 								"y": 1416
 							}
 						]
-					},
-					{
-						"name": "Kakariko Bombable Grotto",
-						"color": "#8100c3",
-						"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ],
-						"sections": [
-							{
-								"name": "Redead Grotto",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "child",
-								"x": 1900,
-								"y": 890
-							},
-							{
-								"map": "adult",
-								"x": 1900,
-								"y": 890
-							}
-						]
 					}
 				]
 			}
 		]
 	}
-] 
+]
 /* template
 	{
 		"name": "",
