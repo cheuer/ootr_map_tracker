@@ -670,6 +670,7 @@
 		"name": "Free Medallion",
 		"allow_disabled": false,
 		"type": "progressive",
+		"loop": true,
 		"stages": [
 			{
 				"img": "images/lightmed.png",

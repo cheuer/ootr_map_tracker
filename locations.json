@@ -81,7 +81,7 @@
 					{
 						"name": "GC Portal Grotto",
 						"item_count": 1,
-						"access_rules": [ "[bombs],bombchu", "[ms],hammer" ]
+						"access_rules": [ "bombs","[bombs],bombchu", "[ms],hammer" ]
 					},
 					{
 						"name": "Deku Salesman (Grotto)",
@@ -209,7 +209,7 @@
 					{
 						"name": "West Bombable Grotto",
 						"color": "#c3b103",
-						"access_rules": [ "[bombs],bombchu", "ms,hammer" ],
+						"access_rules": [ "bombs, [bombs],bombchu", "ms,hammer" ],
 						"sections": [
 							{
 								"name": "Grotto Chest",
@@ -356,7 +356,7 @@
 								"name": "Morpha",
 								"hosted_item": "water",
 								"item_count": 1,
-								"access_rules": [ "[longshot],hookshot,hammer,hoverboots" ]
+								"access_rules": [ "longshot","[longshot],hookshot,hammer,hoverboots" ]
 							}
 						],
 						"map_locations": [
@@ -573,6 +573,7 @@
 							{
 								"name": "Colossus HP",
 								"item_count": 1,
+								"capture_item": true,
 								"access_rules": [ "bean", "{soa}" ]
 							}
 						],
@@ -1191,235 +1192,233 @@
 					},
 					{
 						"name": "Death Mountain Trail",
-						"access_rules": [ "" ],
-						"children": [
+						"color": "#c30017",
+						"sections": [
 							{
-								"name": "Death Mountain",
-								"color": "#c30017",
-								"sections": [
-									{
-										"name": "Bombable Wall",
-										"item_count": 1,
-										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
-									},
-									{
-										"name": "Trail HP",
-										"item_count": 1
-									},
-									{
-										"name": "Storm Grotto",
-										"item_count": 1,
-										"access_rules": [ "stormsong" ]
-									},
-									{
-										"name": "Summit Fairy",
-										"item_count": 1,
-										"access_rules": [ "bombs,zl", "ms,hammer,zl" ]
-									}
-								],
-								"map_locations": [
-									{
-										"map": "child",
-										"x": 2018,
-										"y": 543
-									},
-									{
-										"map": "adult",
-										"x": 2018,
-										"y": 543
-									}
-								]
+								"name": "Bombable Wall",
+								"item_count": 1,
+								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
 							},
 							{
-								"name": "Biggoron",
-								"color": "#c30017",
-								"access_rules": [  ],
-								"sections": [
-									{
-										"name": "Item",
-										"item_count": 1,
-										"capture_item": true,
-										"access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance", "brokensword", "{soa}" ]
-									}
-								],
-								"map_locations": [
-									{
-										"map": "adult",
-										"x": 2165,
-										"y": 340
-									}
-								]
+								"name": "Trail HP",
+								"item_count": 1
 							},
 							{
-								"name": "Goron City",
-								"color": "#c30017",
-								"sections": [
-									{
-										"name": "Rolling Goron",
-										"item_count": 1,
-										"access_rules": [ "bombs" ]
-									},
-									{
-										"name": "Darunia's Joy",
-										"item_count": 1,
-										"capture_item": true,
-										"access_rules": [ "zl,sariasong", "{soa}" ]
-									},
-									{
-										"name": "Spinning Pot",
-										"item_count": 1,
-										"access_rules": [ "bombs,zl", "lift1,zl", "bombs,din,magic", "lift1,din,magic", "{soa}" ]
-									}
-								],
-								"map_locations": [
-									{
-										"map": "child",
-										"x": 2087,
-										"y": 502
-									}
-								]
+								"name": "Storm Grotto",
+								"item_count": 1,
+								"access_rules": [ "stormsong" ]
 							},
 							{
-								"name": "Goron City",
-								"color": "#c30017",
-								"sections": [
-									{
-										"name": "Link the Goron",
-										"item_count": 1,
-										"access_rules": [ "ms,lift1", "ms,bombs" ]
-									}
-								],
-								"map_locations": [
-									{
-										"map": "adult",
-										"x": 2087,
-										"y": 502
-									}
-								]
+								"name": "Summit Fairy",
+								"item_count": 1,
+								"access_rules": [ "bombs,zl", "ms,hammer,zl" ]
+							},
+						],
+						"map_locations": [
+							{
+								"map": "child",
+								"x": 2018,
+								"y": 543
 							},
 							{
-								"name": "Goron City Maze",
-								"color": "#c30017",
-								"sections": [
-									{
-										"name": "Back",
-										"item_count": 2,
-										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "ms,lift2" ]
-									},
-									{
-										"name": "Leftmost",
-										"item_count": 1,
-										"capture_item": true,
-										"access_rules": [ "ms,lift2", "ms,hammer", "{soa}" ]
-									}
-								],
-								"map_locations": [
-									{
-										"map": "child",
-										"x": 2150,
-										"y": 502
-									},
-									{
-										"map": "adult",
-										"x": 2150,
-										"y": 502
-									}
-								]
-							},
-							{
-								"name": "Dodongo's Cavern",
-								"color": "#c30017",
-								"access_rules": [ "bombs", "[bombs],bombchu", "lift1" ],
-								"sections": [
-									{
-										"name": "Map",
-										"item_count": 1
-									},
-									{
-										"name": "Compass",
-										"item_count": 1
-									},
-									{
-										"name": "Bomb Flower Platform",
-										"item_count": 1
-									},
-									{
-										"name": "Bomb Bag",
-										"item_count": 1,
-										"access_rules": [ "slingshot", "ms,bow", "ms,[hoverboots]" ]
-									},
-									{
-										"name": "End of Bridge",
-										"item_count": 1,
-										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer,bow", "ms,hammer,hoverboots" ]
-									},
-									{
-										"name": "Above King Dodongo",
-										"item_count": 1,
-										"capture_item": true,
-										"access_rules": [ "@Dodongo's Cavern/End of Bridge", "{soa}" ]
-									},
-									{
-										"name": "King Dodongo",
-										"hosted_item": "dc",
-										"item_count": 1,
-										"access_rules": [ "@Dodongo's Cavern/End of Bridge" ]
-									}
-								],
-								"map_locations": [
-									{
-										"map": "child",
-										"x": 2029,
-										"y": 451
-									},
-									{
-										"map": "adult",
-										"x": 2029,
-										"y": 451
-									}
-								]
-							},
-							{
-								"name": "Death Mountain Crater",
-								"color": "#c30017",
-								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "bolero", "lift1" ],
-								"sections": [
-									{
-										"name": "Sheik in Crater",
-										"capture_item": true,
-										"access_rules": [ "hoverboots", "bolero", "hookshot", "{soa}" ],
-										"hosted_item": "song_from_crater"
-									},
-									{
-										"name": "Crater Fairy Reward",
-										"item_count": 1,
-										"access_rules": [ "ms,hammer,zl" ]
-									},
-									{
-										"name": "Crater Grotto",
-										"item_count": 1,
-										"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
-									},
-									{
-										"name": "Wall HP",
-										"item_count": 1
-									},
-									{
-										"name": "Volcano HP",
-										"item_count": 1,
-										"access_rules": [ "ms,bean,bolero", "{soa}" ]
-									}
-								],
-								"map_locations": [
-									{
-										"map": "adult",
-										"x": 2221,
-										"y": 177
-									}
-								]
+								"map": "adult",
+								"x": 2018,
+								"y": 543
 							}
 						]
 					},
+					{
+						"name": "Biggoron",
+						"color": "#c30017",
+						"access_rules": [  ],
+						"sections": [
+							{
+								"name": "Item",
+								"item_count": 1,
+								"capture_item": true,
+								"access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance", "brokensword", "{soa}" ]
+							}
+						],
+						"map_locations": [
+							{
+								"map": "adult",
+								"x": 2165,
+								"y": 340
+							}
+						]
+					},
+					{
+						"name": "Goron City",
+						"color": "#c30017",
+						"sections": [
+							{
+								"name": "Rolling Goron",
+								"item_count": 1,
+								"access_rules": [ "bombs" ]
+							},
+							{
+								"name": "Darunia's Joy",
+								"item_count": 1,
+								"capture_item": true,
+								"access_rules": [ "zl,sariasong", "{soa}" ]
+							},
+							{
+								"name": "Spinning Pot",
+								"item_count": 1,
+								"capture_item": true,
+								"access_rules": [ "bombs,zl", "lift1,zl", "bombs,din,magic", "lift1,din,magic", "{soa}" ]
+							}
+						],
+						"map_locations": [
+							{
+								"map": "child",
+								"x": 2087,
+								"y": 502
+							}
+						]
+					},
+					{
+						"name": "Goron City",
+						"color": "#c30017",
+						"sections": [
+							{
+								"name": "Link the Goron",
+								"item_count": 1,
+								"access_rules": [ "ms,lift1", "ms,bombs" ]
+							}
+						],
+						"map_locations": [
+							{
+								"map": "adult",
+								"x": 2087,
+								"y": 502
+							}
+						]
+					},
+					{
+						"name": "Goron City Maze",
+						"color": "#c30017",
+						"sections": [
+							{
+								"name": "Back",
+								"item_count": 2,
+								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "ms,lift2" ]
+							},
+							{
+								"name": "Leftmost",
+								"item_count": 1,
+								"capture_item": true,
+								"access_rules": [ "ms,lift2", "ms,hammer", "{soa}" ]
+							}
+						],
+						"map_locations": [
+							{
+								"map": "child",
+								"x": 2150,
+								"y": 502
+							},
+							{
+								"map": "adult",
+								"x": 2150,
+								"y": 502
+							}
+						]
+					},
+					{
+						"name": "Dodongo's Cavern",
+						"color": "#c30017",
+						"access_rules": [ "bombs", "[bombs],bombchu", "lift1" ],
+						"sections": [
+							{
+								"name": "Map",
+								"item_count": 1
+							},
+							{
+								"name": "Compass",
+								"item_count": 1
+							},
+							{
+								"name": "Bomb Flower Platform",
+								"item_count": 1
+							},
+							{
+								"name": "Bomb Bag",
+								"item_count": 1,
+								"access_rules": [ "slingshot", "ms,bow", "ms,[hoverboots]" ]
+							},
+							{
+								"name": "End of Bridge",
+								"item_count": 1,
+								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer,bow", "ms,hammer,hoverboots" ]
+							},
+							{
+								"name": "Above King Dodongo",
+								"item_count": 1,
+								"capture_item": true,
+								"access_rules": [ "@Dodongo's Cavern/End of Bridge", "{soa}" ]
+							},
+							{
+								"name": "King Dodongo",
+								"hosted_item": "dc",
+								"item_count": 1,
+								"access_rules": [ "@Dodongo's Cavern/End of Bridge" ]
+							}
+						],
+						"map_locations": [
+							{
+								"map": "child",
+								"x": 2029,
+								"y": 451
+							},
+							{
+								"map": "adult",
+								"x": 2029,
+								"y": 451
+							}
+						]
+					},
+					{
+						"name": "Death Mountain Crater",
+						"color": "#c30017",
+						"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "bolero", "lift1" ],
+						"sections": [
+							{
+								"name": "Sheik in Crater",
+								"capture_item": true,
+								"access_rules": [ "hoverboots", "bolero", "hookshot", "{soa}" ],
+								"hosted_item": "song_from_crater"
+							},
+							{
+								"name": "Crater Fairy Reward",
+								"item_count": 1,
+								"access_rules": [ "ms,hammer,zl" ]
+							},
+							{
+								"name": "Crater Grotto",
+								"item_count": 1,
+								"access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
+							},
+							{
+								"name": "Wall HP",
+								"item_count": 1
+							},
+							{
+								"name": "Volcano HP",
+								"item_count": 1,
+								"capture_item": true,
+								"access_rules": [ "ms,bean,bolero", "{soa}" ]
+							}
+						],
+						"map_locations": [
+							{
+								"map": "adult",
+								"x": 2221,
+								"y": 177
+							}
+						]
+					}
+				]
+			},
 					{
 						"name": "Zora's River",
 						"color": "#0071c3",
@@ -1556,6 +1555,7 @@
 							{
 								"name": "Underwater HP",
 								"item_count": 1,
+								"capture_item": true,
 								"access_rules": [ "ironboots", "{soa}" ]
 							},
 							{
@@ -1965,7 +1965,7 @@
 					{
 						"name": "Bombable Grotto",
 						"color": "#c3b103",
-						"access_rules": [ "[bombs],bombchu", "[ms],hammer" ],
+						"access_rules": [ "bombs, [bombs],bombchu", "[ms],hammer" ],
 						"sections": [
 							{
 								"name": "Grotto Chest",
