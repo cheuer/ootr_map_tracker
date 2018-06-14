@@ -1,5 +1,30 @@
 [
   {
+    "name": "is_adult",
+    "access_rules": [ "ms" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "can_blast",
+    "access_rules": [ "bombs", "[bombs],bombchu", "[@is_adult],hammer" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "has_fire_source",
+    "access_rules": [ "din,magic", "bow,firearrow,@is_adult,magic" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "has_goron_tunic",
+    "access_rules": [ "gorontunic", "wallet1,bombs", "wallet1,lift1", "wallet1,bow" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "has_zora_tunic",
+    "access_rules": [ "zoratunic", "wallet2,bottle,zl" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
     "name": "Kokiri Forest",
     "color": "#00c325",
     "sections": [
@@ -81,12 +106,12 @@
           {
             "name": "GC Portal Grotto",
             "item_count": 1,
-            "access_rules": [ "bombs","[bombs],bombchu", "[ms],hammer" ]
+            "access_rules": [ "@can_blast" ]
           },
           {
             "name": "Deku Salesman (Grotto)",
             "item_count": 1,
-            "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
+            "access_rules": [ "@can_blast" ]
           },
           {
             "name": "Deku Salesman (Bridge)",
@@ -125,7 +150,7 @@
           {
             "name": "Wolfos Grotto",
             "item_count": 1,
-            "access_rules": [ "bombs", "[bombs],bombchu","ms,hammer" ]
+            "access_rules": [ "@can_blast" ]
           }
         ],
         "map_locations": [
@@ -209,7 +234,7 @@
           {
             "name": "West Bombable Grotto",
             "color": "#c3b103",
-            "access_rules": [ "bombs, [bombs],bombchu", "ms,hammer" ],
+            "access_rules": [ "@can_blast" ],
             "sections": [
               {
                 "name": "Grotto Chest",
@@ -232,7 +257,7 @@
               {
                 "name": "Underwater HP",
                 "item_count": 1,
-                "access_rules": [ "goldscale", "ms,ironboots"]
+                "access_rules": [ "goldscale", "@is_adult,ironboots"]
               }
             ],
             "map_locations": [
@@ -256,7 +281,7 @@
                 "name": "Lake Hylia Sun",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "longshot,bow,ms", "{soa}" ]
+                "access_rules": [ "longshot,bow,@is_adult", "{soa}" ]
               },
               {
                 "name": "Lake Hylia Lab",
@@ -266,7 +291,7 @@
               {
                 "name": "Lab Rooftop HP",
                 "item_count": 1,
-                "access_rules": [ "ms,hookshot","bean" ]
+                "access_rules": [ "@is_adult,hookshot","bean" ]
               },
               {
                 "name": "Child Fishing",
@@ -278,7 +303,7 @@
                 "name": "Adult Fishing",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "ms,hookshot", "ms,bean", "{soa}" ]
+                "access_rules": [ "@is_adult,hookshot", "@is_adult,bean", "{soa}" ]
               }
             ],
             "map_locations": [
@@ -297,7 +322,7 @@
           {
             "name": "Water Temple",
             "color": "#0071c3",
-            "access_rules": [ "ms,ironboots,hookshot,[zoratunic]", "ms,ironboots,hookshot,bottle,zl,wallet2" ],
+            "access_rules": [ "@is_adult,ironboots,hookshot,[@has_zora_tunic]" ],
             "sections": [
               {
                 "name": "Keys",
@@ -369,7 +394,7 @@
           },
           {
             "name": "Bridge Crossing",
-            "access_rules": [ "ms,eponasong", "ms,longshot" ],
+            "access_rules": [ "@is_adult,eponasong", "@is_adult,longshot" ],
             "children": [
               {
                 "name": "Gerudo Valley",
@@ -378,7 +403,7 @@
                   {
                     "name": "Hammer Rocks",
                     "item_count": 1,
-                    "access_rules": [ "hammer,ms" ]
+                    "access_rules": [ "hammer,@is_adult" ]
                   },
                   {
                     "name": "Waterfall HP",
@@ -409,7 +434,7 @@
                 "sections": [
                   {
                     "name": "Rooftop",
-                    "access_rules": [ "ms,hoverboots", "ms,hookshot,[longshot]"],
+                    "access_rules": [ "@is_adult,hoverboots", "@is_adult,hookshot,[longshot]"],
                     "item_count": 1
                   }
                 ],
@@ -428,13 +453,13 @@
                   {
                     "name": "1000 Pts",
                     "item_count": 1,
-                    "access_rules": [ "eponasong,bow,ms" ]
+                    "access_rules": [ "eponasong,bow,@is_adult" ]
                   },
                   {
                     "name": "1500 Pts",
                     "item_count": 1,
                     "capture_item": true,
-                    "access_rules": [ "eponasong,bow,ms", "{soa}" ]
+                    "access_rules": [ "eponasong,bow,@is_adult", "{soa}" ]
                   }
                 ],
                 "map_locations": [
@@ -456,7 +481,7 @@
                   {
                     "name": "Lobby",
                     "item_count": 2,
-                    "access_rules": [ "bow,ms" ]
+                    "access_rules": [ "bow,@is_adult" ]
                   },
                   {
                     "name": "Stalfos",
@@ -487,7 +512,7 @@
                     "name": "Underwater Silver Rupee",
                     "item_count": 1,
                     "capture_item": true,
-                    "access_rules": [ "hookshot,timesong,ironboots,ms", "{soa}" ]
+                    "access_rules": [ "hookshot,timesong,ironboots,@is_adult", "{soa}" ]
                   },
                   {
                     "name": "Hammer Room Clear",
@@ -496,17 +521,17 @@
                   {
                     "name": "Hammer Room Switch",
                     "item_count": 1,
-                    "access_rules": [ "hammer,ms" ]
+                    "access_rules": [ "hammer,@is_adult" ]
                   },
                   {
                     "name": "Eye Statue",
                     "item_count": 1,
-                    "access_rules": [ "bow,ms" ]
+                    "access_rules": [ "bow,@is_adult" ]
                   },
                   {
                     "name": "Near Scarecrow",
                     "item_count": 1,
-                    "access_rules": [ "bow,ms,hookshot" ]
+                    "access_rules": [ "bow,@is_adult,hookshot" ]
                   },
                   {
                     "name": "Before Heavy Block",
@@ -516,7 +541,7 @@
                   {
                     "name": "Heavy Block",
                     "item_count": 4,
-                    "access_rules": [ "lift2,[lens],[magic],ms,hookshot" ]
+                    "access_rules": [ "lift2,[lens],[magic],@is_adult,hookshot" ]
                   }
                 ],
                 "map_locations": [
@@ -531,7 +556,7 @@
           },
           {
             "name": "Wasteland Entrance",
-            "access_rules": [ "@Fortress Entrance,ms,hoverboots", "@Fortress Entrance,ms,longshot" ],
+            "access_rules": [ "@Fortress Entrance,@is_adult,hoverboots", "@Fortress Entrance,@is_adult,longshot" ],
             "sections": [{"name": "access", "item_count": 1}]
           },
           {
@@ -602,83 +627,83 @@
               {
                 "name": "Compass",
                 "item_count": 1,
-                "access_rules": [ "lift2,ms,[hookshot],zl" ]
+                "access_rules": [ "lift2,@is_adult,[hookshot],zl" ]
               },
               {
                 "name": "Early Adult Right",
                 "item_count": 1,
-                "access_rules": [ "lift2,ms,bow", "lift2,ms,hookshot", "lift2,ms,bombs" ]
+                "access_rules": [ "lift2,@is_adult,bow", "lift2,@is_adult,hookshot", "lift2,@is_adult,bombs" ]
               },
               {
                 "name": "First Mirror",
                 "item_count": 2,
-                "access_rules": [ "lift2,ms,[spirit_keys:3],spirit_keys:1" ]
+                "access_rules": [ "lift2,@is_adult,[spirit_keys:3],spirit_keys:1" ]
               },
               {
                 "name": "Map",
                 "item_count": 1,
-                "access_rules": [ "requiem,magic,din", "firearrow,magic,bow,lift2,[spirit_keys:3],spirit_keys:1,ms", "requiem,[spirit_keys:5],spirit_keys:1" ]
+                "access_rules": [ "requiem,magic,din", "firearrow,magic,bow,lift2,[spirit_keys:3],spirit_keys:1,@is_adult", "requiem,[spirit_keys:5],spirit_keys:1" ]
               },
               {
                 "name": "Child Climb East/North",
                 "item_count": 2,
                 "clear_as_group": false,
-                "access_rules": [ "requiem,bombs", "lift2,ms,bombs", "requiem,boomerang,hookshot", "requiem,boomerang,bow", "requiem,slingshot,hookshot", "requiem,slingshot,bow", "lift2,ms,boomerang,hookshot", "lift2,ms,boomerang,bow", "lift2,ms,slingshot,hookshot", "lift2,ms,slingshot,bow",
-                "spirit_keys:3,lift2,ms,hookshot", "spirit_keys:3,lift2,ms,bow",
+                "access_rules": [ "requiem,bombs", "lift2,@is_adult,bombs", "requiem,boomerang,hookshot", "requiem,boomerang,bow", "requiem,slingshot,hookshot", "requiem,slingshot,bow", "lift2,@is_adult,boomerang,hookshot", "lift2,@is_adult,boomerang,bow", "lift2,@is_adult,slingshot,hookshot", "lift2,@is_adult,slingshot,bow",
+                "spirit_keys:3,lift2,@is_adult,hookshot", "spirit_keys:3,lift2,@is_adult,bow",
                 "sprit_keys:5,requiem,boomerang,slingshot" ]
               },
               {
                 "name": "Sun Block Room",
                 "item_count": 1,
-                "access_rules": [ "spirit_keys:5,bombs,requiem", "din,magic,bombs,requiem", "din,magic,bombs,lift2,ms", "bow,firearrow,magic,ms,bombs,lift2", "din,magic,spirit_keys:2,requiem", "din,magic,spirit_keys:2,lift2,ms", "bow,firearrow,magic,ms,spirit_keys:2,lift2" ]
+                "access_rules": [ "spirit_keys:5,bombs,requiem", "din,magic,bombs,requiem", "din,magic,bombs,lift2,@is_adult", "bow,firearrow,magic,@is_adult,bombs,lift2", "din,magic,spirit_keys:2,requiem", "din,magic,spirit_keys:2,lift2,@is_adult", "bow,firearrow,magic,@is_adult,spirit_keys:2,lift2" ]
               },
               {
                 "name": "Statue Hand",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,ms,zl" ]
+                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,@is_adult,zl" ]
               },
               {
                 "name": "NE Main Room",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,ms,zl,hookshot" ]
+                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,@is_adult,zl,hookshot" ]
               },
               {
                 "name": "Silver Gauntlets",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,ms", "spirit_keys:5,requiem", "{soa}" ]
+                "access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,@is_adult", "spirit_keys:5,requiem", "{soa}" ]
               },
               {
                 "name": "Near Four Armos",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms,mirrorshield" ]
+                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult,mirrorshield" ]
               },
               {
                 "name": "Hallway Invisible Chests",
                 "item_count": 2,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms,[lens],[magic]" ]
+                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult,[lens],[magic]" ]
               },
               {
                 "name": "Mirror Shield",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,ms", "{soa}" ]
+                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult", "{soa}" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:3,zl,bow,hookshot,bombs,ms,lift2", "[spirit_keys:5],spirit_keys:3,zl,bow,hookshot,[bombs],bombchu,ms,lift2",  "[spirit_keys:5],spirit_keys:3,zl,bow,hookshot,hammer,ms,lift2" ]
+                "access_rules": [ "[spirit_keys:5],spirit_keys:3,zl,[bow],[hookshot],@is_adult,lift2,@can_blast" ]
               },
               {
                 "name": "Topmost",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:4,hookshot,mirrorshield,lift2,ms", "[spirit_keys:5],spirit_keys:4,bow,mirrorshield,lift2,ms", "[spirit_keys:5],spirit_keys:4,bombs,mirrorshield,lift2,ms" ]
+                "access_rules": [ "[spirit_keys:5],spirit_keys:4,hookshot,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bow,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bombs,mirrorshield,lift2,@is_adult" ]
               },
               {
                 "name": "Twinrova",
                 "hosted_item": "spirit",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:4,mirrorshield,bombs,hookshot,lift2,ms" ]
+                "access_rules": [ "[spirit_keys:5],spirit_keys:4,mirrorshield,bombs,hookshot,lift2,@is_adult" ]
               }
             ],
             "map_locations": [
@@ -715,7 +740,7 @@
           {
             "name": "Temple of Time",
             "color": "#c3b103",
-            "access_rules": [ "ms" ],
+            "access_rules": [ "@is_adult" ],
             "sections": [
               {
                 "name": "Sheik at Temple",
@@ -785,7 +810,7 @@
                 "name": "10 Big Poes",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "bow,eponasong,bottle,ms", "{soa}" ]
+                "access_rules": [ "bow,eponasong,bottle,@is_adult", "{soa}" ]
               }
             ],
             "map_locations": [
@@ -844,12 +869,12 @@
               {
                 "name": "Anju as Adult",
                 "item_count": 1,
-                "access_rules": [ "ms" ]
+                "access_rules": [ "@is_adult" ]
               },
               {
                 "name": "Man on Roof",
                 "item_count": 1,
-                "access_rules": [ "[ms],[hookshot]" ]
+                "access_rules": [ "[@is_adult],[hookshot]" ]
               },
               {
                 "name": "Potion Shop Grotto",
@@ -858,19 +883,19 @@
               {
                 "name": "Impa's Cow HP",
                 "item_count": 1,
-                "access_rules": [ "[ms],[longshot]", "bombs" ]
+                "access_rules": [ "[@is_adult],[longshot]", "bombs" ]
               },
               {
                 "name": "Sheik in Kakariko",
                 "hosted_item": "song_from_kakariko",
                 "capture_item": true,
-                "access_rules": [ "forestmed,firemed,watermed,ms", "{soa}" ]
+                "access_rules": [ "forestmed,firemed,watermed,@is_adult", "{soa}" ]
               },
               {
                 "name": "Song at Windmill",
                 "hosted_item": "song_from_windmill",
                 "capture_item": true,
-                "access_rules": [ "ms", "{soa}" ]
+                "access_rules": [ "@is_adult", "{soa}" ]
               },
               {
                 "name": "Windmill HP",
@@ -880,12 +905,12 @@
               {
                 "name": "Shooting Gallery",
                 "item_count": 1,
-                "access_rules": [ "bow,ms" ]
+                "access_rules": [ "bow,@is_adult" ]
               },
               {
                 "name": "Redead Grotto",
                 "item_count": 1,
-                "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
+                "access_rules": [ "@can_blast" ]
               }
             ],
             "map_locations": [
@@ -966,7 +991,7 @@
                 "name": "Composer Grave",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "din,magic,zl", "bow,firearrows,ms,magic,zl", "{soa}" ]
+                "access_rules": [ "din,magic,zl", "bow,firearrows,@is_adult,magic,zl", "{soa}" ]
               },
               {
                 "name": "Song from Composer Grave",
@@ -981,7 +1006,7 @@
               {
                 "name": "Dampé Race",
                 "item_count": 2,
-                "access_rules": [ "ms" ]
+                "access_rules": [ "@is_adult" ]
               },
               {
                 "name": "Crate HP",
@@ -1085,7 +1110,7 @@
           {
             "name": "Shadow Temple",
             "color": "#8100c3",
-            "access_rules": [ "nocturne,din,magic,[lens],ms,hoverboots", "nocturne,din,magic,[lens],ms,hookshot" ],
+            "access_rules": [ "nocturne,din,magic,[lens],@is_adult,hoverboots", "nocturne,din,magic,[lens],@is_adult,hookshot" ],
             "sections": [
               {
                 "name": "Keys",
@@ -1197,7 +1222,7 @@
               {
                 "name": "Bombable Wall",
                 "item_count": 1,
-                "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
+                "access_rules": [ "@can_blast" ]
               },
               {
                 "name": "Trail HP",
@@ -1211,7 +1236,7 @@
               {
                 "name": "Summit Fairy",
                 "item_count": 1,
-                "access_rules": [ "bombs,zl", "ms,hammer,zl" ]
+                "access_rules": [ "bombs,zl", "@is_adult,hammer,zl" ]
               },
             ],
             "map_locations": [
@@ -1284,7 +1309,7 @@
               {
                 "name": "Link the Goron",
                 "item_count": 1,
-                "access_rules": [ "ms,lift1", "ms,bombs" ]
+                "access_rules": [ "@is_adult,lift1", "@is_adult,bombs" ]
               }
             ],
             "map_locations": [
@@ -1302,13 +1327,13 @@
               {
                 "name": "Back",
                 "item_count": 2,
-                "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "ms,lift2" ]
+                "access_rules": [ "@can_blast", "@is_adult,lift2" ]
               },
               {
                 "name": "Leftmost",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "ms,lift2", "ms,hammer", "{soa}" ]
+                "access_rules": [ "@is_adult,lift2", "@is_adult,hammer", "{soa}" ]
               }
             ],
             "map_locations": [
@@ -1327,7 +1352,7 @@
           {
             "name": "Dodongo's Cavern",
             "color": "#c30017",
-            "access_rules": [ "bombs", "[bombs],bombchu", "lift1" ],
+            "access_rules": [ "@can_blast", "lift1", "@is_adult" ],
             "sections": [
               {
                 "name": "Map",
@@ -1344,12 +1369,12 @@
               {
                 "name": "Bomb Bag",
                 "item_count": 1,
-                "access_rules": [ "slingshot", "ms,bow", "ms,[hoverboots]" ]
+                "access_rules": [ "slingshot", "@is_adult,bow", "@is_adult,[hoverboots]" ]
               },
               {
                 "name": "End of Bridge",
                 "item_count": 1,
-                "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer,bow", "ms,hammer,hoverboots" ]
+                "access_rules": [ "bombs", "[bombs],bombchu", "@is_adult,hammer,bow", "@is_adult,hammer,hoverboots" ]
               },
               {
                 "name": "Above King Dodongo",
@@ -1380,7 +1405,7 @@
           {
             "name": "Death Mountain Crater",
             "color": "#c30017",
-            "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer", "bolero", "lift1" ],
+            "access_rules": [ "@can_blast", "bolero", "lift1" ],
             "sections": [
               {
                 "name": "Sheik in Crater",
@@ -1391,12 +1416,12 @@
               {
                 "name": "Crater Fairy Reward",
                 "item_count": 1,
-                "access_rules": [ "ms,hammer,zl" ]
+                "access_rules": [ "@is_adult,hammer,zl" ]
               },
               {
                 "name": "Crater Grotto",
                 "item_count": 1,
-                "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ]
+                "access_rules": [ "@can_blast" ]
               },
               {
                 "name": "Wall HP",
@@ -1406,7 +1431,7 @@
                 "name": "Volcano HP",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "ms,bean,bolero", "{soa}" ]
+                "access_rules": [ "@is_adult,bean,bolero", "{soa}" ]
               }
             ],
             "map_locations": [
@@ -1488,7 +1513,7 @@
           {
             "name": "Ice Cavern",
             "color": "#0071c3",
-            "access_rules": [ "rutoletter,ms,zl" ],
+            "access_rules": [ "rutoletter,@is_adult,zl" ],
             "sections": [
               {
                 "name": "Map",
@@ -1638,7 +1663,7 @@
           },
           {
             "name": "Sacred Forest Meadow",
-            "access_rules": [ "minuet", "[sariasong],ms" ],
+            "access_rules": [ "minuet", "[sariasong],@is_adult" ],
             "sections": [
               {
                 "name": "Sheik at Forest",
@@ -1658,7 +1683,7 @@
           {
             "name": "Forest Temple",
             "color": "#00c325",
-            "access_rules": [ "[sariasong],hookshot,ms", "minuet,hookshot,ms" ],
+            "access_rules": [ "[sariasong],hookshot,@is_adult", "minuet,hookshot,@is_adult" ],
             "sections": [
               {
                 "name": "Keys",
@@ -1746,7 +1771,7 @@
           {
             "name": "Fire Temple",
             "color": "#c30017",
-            "access_rules": [ "ms,gorontunic", "ms,wallet1,bombs", "ms,wallet1,lift1" ],
+            "access_rules": [ "@is_adult,[@has_goron_tunic]" ],
             "sections": [
               {
                 "name": "Keys",
@@ -1840,7 +1865,7 @@
           },
           {
             "name": "Ganon's Castle Grounds",
-            "access_rules": [ "ms" ],
+            "access_rules": [ "@is_adult" ],
             "children": [
               {
                 "name": "Ganon's Castle",
@@ -1918,7 +1943,7 @@
           {
             "name": "Salesman Grotto (Bomb)",
             "color": "#c3b103",
-            "access_rules": [ "bombs", "[bombs],bombchu", "ms,hammer" ],
+            "access_rules": [ "@can_blast" ],
             "sections": [
               {
                 "name": "Deku Salesman",
@@ -1963,7 +1988,7 @@
           {
             "name": "Bombable Grotto",
             "color": "#c3b103",
-            "access_rules": [ "bombs, [bombs],bombchu", "[ms],hammer" ],
+            "access_rules": [ "@can_blast" ],
             "sections": [
               {
                 "name": "Grotto Chest",
