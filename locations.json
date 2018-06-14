@@ -1830,7 +1830,7 @@
               {
                 "name": "Map",
                 "item_count": 1,
-                "access_rules": [ "fire_keys:3,lift1,bombs", "fire_keys:3,lift1,[bombs],bombchu", "fire_keys:3,lift1,bow", "fire_keys:3,lift1,hookshot" ]
+                "access_rules": [ "fire_keys:5,lift1,bombs", "fire_keys:5,lift1,[bombs],bombchu", "fire_keys:4,lift1,bow", "fire_keys:5,lift1,hookshot" ]
               },
               {
                 "name": "Compass",
