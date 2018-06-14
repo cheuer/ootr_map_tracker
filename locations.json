@@ -568,7 +568,7 @@
                 "name": "Structure",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "din,magic", "bow,firearrow,magic", "{soa}" ]
+                "access_rules": [ "@has_fire_source", "{soa}" ]
               }
             ],
             "map_locations": [
@@ -655,7 +655,7 @@
               {
                 "name": "Sun Block Room",
                 "item_count": 1,
-                "access_rules": [ "spirit_keys:5,bombs,requiem", "din,magic,bombs,requiem", "din,magic,bombs,lift2,@is_adult", "bow,firearrow,magic,@is_adult,bombs,lift2", "din,magic,spirit_keys:2,requiem", "din,magic,spirit_keys:2,lift2,@is_adult", "bow,firearrow,magic,@is_adult,spirit_keys:2,lift2" ]
+                "access_rules": [ "spirit_keys:5,bombs,requiem", "@has_fire_source,bombs", "@has_fire_source,spirit_keys:2" ]
               },
               {
                 "name": "Statue Hand",
@@ -991,7 +991,7 @@
                 "name": "Composer Grave",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "din,magic,zl", "bow,firearrows,@is_adult,magic,zl", "{soa}" ]
+                "access_rules": [ "@has_fire_source,zl", "{soa}" ]
               },
               {
                 "name": "Song from Composer Grave",
