@@ -1,1170 +1,1170 @@
 ﻿[
-	//Settings
-	{
-		"name": "Open Door Mode",
-		"type": "toggle",
-		"img": "images/opendoor.png",
-		"codes": "opendoor"
-	},
-	{
-		"name": "Open Forest Mode",
-		"type": "toggle",
-		"img": "images/openforest.png",
-		"codes": "openforest"
-	},
-	
-	{
-		"name": "Goal",
-		"type": "progressive",
-		"allow_disabled": false,
-		"stages": [
-			{
-				"img": "images/goal_allmedal.png",
-				"codes": "goal_allmedal"
-			},
-			{
-				"img": "images/goal_alldungeon.png",
-				"codes": "goal_alldungeon",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/goal_vanilla.png",
-				"codes": "goal_vanilla",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/goal_open.png",
-				"codes": "goal_open",
-				"inherit_codes": false
-			},
-		]
-	},
+  //Settings
+  {
+    "name": "Open Door Mode",
+    "type": "toggle",
+    "img": "images/opendoor.png",
+    "codes": "opendoor"
+  },
+  {
+    "name": "Open Forest Mode",
+    "type": "toggle",
+    "img": "images/openforest.png",
+    "codes": "openforest"
+  },
 
-	//Deku Sticks
-	{
-		"name": "Deku Sticks",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/stick.png",
-				"codes": "sticks"
-			},
-			{
-				"img": "images/stick20.png"
-			},
-			{
-				"img": "images/stick30.png"
-			}
-		]
-	},
-	
-	//Deku Nuts
-	{
-		"name": "Deku Nuts",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/nut.png",
-				"codes": "nuts"
-			},
-			{
-				"img": "images/nut30.png"
-			},
-			{
-				"img": "images/nut40.png"
-			}
-		]
-	},
-	
-	//Bombs
-	{
-		"name": "Bomb Bag",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/bomb.png",
-				"codes": "bombs"
-			},
-			{
-				"img": "images/bomb30.png"
-			},
-			{
-				"img": "images/bomb40.png"
-			}
-		]
-	},
-	
-	//Bow
-	{
-		"name": "Fairy Bow",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/bow.png",
-				"codes": "bow"
-			},
-			{
-				"img": "images/bow40.png"
-			},
-			{
-				"img": "images/bow50.png"
-			}
-		]
-	},
-	
-	//Fairy Slingshot
-	{
-		"name": "Fairy Slingshot",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/slingshot.png",
-				"codes": "slingshot"
-			},
-			{
-				"img": "images/slingshot40.png"
-			},
-			{
-				"img": "images/slingshot50.png"
-			}
-		]
-	},
+  {
+    "name": "Goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/goal_allmedal.png",
+        "codes": "goal_allmedal"
+      },
+      {
+        "img": "images/goal_alldungeon.png",
+        "codes": "goal_alldungeon",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/goal_vanilla.png",
+        "codes": "goal_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/goal_open.png",
+        "codes": "goal_open",
+        "inherit_codes": false
+      },
+    ]
+  },
 
-	//Ocarinas
-	{
-		"name": "Ocarina",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/ocarina1.png",
-				"codes": "ocarina"
-			},
-			{
-				"img": "images/ocarina2.png",
-				"codes": "ocarina2"
-			}
-		]
-	},
+  //Deku Sticks
+  {
+    "name": "Deku Sticks",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/stick.png",
+        "codes": "sticks"
+      },
+      {
+        "img": "images/stick20.png"
+      },
+      {
+        "img": "images/stick30.png"
+      }
+    ]
+  },
 
-	//Bombchu
-	{
-		"name": "Bombchu",
-		"type": "toggle",
-		"img": "images/bombchu.png",
-		"codes": "bombchu"
-	},
+  //Deku Nuts
+  {
+    "name": "Deku Nuts",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/nut.png",
+        "codes": "nuts"
+      },
+      {
+        "img": "images/nut30.png"
+      },
+      {
+        "img": "images/nut40.png"
+      }
+    ]
+  },
 
-	//Hookshot/Longshot
-	{
-		"name": "Hookshot",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/hookshot1.png",
-				"codes": "hookshot,hookshot1"
-			},
-			{
-				"img": "images/hookshot2.png",
-				"codes": "hookshot2,longshot"
-			}
-		]
-	},
+  //Bombs
+  {
+    "name": "Bomb Bag",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bomb.png",
+        "codes": "bombs"
+      },
+      {
+        "img": "images/bomb30.png"
+      },
+      {
+        "img": "images/bomb40.png"
+      }
+    ]
+  },
 
-	//Boomerang
-	{
-		"name": "Boomerang",
-		"type": "toggle",
-		"img": "images/boomerang.png",
-		"codes": "boomerang"
-	},
+  //Bow
+  {
+    "name": "Fairy Bow",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bow.png",
+        "codes": "bow"
+      },
+      {
+        "img": "images/bow40.png"
+      },
+      {
+        "img": "images/bow50.png"
+      }
+    ]
+  },
 
-	//Lens of Truth
-	{
-		"name": "Lens of Truth",
-		"type": "toggle",
-		"img": "images/lens.png",
-		"codes": "lens"
-	},
+  //Fairy Slingshot
+  {
+    "name": "Fairy Slingshot",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/slingshot.png",
+        "codes": "slingshot"
+      },
+      {
+        "img": "images/slingshot40.png"
+      },
+      {
+        "img": "images/slingshot50.png"
+      }
+    ]
+  },
 
-	//Magic Beans
-	{
-		"name": "Magic Beans",
-		"type": "toggle",
-		"img": "images/beans.png",
-		"codes": "bean"
-	},
+  //Ocarinas
+  {
+    "name": "Ocarina",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/ocarina1.png",
+        "codes": "ocarina"
+      },
+      {
+        "img": "images/ocarina2.png",
+        "codes": "ocarina2"
+      }
+    ]
+  },
 
-	//Megaton Hammer
-	{
-		"name": "Megaton Hammer",
-		"type": "toggle",
-		"img": "images/hammer.png",
-		"codes": "hammer"
-	},
+  //Bombchu
+  {
+    "name": "Bombchu",
+    "type": "toggle",
+    "img": "images/bombchu.png",
+    "codes": "bombchu"
+  },
 
-	//Bottles 1-3
-	{
-		"name": "Bottle",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/bottle.png",
-				"codes": "bottle"
-			},
-			{
-				"img": "images/bottle2.png"
-			},
-			{
-				"img": "images/bottle3.png"
-			}
-		]
-	},
+  //Hookshot/Longshot
+  {
+    "name": "Hookshot",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/hookshot1.png",
+        "codes": "hookshot,hookshot1"
+      },
+      {
+        "img": "images/hookshot2.png",
+        "codes": "hookshot2,longshot"
+      }
+    ]
+  },
 
-	//Ruto's Letter Bottle
-	{
-		"name": "Ruto's Letter",
-		"type": "toggle",
-		"img": "images/rutoletter.png",
-		"codes": "bottle,rutoletter"
-	},
+  //Boomerang
+  {
+    "name": "Boomerang",
+    "type": "toggle",
+    "img": "images/boomerang.png",
+    "codes": "boomerang"
+  },
 
-	//Elemental Arrows
-	{
-		"name": "Fire Arrows",
-		"type": "toggle",
-		"img": "images/firearrow.png",
-		"codes": "firearrow"
-	},
-	{
-		"name": "Ice Arrows",
-		"type": "toggle",
-		"img": "images/icearrow.png",
-		"codes": "icearrow"
-	},
-	{
-		"name": "Light Arrows",
-		"type": "toggle",
-		"img": "images/lightarrow.png",
-		"codes": "lightarrow"
-	},
-	
-	//Spells
-	{
-		"name": "Din's Fire",
-		"type": "toggle",
-		"img": "images/din.png",
-		"codes": "din"
-	},
-	{
-		"name": "Farore's Wind",
-		"type": "toggle",
-		"img": "images/farore.png",
-		"codes": "farore"
-	},
-	{
-		"name": "Nayru's Love",
-		"type": "toggle",
-		"img": "images/nayru.png",
-		"codes": "nayru"
-	},
-	
-	//Skulltullas
-	{
-		"name": "Gold Skulltulla Token",
-		"type": "consumable",
-		"img": "images/goldskull.png",
-		"max_quantity": 100,
-		"codes": "gs,goldskull"
-	},
-	
-	//Masks
-	{
-		"name": "Masks",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/egg.png",
-				"codes": "egg"
-			},
-			{
-				"img": "images/cucco.png",
-				"codes": "cucco"
-			},
-			{
-				"img": "images/zeldaletter.png",
-				"codes": "zeldaletter"
-			},
-			{
-				"img": "images/keatonmask.png",
-				"codes": "zeldaletter,keatonmask"
-			},
-			{
-				"inherit_codes": false,
-				"img": "images/skullmask.png",
-				"codes": "zeldaletter,skullmask"
-			},
-			{
-				"inherit_codes": false,
-				"img": "images/spookymask.png",
-				"codes": "zeldaletter,spookymask"
-			},
-			{
-				"inherit_codes": false,
-				"img": "images/bunnyhood.png",
-				"codes": "zeldaletter,bunnyhood"
-			},
-			{
-				"inherit_codes": false,
-				"img": "images/truthmask.png",
-				"codes": "zeldaletter,truthmask"
-			}
-		]
-	},
+  //Lens of Truth
+  {
+    "name": "Lens of Truth",
+    "type": "toggle",
+    "img": "images/lens.png",
+    "codes": "lens"
+  },
 
-	//Trading Sequence
-	{
-		"name": "Trading Sequence",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/egg.png",
-				"codes": "pocketegg"
-			},
-			{
-				"img": "images/cucco.png",
-				"codes": "cucco"
-			},
-			{
-				"img": "images/cojiro.png"
-			},
-			{
-				"img": "images/mushroom.png"
-			},
-			{
-				"img": "images/oddpotion.png"
-			},
-			{
-				"img": "images/poachersaw.png"
-			},
-			{
-				"img": "images/brokensword.png",
-				"codes": "brokensword"
-			},
-			{
-				"img": "images/Prescription.png"
-			},
-			{
-				"img": "images/frog.png"
-			},
-			{
-				"img": "images/Eyedrops.png"
-			},
-			{
-				"img": "images/check.png",
-				"codes": "check,claimcheck"
-			}
-		]
-	},
-	
-	//Stone of Agony
-	{
-		"name": "Stone of Agony",
-		"type": "toggle",
-		"img": "images/soa.png",
-		"codes": "soa"
-	},
-	
-	//Wallets
-	{
-		"name": "Wallets",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/adultwallet.png",
-				"codes": "wallet1,adultwallet"
-			},
-			{
-				"img": "images/giantwallet.png",
-				"codes": "wallet2,giantwallet"
-			}
-		]
-	},
-	
-	//Lift Upgrades
-	{
-		"name": "Lift Upgrades",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/bracelet.png",
-				"codes": "lift1,bracelet"
-			},
-			{
-				"img": "images/silvergauntlets.png",
-				"codes": "lift2,silvergauntlets"
-			},
-			{
-				"img": "images/goldengauntlets.png",
-				"codes": "lift3,goldengauntlets"
-			}
-		]
-	},
+  //Magic Beans
+  {
+    "name": "Magic Beans",
+    "type": "toggle",
+    "img": "images/beans.png",
+    "codes": "bean"
+  },
 
-	//Magic
-	{
-		"name": "Magic",
-		"type": "toggle",
-		"img": "images/magic.png",
-		"codes": "magic"
-	},
-	
-	//Scales
-	{
-		"name": "Scales",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/silverscale.png",
-				"codes": "scale1,silverscale"
-			},
-			{
-				"img": "images/goldscale.png",
-				"codes": "scale2,goldscale"
-			}
-		]
-	},
-	
-	//Swords
-	{
-		"name": "Kokiri Sword",
-		"type": "toggle",
-		"img": "images/kokirisword.png",
-		"codes": "kokirisword"
-	},
-	{
-		"name": "Master Sword",
-		"type": "toggle",
-		"img": "images/MS.png",
-		"codes": "ms"
-	},
-	{
-		"name": "Biggoron Sword",
-		"type": "toggle",
-		"img": "images/bigsword.png",
-		"codes": "bigsword"
-	},
-	
-	//Shields
-	{
-		"name": "Deku Shield",
-		"type": "toggle",
-		"img": "images/dekushield.png",
-		"codes": "dekushield"
-	},
-	{
-		"name": "Hylian Shield",
-		"type": "toggle",
-		"img": "images/hylianshield.png",
-		"codes": "hylianshield"
-	},
-	{
-		"name": "Mirror Shield",
-		"type": "toggle",
-		"img": "images/mirrorshield.png",
-		"codes": "mirrorshield"
-	},
-	
-	//Tunics
-	{
-		"name": "Green Tunic",
-		"type": "progressive",
-		"allow_disabled": false,
-		"stages": [
-			{
-				"img": "images/kokiritunic.png",
-				"codes": "kokiritunic"
-			}
-		]
-	},
-	{
-		"name": "Goron Tunic",
-		"type": "toggle",
-		"img": "images/gorontunic.png",
-		"codes": "gorontunic"
-	},
-	{
-		"name": "Zora Tunic",
-		"type": "toggle",
-		"img": "images/zoratunic.png",
-		"codes": "zoratunic"
-	},
-	
-	//Boots
-	{
-		"name": "Kokiri Boots",
-		"type": "progressive",
-		"allow_disabled": false,
-		"stages": [
-			{
-				"img": "images/kokiriboots.png",
-				"codes": "kokiriboots"
-			}
-		]
-	},
-	{
-		"name": "Iron Boots",
-		"type": "toggle",
-		"img": "images/ironboots.png",
-		"codes": "ironboots"
-	},
-	{
-		"name": "Hover Boots",
-		"type": "toggle",
-		"img": "images/hoverboots.png",
-		"codes": "hoverboots"
-	},
-	
-	//Prizes
-	{
-		"name": "Deku Tree",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "dekutree"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "dekutree,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "dekutree,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "dekutree,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "dekutree,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "dekutree,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "dekutree,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "dekutree,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "dekutree,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "dekutree,spiritmed"
-			}
-		]
-	},
-	{
-		"name": "Dodongo's Cavern",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "dc"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "dc,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "dc,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "dc,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "dc,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "dc,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "dc,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "dc,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "dc,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "dc,spiritmed"
-			}
-		]
-	},
-	{
-		"name": "Jabu Jabu's Belly",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "jabujabu"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "jabujabu,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "jabujabu,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "jabujabu,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "jabujabu,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "jabujabu,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "jabujabu,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "jabujabu,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "jabujabu,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "jabujabu,spiritmed"
-			}
-		]
-	},
-	{
-		"name": "Free Medallion",
-		"allow_disabled": false,
-		"type": "progressive",
-		"loop": true,
-		"stages": [
-			{
-				"img": "images/lightmed.png",
-				"codes": "free,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "free,forestmed",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "free,firemed",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "free,watermed",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "free,shadowmed",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "free,spiritmed",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "free,kemerald",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "free,gruby",
-				"inherit_codes": false
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "free,zsapphire",
-				"inherit_codes": false
-			}
-		]
-	},
-	{
-		"name": "Forest Temple",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "forest"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "forest,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "forest,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "forest,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "forest,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "forest,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "forest,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "forest,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "forest,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "forest,spiritmed"
-			}
-		]
-	},
-	{
-		"name": "Fire Temple",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "fire"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "fire,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "fire,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "fire,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "fire,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "fire,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "fire,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "fire,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "fire,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "fire,spiritmed"
-			}
-		]
-	},
-	{
-		"name": "Water Temple",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "water"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "water,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "water,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "water,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "water,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "water,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "water,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "water,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "water,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "water,spiritmed"
-			}
-		]
-	},
-	{
-		"name": "Shadow Temple",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "shadow"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "shadow,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "shadow,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "shadow,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "shadow,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "shadow,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "shadow,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "shadow,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "shadow,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "shadow,spiritmed"
-			}
-		]
-	},
-	{
-		"name": "Spirit Temple",
-		"capturable": false,
-		"type": "progressive_toggle",
-		"stages": [
-			{
-				"img": "images/unknown.png",
-				"codes": "spirit"
-			},
-			{
-				"img": "images/kemerald.png",
-				"codes": "spirit,kemerald"
-			},
-			{
-				"img": "images/gruby.png",
-				"codes": "spirit,gruby"
-			},
-			{
-				"img": "images/zsapphire.png",
-				"codes": "spirit,zsapphire"
-			},
-			{
-				"img": "images/lightmed.png",
-				"codes": "spirit,lightmed"
-			},
-			{
-				"img": "images/forestmed.png",
-				"codes": "spirit,forestmed"
-			},
-			{
-				"img": "images/firemed.png",
-				"codes": "spirit,firemed"
-			},
-			{
-				"img": "images/watermed.png",
-				"codes": "spirit,watermed"
-			},
-			{
-				"img": "images/shadowmed.png",
-				"codes": "spirit,shadowmed"
-			},
-			{
-				"img": "images/spiritmed.png",
-				"codes": "spirit,spiritmed"
-			}
-		]
-	},
-	
-	
-	
-	//Songs
-	{
-		"name": "Zelda's Lullaby",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "zl,zeldasong"
-	},
-	{
-		"name": "Epona's Song",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "eponasong"
-	},
-	{
-		"name": "Saria's Song",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "sariasong"
-	},
-	{
-		"name": "Sun's Song",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "sunsong"
-	},
-	{
-		"name": "Song of Time",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "timesong"
-	},
-	{
-		"name": "Song of Storms",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "stormsong"
-	},
-	{
-		"name": "Minuet of Forest",
-		"type": "toggle",
-		"img": "images/minuetF.png",
-		"codes": "minuet"
-	},
-	{
-		"name": "Bolero of Fire",
-		"type": "toggle",
-		"img": "images/boleroF.png",
-		"codes": "bolero"
-	},
-	{
-		"name": "Serenade of Water",
-		"type": "toggle",
-		"img": "images/serenadeW.png",
-		"codes": "serenade"
-	},
-	{
-		"name": "Requiem of Spirit",
-		"type": "toggle",
-		"img": "images/requiemS.png",
-		"codes": "requiem"
-	},
-	{
-		"name": "Nocturne of Shadow",
-		"type": "toggle",
-		"img": "images/nocturneS.png",
-		"codes": "nocturne"
-	},
-	{
-		"name": "Prelude of Light",
-		"type": "toggle",
-		"img": "images/preludeL.png",
-		"codes": "prelude"
-	},
-	
-	//Songs
-	{
-		"name": "Song from Impa",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_impa"
-	},
-	{
-		"name": "Song from Malon",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_malon"
-	},
-	{
-		"name": "Song from Saria",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_saria"
-	},
-	{
-		"name": "Song from Royal Tomb",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_tomb"
-	},
-	{
-		"name": "Song from Ocarina of Time",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_ocarina"
-	},
-	{
-		"name": "Song from Windmill",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_windmill"
-	},
-	{
-		"name": "Song from Sheik in Forest",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_forest"
-	},
-	{
-		"name": "Song from Sheik in Crater",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_crater"
-	},
-	{
-		"name": "Song from Sheik in Ice Cavern",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_ice"
-	},
-	{
-		"name": "Song from Sheik in Kakariko",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_kakariko"
-	},
-	{
-		"name": "Song from Sheik at Colossus ",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_colossus"
-	},
-	{
-		"name": "Song from Sheik at Temple",
-		"type": "toggle",
-		"img": "images/gnote.png",
-		"codes": "song_from_temple"
-	},
-	
-	//Keys
-	{
-		"name": "Gerudo Training Ground Small Keys",
-		"type": "consumable",
-		"max_quantity": 9,
-		"img": "images/small_key.png",
-		"codes": "gtg_keys"
-	},
-	{
-		"name": "Forest Temple Keys",
-		"type": "consumable",
-		"max_quantity": 5,
-		"img": "images/small_key.png",
-		"codes": "forest_keys"
-	},
-	{
-		"name": "Fire Temple Keys",
-		"type": "consumable",
-		"max_quantity": 7,
-		"img": "images/small_key.png",
-		"codes": "fire_keys"
-	},
-	{
-		"name": "Water Temple Keys",
-		"type": "consumable",
-		"max_quantity": 6,
-		"img": "images/small_key.png",
-		"codes": "water_keys"
-	},
-	{
-		"name": "Shadow Temple Keys",
-		"type": "consumable",
-		"max_quantity": 6,
-		"img": "images/small_key.png",
-		"codes": "shadow_keys"
-	},
-	{
-		"name": "Spirit Temple Keys",
-		"type": "consumable",
-		"max_quantity": 5,
-		"img": "images/small_key.png",
-		"codes": "spirit_keys"
-	},
-	{
-		"name": "Small Key",
-		"type": "toggle",
-		"img": "images/small_key.png",
-		"codes": "smallkey"
-	},
-	{
-		"name": "Boss Key",
-		"type": "toggle",
-		"img": "images/boss_key.png",
-		"codes": "bosskey"
-	},
+  //Megaton Hammer
+  {
+    "name": "Megaton Hammer",
+    "type": "toggle",
+    "img": "images/hammer.png",
+    "codes": "hammer"
+  },
 
-	//misc
-	{
-		"name": "Dampe Gravedigging",
-		"type": "toggle",
-		"img": "images/dampe.png",
-		"codes": "dampe_gravedigging"
-	}
+  //Bottles 1-3
+  {
+    "name": "Bottle",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bottle.png",
+        "codes": "bottle"
+      },
+      {
+        "img": "images/bottle2.png"
+      },
+      {
+        "img": "images/bottle3.png"
+      }
+    ]
+  },
+
+  //Ruto's Letter Bottle
+  {
+    "name": "Ruto's Letter",
+    "type": "toggle",
+    "img": "images/rutoletter.png",
+    "codes": "bottle,rutoletter"
+  },
+
+  //Elemental Arrows
+  {
+    "name": "Fire Arrows",
+    "type": "toggle",
+    "img": "images/firearrow.png",
+    "codes": "firearrow"
+  },
+  {
+    "name": "Ice Arrows",
+    "type": "toggle",
+    "img": "images/icearrow.png",
+    "codes": "icearrow"
+  },
+  {
+    "name": "Light Arrows",
+    "type": "toggle",
+    "img": "images/lightarrow.png",
+    "codes": "lightarrow"
+  },
+
+  //Spells
+  {
+    "name": "Din's Fire",
+    "type": "toggle",
+    "img": "images/din.png",
+    "codes": "din"
+  },
+  {
+    "name": "Farore's Wind",
+    "type": "toggle",
+    "img": "images/farore.png",
+    "codes": "farore"
+  },
+  {
+    "name": "Nayru's Love",
+    "type": "toggle",
+    "img": "images/nayru.png",
+    "codes": "nayru"
+  },
+
+  //Skulltullas
+  {
+    "name": "Gold Skulltulla Token",
+    "type": "consumable",
+    "img": "images/goldskull.png",
+    "max_quantity": 100,
+    "codes": "gs,goldskull"
+  },
+
+  //Masks
+  {
+    "name": "Masks",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/egg.png",
+        "codes": "egg"
+      },
+      {
+        "img": "images/cucco.png",
+        "codes": "cucco"
+      },
+      {
+        "img": "images/zeldaletter.png",
+        "codes": "zeldaletter"
+      },
+      {
+        "img": "images/keatonmask.png",
+        "codes": "zeldaletter,keatonmask"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/skullmask.png",
+        "codes": "zeldaletter,skullmask"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/spookymask.png",
+        "codes": "zeldaletter,spookymask"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/bunnyhood.png",
+        "codes": "zeldaletter,bunnyhood"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/truthmask.png",
+        "codes": "zeldaletter,truthmask"
+      }
+    ]
+  },
+
+  //Trading Sequence
+  {
+    "name": "Trading Sequence",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/egg.png",
+        "codes": "pocketegg"
+      },
+      {
+        "img": "images/cucco.png",
+        "codes": "cucco"
+      },
+      {
+        "img": "images/cojiro.png"
+      },
+      {
+        "img": "images/mushroom.png"
+      },
+      {
+        "img": "images/oddpotion.png"
+      },
+      {
+        "img": "images/poachersaw.png"
+      },
+      {
+        "img": "images/brokensword.png",
+        "codes": "brokensword"
+      },
+      {
+        "img": "images/Prescription.png"
+      },
+      {
+        "img": "images/frog.png"
+      },
+      {
+        "img": "images/Eyedrops.png"
+      },
+      {
+        "img": "images/check.png",
+        "codes": "check,claimcheck"
+      }
+    ]
+  },
+
+  //Stone of Agony
+  {
+    "name": "Stone of Agony",
+    "type": "toggle",
+    "img": "images/soa.png",
+    "codes": "soa"
+  },
+
+  //Wallets
+  {
+    "name": "Wallets",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/adultwallet.png",
+        "codes": "wallet1,adultwallet"
+      },
+      {
+        "img": "images/giantwallet.png",
+        "codes": "wallet2,giantwallet"
+      }
+    ]
+  },
+
+  //Lift Upgrades
+  {
+    "name": "Lift Upgrades",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bracelet.png",
+        "codes": "lift1,bracelet"
+      },
+      {
+        "img": "images/silvergauntlets.png",
+        "codes": "lift2,silvergauntlets"
+      },
+      {
+        "img": "images/goldengauntlets.png",
+        "codes": "lift3,goldengauntlets"
+      }
+    ]
+  },
+
+  //Magic
+  {
+    "name": "Magic",
+    "type": "toggle",
+    "img": "images/magic.png",
+    "codes": "magic"
+  },
+
+  //Scales
+  {
+    "name": "Scales",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/silverscale.png",
+        "codes": "scale1,silverscale"
+      },
+      {
+        "img": "images/goldscale.png",
+        "codes": "scale2,goldscale"
+      }
+    ]
+  },
+
+  //Swords
+  {
+    "name": "Kokiri Sword",
+    "type": "toggle",
+    "img": "images/kokirisword.png",
+    "codes": "kokirisword"
+  },
+  {
+    "name": "Master Sword",
+    "type": "toggle",
+    "img": "images/MS.png",
+    "codes": "ms"
+  },
+  {
+    "name": "Biggoron Sword",
+    "type": "toggle",
+    "img": "images/bigsword.png",
+    "codes": "bigsword"
+  },
+
+  //Shields
+  {
+    "name": "Deku Shield",
+    "type": "toggle",
+    "img": "images/dekushield.png",
+    "codes": "dekushield"
+  },
+  {
+    "name": "Hylian Shield",
+    "type": "toggle",
+    "img": "images/hylianshield.png",
+    "codes": "hylianshield"
+  },
+  {
+    "name": "Mirror Shield",
+    "type": "toggle",
+    "img": "images/mirrorshield.png",
+    "codes": "mirrorshield"
+  },
+
+  //Tunics
+  {
+    "name": "Green Tunic",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/kokiritunic.png",
+        "codes": "kokiritunic"
+      }
+    ]
+  },
+  {
+    "name": "Goron Tunic",
+    "type": "toggle",
+    "img": "images/gorontunic.png",
+    "codes": "gorontunic"
+  },
+  {
+    "name": "Zora Tunic",
+    "type": "toggle",
+    "img": "images/zoratunic.png",
+    "codes": "zoratunic"
+  },
+
+  //Boots
+  {
+    "name": "Kokiri Boots",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/kokiriboots.png",
+        "codes": "kokiriboots"
+      }
+    ]
+  },
+  {
+    "name": "Iron Boots",
+    "type": "toggle",
+    "img": "images/ironboots.png",
+    "codes": "ironboots"
+  },
+  {
+    "name": "Hover Boots",
+    "type": "toggle",
+    "img": "images/hoverboots.png",
+    "codes": "hoverboots"
+  },
+
+  //Prizes
+  {
+    "name": "Deku Tree",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "dekutree"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "dekutree,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "dekutree,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "dekutree,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "dekutree,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "dekutree,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "dekutree,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "dekutree,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "dekutree,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "dekutree,spiritmed"
+      }
+    ]
+  },
+  {
+    "name": "Dodongo's Cavern",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "dc"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "dc,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "dc,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "dc,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "dc,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "dc,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "dc,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "dc,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "dc,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "dc,spiritmed"
+      }
+    ]
+  },
+  {
+    "name": "Jabu Jabu's Belly",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "jabujabu"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "jabujabu,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "jabujabu,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "jabujabu,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "jabujabu,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "jabujabu,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "jabujabu,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "jabujabu,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "jabujabu,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "jabujabu,spiritmed"
+      }
+    ]
+  },
+  {
+    "name": "Free Medallion",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/lightmed.png",
+        "codes": "free,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "free,forestmed",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "free,firemed",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "free,watermed",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "free,shadowmed",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "free,spiritmed",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "free,kemerald",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "free,gruby",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "free,zsapphire",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Forest Temple",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "forest"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "forest,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "forest,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "forest,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "forest,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "forest,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "forest,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "forest,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "forest,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "forest,spiritmed"
+      }
+    ]
+  },
+  {
+    "name": "Fire Temple",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "fire"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "fire,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "fire,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "fire,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "fire,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "fire,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "fire,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "fire,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "fire,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "fire,spiritmed"
+      }
+    ]
+  },
+  {
+    "name": "Water Temple",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "water"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "water,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "water,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "water,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "water,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "water,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "water,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "water,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "water,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "water,spiritmed"
+      }
+    ]
+  },
+  {
+    "name": "Shadow Temple",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "shadow"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "shadow,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "shadow,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "shadow,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "shadow,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "shadow,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "shadow,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "shadow,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "shadow,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "shadow,spiritmed"
+      }
+    ]
+  },
+  {
+    "name": "Spirit Temple",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "spirit"
+      },
+      {
+        "img": "images/kemerald.png",
+        "codes": "spirit,kemerald"
+      },
+      {
+        "img": "images/gruby.png",
+        "codes": "spirit,gruby"
+      },
+      {
+        "img": "images/zsapphire.png",
+        "codes": "spirit,zsapphire"
+      },
+      {
+        "img": "images/lightmed.png",
+        "codes": "spirit,lightmed"
+      },
+      {
+        "img": "images/forestmed.png",
+        "codes": "spirit,forestmed"
+      },
+      {
+        "img": "images/firemed.png",
+        "codes": "spirit,firemed"
+      },
+      {
+        "img": "images/watermed.png",
+        "codes": "spirit,watermed"
+      },
+      {
+        "img": "images/shadowmed.png",
+        "codes": "spirit,shadowmed"
+      },
+      {
+        "img": "images/spiritmed.png",
+        "codes": "spirit,spiritmed"
+      }
+    ]
+  },
+
+
+
+  //Songs
+  {
+    "name": "Zelda's Lullaby",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "zl,zeldasong"
+  },
+  {
+    "name": "Epona's Song",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "eponasong"
+  },
+  {
+    "name": "Saria's Song",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "sariasong"
+  },
+  {
+    "name": "Sun's Song",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "sunsong"
+  },
+  {
+    "name": "Song of Time",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "timesong"
+  },
+  {
+    "name": "Song of Storms",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "stormsong"
+  },
+  {
+    "name": "Minuet of Forest",
+    "type": "toggle",
+    "img": "images/minuetF.png",
+    "codes": "minuet"
+  },
+  {
+    "name": "Bolero of Fire",
+    "type": "toggle",
+    "img": "images/boleroF.png",
+    "codes": "bolero"
+  },
+  {
+    "name": "Serenade of Water",
+    "type": "toggle",
+    "img": "images/serenadeW.png",
+    "codes": "serenade"
+  },
+  {
+    "name": "Requiem of Spirit",
+    "type": "toggle",
+    "img": "images/requiemS.png",
+    "codes": "requiem"
+  },
+  {
+    "name": "Nocturne of Shadow",
+    "type": "toggle",
+    "img": "images/nocturneS.png",
+    "codes": "nocturne"
+  },
+  {
+    "name": "Prelude of Light",
+    "type": "toggle",
+    "img": "images/preludeL.png",
+    "codes": "prelude"
+  },
+
+  //Songs
+  {
+    "name": "Song from Impa",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_impa"
+  },
+  {
+    "name": "Song from Malon",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_malon"
+  },
+  {
+    "name": "Song from Saria",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_saria"
+  },
+  {
+    "name": "Song from Royal Tomb",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_tomb"
+  },
+  {
+    "name": "Song from Ocarina of Time",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_ocarina"
+  },
+  {
+    "name": "Song from Windmill",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_windmill"
+  },
+  {
+    "name": "Song from Sheik in Forest",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_forest"
+  },
+  {
+    "name": "Song from Sheik in Crater",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_crater"
+  },
+  {
+    "name": "Song from Sheik in Ice Cavern",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_ice"
+  },
+  {
+    "name": "Song from Sheik in Kakariko",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_kakariko"
+  },
+  {
+    "name": "Song from Sheik at Colossus ",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_colossus"
+  },
+  {
+    "name": "Song from Sheik at Temple",
+    "type": "toggle",
+    "img": "images/gnote.png",
+    "codes": "song_from_temple"
+  },
+
+  //Keys
+  {
+    "name": "Gerudo Training Ground Small Keys",
+    "type": "consumable",
+    "max_quantity": 9,
+    "img": "images/small_key.png",
+    "codes": "gtg_keys"
+  },
+  {
+    "name": "Forest Temple Keys",
+    "type": "consumable",
+    "max_quantity": 5,
+    "img": "images/small_key.png",
+    "codes": "forest_keys"
+  },
+  {
+    "name": "Fire Temple Keys",
+    "type": "consumable",
+    "max_quantity": 7,
+    "img": "images/small_key.png",
+    "codes": "fire_keys"
+  },
+  {
+    "name": "Water Temple Keys",
+    "type": "consumable",
+    "max_quantity": 6,
+    "img": "images/small_key.png",
+    "codes": "water_keys"
+  },
+  {
+    "name": "Shadow Temple Keys",
+    "type": "consumable",
+    "max_quantity": 6,
+    "img": "images/small_key.png",
+    "codes": "shadow_keys"
+  },
+  {
+    "name": "Spirit Temple Keys",
+    "type": "consumable",
+    "max_quantity": 5,
+    "img": "images/small_key.png",
+    "codes": "spirit_keys"
+  },
+  {
+    "name": "Small Key",
+    "type": "toggle",
+    "img": "images/small_key.png",
+    "codes": "smallkey"
+  },
+  {
+    "name": "Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "bosskey"
+  },
+
+  //misc
+  {
+    "name": "Dampe Gravedigging",
+    "type": "toggle",
+    "img": "images/dampe.png",
+    "codes": "dampe_gravedigging"
+  }
 ]

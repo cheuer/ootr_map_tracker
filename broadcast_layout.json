@@ -1,28 +1,28 @@
 ﻿{
   "type": "array",
-		"background": "#000",
-		"margin": "0",
-		"width": 400,
-		"height": 1000,
-		"content": [
-			{
-				"type": "array",
-				"orientation": "vertical",
-				"h_alignment": "center",
-				"content": [
-					{
-					  "type": "layout",
-					  "key": "shared_item_grid"
-					},
-					{
-						"type": "container",
-						"width": 400,
-						"height": 560,
-						"content": {
-							"type": "map"
-						}
-					}
-				]
-			}
-		]
+    "background": "#000",
+    "margin": "0",
+    "width": 400,
+    "height": 1000,
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "container",
+            "width": 400,
+            "height": 560,
+            "content": {
+              "type": "map"
+            }
+          }
+        ]
+      }
+    ]
 }
