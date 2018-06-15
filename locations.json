@@ -448,6 +448,7 @@
               },
               {
                 "name": "Horseback Archery",
+                "color": "#c36202",
                 "access_rules": [ "@Fortress Entrance" ],
                 "sections": [
                   {
@@ -472,6 +473,7 @@
               },
               {
                 "name": "Gerudo Training Grounds",
+                "color": "#c36202",
                 "access_rules": [ "@Fortress Entrance" ],
                 "sections": [
                   {
