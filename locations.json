@@ -111,7 +111,7 @@
           {
             "name": "Deku Salesman (Grotto)",
             "item_count": 1,
-            "access_rules": [ "@can_blast" ]
+            "access_rules": [ "bombs", "[bombs],bombchu", "hammer,@is_adult,minuet", "hammer,@is_adult,sariasong" ]
           },
           {
             "name": "Deku Salesman (Bridge)",
@@ -150,7 +150,7 @@
           {
             "name": "Wolfos Grotto",
             "item_count": 1,
-            "access_rules": [ "@can_blast" ]
+            "access_rules": [ "bombs", "[bombs],bombchu", "hammer,@is_adult,minuet", "hammer,@is_adult,sariasong" ]
           }
         ],
         "map_locations": [
@@ -1884,7 +1884,7 @@
                     "name": "Shadow Trial 1st",
                     "clear_as_group": false,
                     "item_count": 1,
-                    "access_rules": [ "magic,bow,firearrow", "longshot" ]
+                    "access_rules": [ "magic,bow,firearrow", "hookshot", "hoverboots", "timesong" ]
                   },
                   {
                     "name": "Shadow Trial 2nd",
