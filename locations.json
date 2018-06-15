@@ -179,7 +179,7 @@
             "name": "Mask of Truth",
             "item_count": 1,
             "capture_item": true,
-            "access_rules": [ "zeldaletter,sariasong,kemerald,gruby,zsapphire", "{soa}" ]
+            "access_rules": [ "zeldaletter,sariasong,kemerald,gruby,zsapphire" ]
           }
         ],
         "map_locations": [
@@ -220,7 +220,8 @@
                 "name": "Song from Ocarina of Time",
                 "hosted_item": "song_from_ocarina",
                 "capture_item": true,
-                "access_rules": [ "ocarina2", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "ocarina2" ]
               }
             ],
             "map_locations": [
@@ -281,7 +282,8 @@
                 "name": "Lake Hylia Sun",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "longshot,bow,@is_adult", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "longshot,bow,@is_adult" ]
               },
               {
                 "name": "Lake Hylia Lab",
@@ -297,13 +299,15 @@
                 "name": "Child Fishing",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "kokirisword", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "kokirisword" ]
               },
               {
                 "name": "Adult Fishing",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "@is_adult,hookshot", "@is_adult,bean", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "@is_adult,hookshot", "@is_adult,bean" ]
               }
             ],
             "map_locations": [
@@ -355,7 +359,8 @@
                 "name": "Boss Key",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "water_keys:6,zl,longshot,hoverboots", "water_keys:6,zl,longshot,bombs,lift1", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "water_keys:6,zl,longshot,hoverboots", "water_keys:6,zl,longshot,bombs,lift1" ]
               },
               {
                 "name": "Central Pillar",
@@ -375,7 +380,8 @@
                 "name": "River",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "water_keys:6,timesong,bow,zl", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "water_keys:6,timesong,bow,zl" ]
               },
               {
                 "name": "Morpha",
@@ -460,7 +466,8 @@
                     "name": "1500 Pts",
                     "item_count": 1,
                     "capture_item": true,
-                    "access_rules": [ "eponasong,bow,@is_adult", "{soa}" ]
+                    "always_allow_chest_manipulation": true,
+                    "access_rules": [ "eponasong,bow,@is_adult" ]
                   }
                 ],
                 "map_locations": [
@@ -504,7 +511,8 @@
                     "clear_as_group": false,
                     "item_count": 4,
                     "capture_item": true,
-                    "access_rules": [ "gtg_keys:3,[gtg_keys:8]", "{soa}" ]
+                    "always_allow_chest_manipulation": true,
+                    "access_rules": [ "gtg_keys:3,[gtg_keys:8]" ]
                   },
                   {
                     "name": "Maze Right",
@@ -514,7 +522,8 @@
                     "name": "Underwater Silver Rupee",
                     "item_count": 1,
                     "capture_item": true,
-                    "access_rules": [ "hookshot,timesong,ironboots,@is_adult", "{soa}" ]
+                    "always_allow_chest_manipulation": true,
+                    "access_rules": [ "hookshot,timesong,ironboots,@is_adult" ]
                   },
                   {
                     "name": "Hammer Room Clear",
@@ -570,7 +579,8 @@
                 "name": "Structure",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "@has_fire_source", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "@has_fire_source" ]
               }
             ],
             "map_locations": [
@@ -589,7 +599,7 @@
               {
                 "name": "Sheik at Colossus",
                 "capture_item": true,
-                "access_rules": [ "", "{soa}" ],
+                "always_allow_chest_manipulation": true,
                 "hosted_item": "song_from_colossus"
               },
               {
@@ -601,7 +611,8 @@
                 "name": "Colossus HP",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "bean", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "bean" ]
               }
             ],
             "map_locations": [
@@ -673,7 +684,8 @@
                 "name": "Silver Gauntlets",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,@is_adult", "spirit_keys:5,requiem", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,@is_adult", "spirit_keys:5,requiem" ]
               },
               {
                 "name": "Near Four Armos",
@@ -689,7 +701,8 @@
                 "name": "Mirror Shield",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult" ]
               },
               {
                 "name": "Boss Key",
@@ -748,7 +761,8 @@
                 "name": "Sheik at Temple",
                 "hosted_item": "song_from_temple",
                 "capture_item": true,
-                "access_rules": [ "forestmed", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "forestmed" ]
               },
               {
                 "name": "Zelda",
@@ -812,7 +826,8 @@
                 "name": "10 Big Poes",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "bow,eponasong,bottle,@is_adult", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "bow,eponasong,bottle,@is_adult" ]
               }
             ],
             "map_locations": [
@@ -845,7 +860,8 @@
                 "name": "Treasure Chest Game",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "[lens],[magic]", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "[lens],[magic]" ]
               },
               {
                 "name": "Save Richard",
@@ -891,13 +907,15 @@
                 "name": "Sheik in Kakariko",
                 "hosted_item": "song_from_kakariko",
                 "capture_item": true,
-                "access_rules": [ "forestmed,firemed,watermed,@is_adult", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "forestmed,firemed,watermed,@is_adult" ]
               },
               {
                 "name": "Song at Windmill",
                 "hosted_item": "song_from_windmill",
                 "capture_item": true,
-                "access_rules": [ "@is_adult", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "@is_adult" ]
               },
               {
                 "name": "Windmill HP",
@@ -941,25 +959,29 @@
                 "name": "20 Gold Skulltulla Reward",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "gs:20", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "gs:20" ]
               },
               {
                 "name": "30 Gold Skulltulla Reward",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "gs:30", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "gs:30" ]
               },
               {
                 "name": "40 Gold Skulltulla Reward",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "gs:40", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "gs:40" ]
               },
               {
                 "name": "50 Gold Skulltulla Reward",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "gs:50", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "gs:50" ]
               }
             ],
             "map_locations": [
@@ -987,19 +1009,22 @@
                 "name": "Heart Piece Grave",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "sunsong", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "sunsong" ]
               },
               {
                 "name": "Composer Grave",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "@has_fire_source,zl", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "@has_fire_source,zl" ]
               },
               {
                 "name": "Song from Composer Grave",
                 "hosted_item": "song_from_tomb",
                 "capture_item": true,
-                "access_rules": [ "zeldasong", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "zeldasong" ]
               },
               {
                 "name": "Dampé HP",
@@ -1068,7 +1093,8 @@
                 "name": "Defeat Boss",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "zl,[kokirisword]", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "zl,[kokirisword]" ]
               },
               {
                 "name": "Invisible",
@@ -1200,7 +1226,8 @@
                 "name": "Hidden Floormaster",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "shadow_keys:3,lift1,zl", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "shadow_keys:3,lift1,zl" ]
               },
               {
                 "name": "Bongo Bongo",
@@ -1263,7 +1290,8 @@
                 "name": "Item",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance", "brokensword", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "claimcheck", "pocketegg,@Fortress Entrance", "brokensword" ]
               }
             ],
             "map_locations": [
@@ -1287,13 +1315,15 @@
                 "name": "Darunia's Joy",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "zl,sariasong", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "zl,sariasong" ]
               },
               {
                 "name": "Spinning Pot",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "bombs,zl", "lift1,zl", "bombs,din,magic", "lift1,din,magic", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "bombs,zl", "lift1,zl", "bombs,din,magic", "lift1,din,magic" ]
               }
             ],
             "map_locations": [
@@ -1335,7 +1365,8 @@
                 "name": "Leftmost",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "@is_adult,lift2", "@is_adult,hammer", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "@is_adult,lift2", "@is_adult,hammer" ]
               }
             ],
             "map_locations": [
@@ -1382,7 +1413,8 @@
                 "name": "Above King Dodongo",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "@Dodongo's Cavern/End of Bridge", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "@Dodongo's Cavern/End of Bridge" ]
               },
               {
                 "name": "King Dodongo",
@@ -1412,7 +1444,8 @@
               {
                 "name": "Sheik in Crater",
                 "capture_item": true,
-                "access_rules": [ "hoverboots", "bolero", "hookshot", "{soa}" ],
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "hoverboots", "bolero", "hookshot" ],
                 "hosted_item": "song_from_crater"
               },
               {
@@ -1433,7 +1466,8 @@
                 "name": "Volcano HP",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "@is_adult,bean,bolero", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "@is_adult,bean,bolero" ]
               }
             ],
             "map_locations": [
@@ -1457,7 +1491,8 @@
                 "name": "Frog Ocarina Game",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "zl,sariasong,sunsong,eponasong,timesong,stormsong", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "zl,sariasong,sunsong,eponasong,timesong,stormsong" ]
               },
               {
                 "name": "Frogs in the Rain",
@@ -1536,7 +1571,7 @@
               {
                 "name": "Sheik in Ice Cavern",
                 "capture_item": true,
-                "access_rules": [ "", "{soa}" ],
+                "always_allow_chest_manipulation": true,
                 "hosted_item": "song_from_ice"
               }
             ],
@@ -1581,7 +1616,8 @@
                 "name": "Underwater HP",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "ironboots", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "ironboots" ]
               },
               {
                 "name": "Ice Platform HP",
@@ -1670,7 +1706,7 @@
               {
                 "name": "Sheik at Forest",
                 "capture_item": true,
-                "access_rules": [ "", "{soa}" ],
+                "always_allow_chest_manipulation": true,
                 "hosted_item": "song_from_forest"
               }
             ],
@@ -1728,7 +1764,8 @@
                 "name": "Floormaster",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "forest_keys:2,bow", "hoverboots", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "forest_keys:2,bow", "hoverboots" ]
               },
               {
                 "name": "Red Poe",
@@ -1827,7 +1864,8 @@
                 "name": "Scarecrow",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "fire_keys:5,lift1,hookshot", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "fire_keys:5,lift1,hookshot" ]
               },
               {
                 "name": "Map",
@@ -1848,7 +1886,8 @@
                 "name": "Megaton Hammer",
                 "item_count": 1,
                 "capture_item": true,
-                "access_rules": [ "fire_keys:7,bombs", "fire_keys:7,[bombs],bombchu", "fire_keys:6,hoverboots,hammer,bombs", "fire_keys:6,hoverboots,hammer,[bombs],bombchu", "{soa}" ]
+                "always_allow_chest_manipulation": true,
+                "access_rules": [ "fire_keys:7,bombs", "fire_keys:7,[bombs],bombchu", "fire_keys:6,hoverboots,hammer,bombs", "fire_keys:6,hoverboots,hammer,[bombs],bombchu" ]
               },
               {
                 "name": "Volvagia",
