@@ -4,6 +4,8 @@
   "auto_unpin_on_clear": true,
   "layout_swap_left_right": false,
   "disabled_image_filter": "grayscale, dim",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_open.png",
   "layouts": {
     "shared_item_grid": {
       "type": "array",

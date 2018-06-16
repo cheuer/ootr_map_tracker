@@ -131,8 +131,10 @@
         "sections": [
           {
             "name": "Song from Saria",
-            "hosted_item": "song_from_saria",
-            "access_rules": [ "ocarina,zeldaletter" ]
+            "item_count": 1,
+            "access_rules": [ "ocarina,zeldaletter" ],
+            "chest_unopened_img": "images/gnote.png",
+            "chest_opened_img": "images/gnote_disabled.png"
           }
         ],
         "map_locations": [
@@ -218,10 +220,12 @@
               },
               {
                 "name": "Song from Ocarina of Time",
-                "hosted_item": "song_from_ocarina",
+                "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "ocarina2" ]
+                "access_rules": [ "ocarina2" ],
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               }
             ],
             "map_locations": [
@@ -258,7 +262,9 @@
               {
                 "name": "Underwater HP",
                 "item_count": 1,
-                "access_rules": [ "goldscale", "@is_adult,ironboots"]
+                "access_rules": [ "goldscale", "@is_adult,ironboots"],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               }
             ],
             "map_locations": [
@@ -293,7 +299,9 @@
               {
                 "name": "Lab Rooftop HP",
                 "item_count": 1,
-                "access_rules": [ "@is_adult,hookshot","bean" ]
+                "access_rules": [ "@is_adult,hookshot","bean" ],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Child Fishing",
@@ -413,11 +421,15 @@
                   },
                   {
                     "name": "Waterfall HP",
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/heartpiece.png",
+                    "chest_opened_img": "images/heartpiece_empty.png"
                   },
                   {
                     "name": "Crate HP",
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/heartpiece.png",
+                    "chest_opened_img": "images/heartpiece_empty.png"
                   }
                 ],
                 "map_locations": [
@@ -600,7 +612,9 @@
                 "name": "Sheik at Colossus",
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "hosted_item": "song_from_colossus"
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               },
               {
                 "name": "Desert Colossus Fairy",
@@ -612,7 +626,9 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "bean" ]
+                "access_rules": [ "bean" ],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               }
             ],
             "map_locations": [
@@ -759,10 +775,12 @@
             "sections": [
               {
                 "name": "Sheik at Temple",
-                "hosted_item": "song_from_temple",
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "forestmed" ]
+                "access_rules": [ "forestmed" ],
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               },
               {
                 "name": "Zelda",
@@ -788,7 +806,9 @@
               },
               {
                 "name": "Impa at Castle",
-                "hosted_item": "song_from_impa"
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               }
             ],
             "map_locations": [
@@ -901,26 +921,34 @@
               {
                 "name": "Impa's Cow HP",
                 "item_count": 1,
-                "access_rules": [ "[@is_adult],[longshot]", "bombs" ]
+                "access_rules": [ "[@is_adult],[longshot]", "bombs" ],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Sheik in Kakariko",
-                "hosted_item": "song_from_kakariko",
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "forestmed,firemed,watermed,@is_adult" ]
+                "access_rules": [ "forestmed,firemed,watermed,@is_adult" ],
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               },
               {
                 "name": "Song at Windmill",
-                "hosted_item": "song_from_windmill",
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "@is_adult" ]
+                "access_rules": [ "@is_adult" ],
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               },
               {
                 "name": "Windmill HP",
                 "item_count": 1,
-                "access_rules": [ "timesong","boomerang" ]
+                "access_rules": [ "timesong","boomerang" ],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Shooting Gallery",
@@ -1021,14 +1049,18 @@
               },
               {
                 "name": "Song from Composer Grave",
-                "hosted_item": "song_from_tomb",
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "zeldasong" ]
+                "access_rules": [ "zeldasong" ],
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               },
               {
                 "name": "Dampé HP",
-                "hosted_item": "dampe_gravedigging"
+                "item_count": 1,
+                "chest_unopened_img": "images/dampe.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Dampé Race",
@@ -1038,7 +1070,9 @@
               {
                 "name": "Crate HP",
                 "item_count": 1,
-                "access_rules": [ "bean","[hookshot],[boomerang]" ]
+                "access_rules": [ "bean","[hookshot],[boomerang]" ],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               }
             ],
             "map_locations": [
@@ -1255,7 +1289,9 @@
               },
               {
                 "name": "Trail HP",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Storm Grotto",
@@ -1446,7 +1482,9 @@
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
                 "access_rules": [ "hoverboots", "bolero", "hookshot" ],
-                "hosted_item": "song_from_crater"
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               },
               {
                 "name": "Crater Fairy Reward",
@@ -1460,14 +1498,18 @@
               },
               {
                 "name": "Wall HP",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Volcano HP",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "@is_adult,bean,bolero" ]
+                "access_rules": [ "@is_adult,bean,bolero" ],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               }
             ],
             "map_locations": [
@@ -1505,11 +1547,15 @@
               },
               {
                 "name": "Lower HP",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Upper HP",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               }
             ],
             "map_locations": [
@@ -1562,7 +1608,9 @@
               },
               {
                 "name": "HP",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Iron Boots",
@@ -1572,7 +1620,9 @@
                 "name": "Sheik in Ice Cavern",
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "hosted_item": "song_from_ice"
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               }
             ],
             "map_locations": [
@@ -1617,11 +1667,15 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "ironboots" ]
+                "access_rules": [ "ironboots" ],
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Ice Platform HP",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               }
             ],
             "map_locations": [
@@ -1683,12 +1737,16 @@
               },
               {
                 "name": "Song from Malon",
-                "hosted_item": "song_from_malon",
-                "access_rules": [ "[zeldaletter],ocarina" ]
+                "access_rules": [ "[zeldaletter],ocarina" ],
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               },
               {
                 "name": "Tower HP",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
               }
             ],
             "map_locations": [
@@ -1707,7 +1765,9 @@
                 "name": "Sheik at Forest",
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "hosted_item": "song_from_forest"
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
               }
             ],
             "map_locations": [

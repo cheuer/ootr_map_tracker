@@ -1030,80 +1030,6 @@
     "codes": "prelude"
   },
 
-  //Songs
-  {
-    "name": "Song from Impa",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_impa"
-  },
-  {
-    "name": "Song from Malon",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_malon"
-  },
-  {
-    "name": "Song from Saria",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_saria"
-  },
-  {
-    "name": "Song from Royal Tomb",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_tomb"
-  },
-  {
-    "name": "Song from Ocarina of Time",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_ocarina"
-  },
-  {
-    "name": "Song from Windmill",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_windmill"
-  },
-  {
-    "name": "Song from Sheik in Forest",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_forest"
-  },
-  {
-    "name": "Song from Sheik in Crater",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_crater"
-  },
-  {
-    "name": "Song from Sheik in Ice Cavern",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_ice"
-  },
-  {
-    "name": "Song from Sheik in Kakariko",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_kakariko"
-  },
-  {
-    "name": "Song from Sheik at Colossus ",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_colossus"
-  },
-  {
-    "name": "Song from Sheik at Temple",
-    "type": "toggle",
-    "img": "images/gnote.png",
-    "codes": "song_from_temple"
-  },
-
   //Keys
   {
     "name": "Gerudo Training Ground Small Keys",
@@ -1158,13 +1084,5 @@
     "type": "toggle",
     "img": "images/boss_key.png",
     "codes": "bosskey"
-  },
-
-  //misc
-  {
-    "name": "Dampe Gravedigging",
-    "type": "toggle",
-    "img": "images/dampe.png",
-    "codes": "dampe_gravedigging"
   }
 ]
