@@ -549,7 +549,7 @@
                   {
                     "name": "Hammer Room Switch",
                     "item_count": 1,
-                    "access_rules": [ "hammer,@is_adult" ]
+                    "access_rules": [ "[hammer],@is_adult" ]
                   },
                   {
                     "name": "Eye Statue",
