@@ -434,6 +434,11 @@
                 ],
                 "map_locations": [
                   {
+                    "map": "child",
+                    "x": 760,
+                    "y": 820
+                  },
+                  {
                     "map": "adult",
                     "x": 760,
                     "y": 820
