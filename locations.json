@@ -1426,7 +1426,7 @@
           {
             "name": "Dodongo's Cavern",
             "color": "#c30017",
-            "access_rules": [ "@can_blast", "lift1", "@is_adult" ],
+            "access_rules": [ "@can_blast", "lift1" ],
             "sections": [
               {
                 "name": "Map",
