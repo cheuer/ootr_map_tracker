@@ -368,7 +368,7 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "water_keys:6,zl,longshot,hoverboots", "water_keys:6,zl,longshot,bombs,lift1" ]
+                "access_rules": [ "[water_keys:6],water_keys:2,zl,longshot,hoverboots", "[water_keys:6],water_keys:2,zl,longshot,bombs,lift1" ]
               },
               {
                 "name": "Central Pillar",
