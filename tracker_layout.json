@@ -129,7 +129,7 @@
             ]
           }
         },
-        {
+        /* {
           "title": "Dungeons",
           "icon": "images/dungeonmap.png",
           "content": {
@@ -218,7 +218,7 @@
               }
             ]
           }
-        }
+        } */
       ]
     },
     "tracker_default": {
