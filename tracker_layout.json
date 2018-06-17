@@ -95,6 +95,132 @@
         [ "minuet", "bolero", "serenade", "requiem", "nocturne", "prelude" ]
       ]
     },
+    "all_maps": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "Child Map",
+          "icon": "images/dekushield.png",
+          "content": {
+            "type": "map",
+            "maps": [
+              "child"
+            ]
+          }
+        },
+        {
+          "title": "Adult Map",
+          "icon": "images/hylianshield.png",
+          "content": {
+            "type": "map",
+            "maps": [
+              "adult"
+            ]
+          }
+        },
+        {
+          "title": "Both Maps",
+          "icon": "images/mirrorshield.png",
+          "content": {
+            "type": "map",
+            "maps": [
+              "child",
+              "adult"
+            ]
+          }
+        },
+        {
+          "title": "Dungeons",
+          "icon": "images/dungeonmap.png",
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              {
+                "icon": "images/kemerald.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "dekutree"
+                  ]
+                }
+              },
+              {
+                "icon": "images/gruby.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "dc"
+                  ]
+                }
+              },
+              {
+                "icon": "images/zsapphire.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "jabujabu"
+                  ]
+                }
+              },
+              {
+                "icon": "images/forestmed.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "forest"
+                  ]
+                }
+              },
+              {
+                "icon": "images/firemed.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "fire"
+                  ]
+                }
+              },
+              {
+                "icon": "images/watermed.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "water"
+                  ]
+                }
+              },
+              {
+                "icon": "images/lens.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "botw"
+                  ]
+                }
+              },
+              {
+                "icon": "images/shadowmed.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "shadow"
+                  ]
+                }
+              },
+              {
+                "icon": "images/spiritmed.png",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "spirit"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
     "tracker_default": {
       "type": "container",
       "background": "#877373",
@@ -131,7 +257,8 @@
             ]
           },
           {
-            "type": "map"
+            "type": "layout",
+            "key": "all_maps"
           }
         ]
       }
@@ -172,7 +299,8 @@
             ]
           },
           {
-            "type": "map"
+            "type": "layout",
+            "key": "all_maps"
           }
         ]
       }

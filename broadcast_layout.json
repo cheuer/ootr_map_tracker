@@ -19,7 +19,10 @@
             "width": 400,
             "height": 560,
             "content": {
-              "type": "map"
+              "type": "map",
+              "maps": [
+                "child", "adult"
+              ]
             }
           }
         ]
