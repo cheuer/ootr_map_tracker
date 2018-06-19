@@ -251,6 +251,11 @@
                 "map": "child",
                 "x": 1437,
                 "y": 915
+              },
+              {
+                "map": "adult",
+                "x": 1437,
+                "y": 915
               }
             ]
           },
@@ -368,6 +373,8 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
+                "chest_unopened_img": "images/chest_bk_closed.png",
+                "chest_opened_img": "images/chest_bk_open.png",
                 "access_rules": [ "[water_keys:6],water_keys:2,zl,longshot,hoverboots", "[water_keys:6],water_keys:2,zl,longshot,bombs,lift1" ]
               },
               {
@@ -533,7 +540,8 @@
                   },
                   {
                     "name": "Maze Right",
-                    "item_count": 2
+                    "item_count": 2,
+                    "access_rules": [ "gtg_keys:2", "timesong" ]
                   },
                   {
                     "name": "Underwater Silver Rupee",
@@ -544,17 +552,18 @@
                   },
                   {
                     "name": "Hammer Room Clear",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [ "hookshot" ]
                   },
                   {
                     "name": "Hammer Room Switch",
                     "item_count": 1,
-                    "access_rules": [ "[hammer],@is_adult" ]
+                    "access_rules": [ "hookshot,[hammer],@is_adult" ]
                   },
                   {
                     "name": "Eye Statue",
                     "item_count": 1,
-                    "access_rules": [ "bow,@is_adult" ]
+                    "access_rules": [ "hookshot,bow,@is_adult" ]
                   },
                   {
                     "name": "Near Scarecrow",
@@ -656,6 +665,7 @@
               {
                 "name": "Child Section",
                 "item_count": 2,
+                "clear_as_group": false,
                 "access_rules": [ "boomerang", "slingshot" ]
               },
               {
@@ -682,9 +692,21 @@
                 "name": "Child Climb East/North",
                 "item_count": 2,
                 "clear_as_group": false,
-                "access_rules": [ "requiem,bombs", "lift2,@is_adult,bombs", "requiem,boomerang,hookshot", "requiem,boomerang,bow", "requiem,slingshot,hookshot", "requiem,slingshot,bow", "lift2,@is_adult,boomerang,hookshot", "lift2,@is_adult,boomerang,bow", "lift2,@is_adult,slingshot,hookshot", "lift2,@is_adult,slingshot,bow",
-                "spirit_keys:3,lift2,@is_adult,hookshot", "spirit_keys:3,lift2,@is_adult,bow",
-                "sprit_keys:5,requiem,boomerang,slingshot" ]
+                "access_rules": [
+                  "spirit_keys:1,requiem,bombs",
+                  "lift2,@is_adult,bombs",
+                  "spirit_keys:1,requiem,boomerang,hookshot",
+                  "spirit_keys:1,requiem,boomerang,bow",
+                  "spirit_keys:1,requiem,slingshot,hookshot",
+                  "spirit_keys:1,requiem,slingshot,bow",
+                  "lift2,@is_adult,boomerang,hookshot",
+                  "lift2,@is_adult,boomerang,bow",
+                  "lift2,@is_adult,slingshot,hookshot",
+                  "lift2,@is_adult,slingshot,bow",
+                  "spirit_keys:3,lift2,@is_adult,hookshot",
+                  "spirit_keys:3,lift2,@is_adult,bow",
+                  "sprit_keys:5,requiem,boomerang,slingshot"
+                ]
               },
               {
                 "name": "Sun Block Room",
@@ -711,35 +733,37 @@
               {
                 "name": "Near Four Armos",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult,mirrorshield" ]
+                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult,mirrorshield" ]
               },
               {
                 "name": "Hallway Invisible Chests",
                 "item_count": 2,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult,[lens],[magic]" ]
+                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult,[lens],[magic]" ]
               },
               {
                 "name": "Mirror Shield",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:3,lift2,@is_adult" ]
+                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
+                "chest_unopened_img": "images/chest_bk_closed.png",
+                "chest_opened_img": "images/chest_bk_open.png",
                 "access_rules": [ "[spirit_keys:5],spirit_keys:3,zl,[bow],[hookshot],@is_adult,lift2,@can_blast" ]
               },
               {
                 "name": "Topmost",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:4,hookshot,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bow,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bombs,mirrorshield,lift2,@is_adult" ]
+                "access_rules": [ "[spirit_keys:5],spirit_keys:3,hookshot,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bow,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bombs,mirrorshield,lift2,@is_adult" ]
               },
               {
                 "name": "Twinrova",
                 "hosted_item": "spirit",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:4,mirrorshield,bombs,hookshot,lift2,@is_adult" ]
+                "access_rules": [ "[spirit_keys:5],spirit_keys:3,mirrorshield,bombs,hookshot,lift2,@is_adult" ]
               }
             ],
             "map_locations": [
@@ -980,37 +1004,37 @@
             ]
           },
           {
-            "name": "House of Skulltulla",
+            "name": "House of Skulltula",
             "color": "#8100c3",
             "sections": [
               {
-                "name": "10 Gold Skulltulla Reward",
+                "name": "10 Gold Skulltulas",
                 "item_count": 1,
                 "access_rules": [ "gs:10" ]
               },
               {
-                "name": "20 Gold Skulltulla Reward",
+                "name": "20 Gold Skulltulas",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
                 "access_rules": [ "gs:20" ]
               },
               {
-                "name": "30 Gold Skulltulla Reward",
+                "name": "30 Gold Skulltulas",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
                 "access_rules": [ "gs:30" ]
               },
               {
-                "name": "40 Gold Skulltulla Reward",
+                "name": "40 Gold Skulltulas",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
                 "access_rules": [ "gs:40" ]
               },
               {
-                "name": "50 Gold Skulltulla Reward",
+                "name": "50 Gold Skulltulas",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
@@ -1259,6 +1283,8 @@
               {
                 "name": "Boss Key",
                 "item_count": 1,
+                "chest_unopened_img": "images/chest_bk_closed.png",
+                "chest_opened_img": "images/chest_bk_open.png",
                 "access_rules": [ "shadow_keys:3,lift1,zl" ]
               },
               {
@@ -1455,13 +1481,13 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "@Dodongo's Cavern/End of Bridge" ]
+                "access_rules": [ "@Dodongo's Cavern/End of Bridge,[bombs]" ]
               },
               {
                 "name": "King Dodongo",
                 "hosted_item": "dc",
                 "item_count": 1,
-                "access_rules": [ "@Dodongo's Cavern/End of Bridge" ]
+                "access_rules": [ "@Dodongo's Cavern/End of Bridge,[bombs]" ]
               }
             ],
             "map_locations": [
@@ -1823,6 +1849,8 @@
               {
                 "name": "Boss Key",
                 "item_count": 1,
+                "chest_unopened_img": "images/chest_bk_closed.png",
+                "chest_opened_img": "images/chest_bk_open.png",
                 "access_rules": [ "forest_keys:2,bow" ]
               },
               {
@@ -1893,6 +1921,8 @@
               {
                 "name": "Boss Key",
                 "item_count": 1,
+                "chest_unopened_img": "images/chest_bk_closed.png",
+                "chest_opened_img": "images/chest_bk_open.png",
                 "access_rules": [ "hammer" ]
               },
               {
@@ -2015,7 +2045,9 @@
                   },
                   {
                     "name": "Boss Key",
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/chest_bk_closed.png",
+                    "chest_opened_img": "images/chest_bk_open.png"
                   }
                 ],
                 "map_locations": [
