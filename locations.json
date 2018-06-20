@@ -181,6 +181,7 @@
             "name": "Mask of Truth",
             "item_count": 1,
             "capture_item": true,
+            "always_allow_chest_manipulation": true,
             "access_rules": [ "zeldaletter,sariasong,kemerald,gruby,zsapphire" ]
           }
         ],
@@ -361,7 +362,7 @@
               {
                 "name": "Dragon",
                 "item_count": 1,
-                "access_rules": [ "lift1,zl", "water_keys:6,zl,timesong,bow" ]
+                "access_rules": [ "lift1,zl", "[water_keys:6],water_keys:2,zl,timesong,bow" ]
               },
               {
                 "name": "Central Bow Target",
@@ -396,7 +397,7 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "water_keys:6,timesong,bow,zl" ]
+                "access_rules": [ "[water_keys:6],water_keys:2,timesong,bow,zl" ]
               },
               {
                 "name": "Morpha",
@@ -417,41 +418,6 @@
             "name": "Bridge Crossing",
             "access_rules": [ "@is_adult,eponasong", "@is_adult,longshot" ],
             "children": [
-              {
-                "name": "Gerudo Valley",
-                "color": "#c36202",
-                "sections": [
-                  {
-                    "name": "Hammer Rocks",
-                    "item_count": 1,
-                    "access_rules": [ "hammer,@is_adult" ]
-                  },
-                  {
-                    "name": "Waterfall HP",
-                    "item_count": 1,
-                    "chest_unopened_img": "images/heartpiece.png",
-                    "chest_opened_img": "images/heartpiece_empty.png"
-                  },
-                  {
-                    "name": "Crate HP",
-                    "item_count": 1,
-                    "chest_unopened_img": "images/heartpiece.png",
-                    "chest_opened_img": "images/heartpiece_empty.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "child",
-                    "x": 760,
-                    "y": 820
-                  },
-                  {
-                    "map": "adult",
-                    "x": 760,
-                    "y": 820
-                  }
-                ]
-              },
               {
                 "name": "Fortress Entrance",
                 "access_rules": [ "[bow]", "hookshot", "hoverboots" ],
@@ -588,6 +554,41 @@
                     "y": 530
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Valley",
+            "color": "#c36202",
+            "sections": [
+              {
+                "name": "Hammer Rocks",
+                "item_count": 1,
+                "access_rules": [ "hammer,eponasong,@is_adult", "hammer,longshot,@is_adult" ]
+              },
+              {
+                "name": "Waterfall HP",
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
+              },
+              {
+                "name": "Crate HP",
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "child",
+                "x": 760,
+                "y": 820
+              },
+              {
+                "map": "adult",
+                "x": 760,
+                "y": 820
               }
             ]
           },
