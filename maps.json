@@ -6,5 +6,41 @@
   {
     "name": "adult",
     "img": "images/map_2.jpg"
+  },
+  {
+    "name": "dekutree",
+    "img": "images/map_dekutree.png"
+  },
+  {
+    "name": "dc",
+    "img": "images/map_dc.png"
+  },
+  {
+    "name": "jabujabu",
+    "img": "images/map_jabujabu.png"
+  },
+  {
+    "name": "forest",
+    "img": "images/map_forest.png"
+  },
+  {
+    "name": "fire",
+    "img": "images/map_fire.png"
+  },
+  {
+    "name": "water",
+    "img": "images/map_water.png"
+  },
+  {
+    "name": "botw",
+    "img": "images/map_botw.png"
+  },
+  {
+    "name": "shadow",
+    "img": "images/map_shadow.png"
+  },
+  {
+    "name": "spirit",
+    "img": "images/map_spirit.png"
   }
 ]
