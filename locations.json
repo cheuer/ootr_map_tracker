@@ -175,7 +175,7 @@
           {
             "name": "Skull Mask",
             "item_count": 1,
-            "access_rules": [ "skullmask" ]
+            "access_rules": [ "zeldaletter" ]
           },
           {
             "name": "Mask of Truth",
