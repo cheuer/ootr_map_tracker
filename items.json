@@ -1048,7 +1048,7 @@
   {
     "name": "Fire Temple Keys",
     "type": "consumable",
-    "max_quantity": 7,
+    "max_quantity": 8,
     "img": "images/small_key.png",
     "codes": "fire_keys"
   },
