@@ -1699,13 +1699,14 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "ironboots" ],
+                "access_rules": [ "zl,ironboots" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Ice Platform HP",
                 "item_count": 1,
+				"access_rules": [ "zl" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               }
