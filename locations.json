@@ -1176,6 +1176,10 @@
                 "access_rules": [ "zl" ]
               },
               {
+                "name": "Sarcophagus Key",
+                "item_count": 1
+              },
+              {
                 "name": "Basement",
                 "item_count": 1,
                 "access_rules": [ "bombs", "[bombs],bombchu" ]
