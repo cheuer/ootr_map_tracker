@@ -1559,7 +1559,7 @@
           {
             "name": "Zora's River",
             "color": "#0071c3",
-            "access_rules": [ "bombs", "[bombs],bombchu", "silverscale" ],
+            "access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult" ],
             "sections": [
               {
                 "name": "Magic Bean Salesman",
@@ -1585,13 +1585,15 @@
                 "name": "Lower HP",
                 "item_count": 1,
                 "chest_unopened_img": "images/heartpiece.png",
-                "chest_opened_img": "images/heartpiece_empty.png"
+                "chest_opened_img": "images/heartpiece_empty.png",
+				"access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
               },
               {
                 "name": "Upper HP",
                 "item_count": 1,
                 "chest_unopened_img": "images/heartpiece.png",
-                "chest_opened_img": "images/heartpiece_empty.png"
+                "chest_opened_img": "images/heartpiece_empty.png",
+				"access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
               }
             ],
             "map_locations": [
