@@ -1612,7 +1612,7 @@
           {
             "name": "Zora's Domain",
             "color": "#0071c3",
-            "access_rules": [ "@Zora's River,zl", "@Zora's River,silverscale" ],
+            "access_rules": [ "@Zora's River,[zl]", "@Zora's River,silverscale" ],
             "sections": [
               {
                 "name": "Diving Minigame",
