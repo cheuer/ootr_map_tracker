@@ -1283,21 +1283,21 @@
               {
                 "name": "Spike Walls Left",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:3,lift1,zl" ]
+                "access_rules": [ "shadow_keys:3,[lift1],zl" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
                 "chest_unopened_img": "images/chest_bk_closed.png",
                 "chest_opened_img": "images/chest_bk_open.png",
-                "access_rules": [ "shadow_keys:3,lift1,zl" ]
+                "access_rules": [ "shadow_keys:3,zl,[lift1]" ]
               },
               {
                 "name": "Hidden Floormaster",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "shadow_keys:3,lift1,zl" ]
+                "access_rules": [ "shadow_keys:3,[lift1],zl" ]
               },
               {
                 "name": "Bongo Bongo",
@@ -1413,7 +1413,7 @@
               {
                 "name": "Link the Goron",
                 "item_count": 1,
-                "access_rules": [ "@is_adult,lift1", "@is_adult,bombs" ]
+                "access_rules": [ "@is_adult,lift1", "@is_adult,bombs", "@is_adult,bow,[lift1]", "@is_adult,bow,[bombs]" ]
               }
             ],
             "map_locations": [
@@ -1511,7 +1511,7 @@
           {
             "name": "Death Mountain Crater",
             "color": "#c30017",
-            "access_rules": [ "@can_blast", "bolero", "lift1" ],
+            "access_rules": [ "@can_blast", "bolero", "@is_adult,[lift1]" ],
             "sections": [
               {
                 "name": "Sheik in Crater",
@@ -1674,7 +1674,7 @@
           {
             "name": "Adult Zora's Domain",
             "color": "#0071c3",
-            "access_rules": [ "zl" ],
+            "access_rules": [ "hoverboots,[zl]" ],
             "sections": [
               {
                 "name": "King Zora Thawed",
