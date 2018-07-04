@@ -263,7 +263,7 @@
           {
             "name": "Tektite Grotto",
             "color": "#0071c3",
-            "access_rules": [ "[bombs],hammer", "bombs" ],
+            "access_rules": [ "[bombs],hammer", "bombs", "hammer" ],
             "sections": [
               {
                 "name": "Underwater HP",
@@ -510,6 +510,13 @@
                     "access_rules": [ "gtg_keys:2", "timesong" ]
                   },
                   {
+                  	"name": "Freestanding Key",
+                  	"item_count": 1,
+                  	"access_rules": [ "gtg_keys:2", "timesong" ],
+                	"chest_unopened_img": "images/small_key.png",
+                	"chest_opened_img": "images/small_key_disabled.png"
+                  },
+                  {
                     "name": "Underwater Silver Rupee",
                     "item_count": 1,
                     "capture_item": true,
@@ -641,7 +648,7 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "bean" ],
+                "access_rules": [ "bean,requiem" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               }
@@ -667,7 +674,7 @@
                 "name": "Child Section",
                 "item_count": 2,
                 "clear_as_group": false,
-                "access_rules": [ "boomerang", "slingshot" ]
+                "access_rules": [ "boomerang,requiem", "slingshot,requiem" ]
               },
               {
                 "name": "Compass",
@@ -907,7 +914,10 @@
               },
               {
                 "name": "Save Richard",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/Doggo.png",
+                "chest_opened_img": "images/Doggo_disabled.png"
+
               }
             ],
             "map_locations": [
@@ -1082,7 +1092,7 @@
                 "name": "Dampé HP",
                 "item_count": 1,
                 "chest_unopened_img": "images/dampe.png",
-                "chest_opened_img": "images/heartpiece_empty.png"
+                "chest_opened_img": "images/dampe_disabled.png"
               },
               {
                 "name": "Dampé Race",
@@ -1169,7 +1179,9 @@
               },
               {
                 "name": "Sarcophagus Key",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/small_key.png",
+                "chest_opened_img": "images/small_key_disabled.png"
               },
               {
                 "name": "Basement",
@@ -1255,7 +1267,9 @@
               {
                 "name": "Skull Key",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:2,hookshot" ]
+                "access_rules": [ "shadow_keys:2,hookshot" ],
+                "chest_unopened_img": "images/small_key.png",
+                "chest_opened_img": "images/small_key_disabled.png"
               },
               {
                 "name": "Wind Hint",
@@ -1903,7 +1917,12 @@
           {
             "name": "Fire Temple",
             "color": "#c30017",
-            "access_rules": [ "@is_adult,[@has_goron_tunic]" ],
+            "access_rules": [ 
+            	"@is_adult,[@has_goron_tunic],bolero",
+            	"@is_adult,[@has_goron_tunic],@Goron City/Link the Goron,hookshot",
+            	"@is_adult,[@has_goron_tunic],@Goron City/Link the Goron,hoverboots",
+            	"@is_adult,[@has_goron_tunic],@can_blast,hoverboots"
+            ],
             "sections": [
               {
                 "name": "Keys",
