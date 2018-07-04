@@ -1252,12 +1252,12 @@
               {
                 "name": "Falling Spikes Upper",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots,lift1" ]
+                "access_rules": [ "shadow_keys:1,hoverboots,[lift1]" ]
               },
               {
                 "name": "Falling Spikes Switch",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots,lift1" ]
+                "access_rules": [ "shadow_keys:1,hoverboots,[lift1]" ]
               },
               {
                 "name": "Invisible Spikes",
@@ -1289,21 +1289,21 @@
               {
                 "name": "Spike Walls Left",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:3,[lift1],zl" ]
+                "access_rules": [ "shadow_keys:3,zl" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
                 "chest_unopened_img": "images/chest_bk_closed.png",
                 "chest_opened_img": "images/chest_bk_open.png",
-                "access_rules": [ "shadow_keys:3,zl,[lift1]" ]
+                "access_rules": [ "shadow_keys:3,zl" ]
               },
               {
                 "name": "Hidden Floormaster",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "shadow_keys:3,[lift1],zl" ]
+                "access_rules": [ "shadow_keys:3,zl" ]
               },
               {
                 "name": "Bongo Bongo",
