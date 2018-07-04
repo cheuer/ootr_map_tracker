@@ -917,7 +917,6 @@
                 "item_count": 1,
                 "chest_unopened_img": "images/Doggo.png",
                 "chest_opened_img": "images/Doggo_disabled.png"
-
               }
             ],
             "map_locations": [
@@ -1592,14 +1591,14 @@
                 "item_count": 1,
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png",
-				"access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
+                "access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
               },
               {
                 "name": "Upper HP",
                 "item_count": 1,
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png",
-				"access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
+                "access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
               }
             ],
             "map_locations": [
@@ -1917,7 +1916,7 @@
           {
             "name": "Fire Temple",
             "color": "#c30017",
-            "access_rules": [ 
+            "access_rules": [
             	"@is_adult,[@has_goron_tunic],bolero",
             	"@is_adult,[@has_goron_tunic],@Goron City/Link the Goron,hookshot",
             	"@is_adult,[@has_goron_tunic],@Goron City/Link the Goron,hoverboots",
