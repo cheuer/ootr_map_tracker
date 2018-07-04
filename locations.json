@@ -1637,49 +1637,9 @@
             ]
           },
           {
-            "name": "Ice Cavern",
-            "color": "#0071c3",
-            "access_rules": [ "rutoletter,@is_adult,zl" ],
-            "sections": [
-              {
-                "name": "Map",
-                "item_count": 1
-              },
-              {
-                "name": "Compass",
-                "item_count": 1
-              },
-              {
-                "name": "HP",
-                "item_count": 1,
-                "chest_unopened_img": "images/heartpiece.png",
-                "chest_opened_img": "images/heartpiece_empty.png"
-              },
-              {
-                "name": "Iron Boots",
-                "item_count": 1
-              },
-              {
-                "name": "Sheik in Ice Cavern",
-                "capture_item": true,
-                "always_allow_chest_manipulation": true,
-                "item_count": 1,
-                "chest_unopened_img": "images/gnote.png",
-                "chest_opened_img": "images/gnote_disabled.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "adult",
-                "x": 2628,
-                "y": 1011
-              }
-            ]
-          },
-          {
             "name": "Adult Zora's Domain",
             "color": "#0071c3",
-            "access_rules": [ "hoverboots,[zl]" ],
+            "access_rules": [ "zl", "hoverboots,[zl]" ],
             "sections": [
               {
                 "name": "King Zora Thawed",
@@ -1710,14 +1670,14 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "zl,ironboots" ],
+                "access_rules": [ "@Adult Zora's Domain,ironboots" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Ice Platform HP",
                 "item_count": 1,
-				"access_rules": [ "zl" ],
+                "access_rules": [ "@Adult Zora's Domain" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               }
@@ -1767,6 +1727,46 @@
                 "map": "child",
                 "x": 2596,
                 "y": 1073
+              }
+            ]
+          },
+          {
+            "name": "Ice Cavern",
+            "color": "#0071c3",
+            "access_rules": [ "@Zora's Fountain,@Adult Zora's Domain" ],
+            "sections": [
+              {
+                "name": "Map",
+                "item_count": 1
+              },
+              {
+                "name": "Compass",
+                "item_count": 1
+              },
+              {
+                "name": "HP",
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
+              },
+              {
+                "name": "Iron Boots",
+                "item_count": 1
+              },
+              {
+                "name": "Sheik in Ice Cavern",
+                "capture_item": true,
+                "always_allow_chest_manipulation": true,
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "adult",
+                "x": 2628,
+                "y": 1011
               }
             ]
           },
