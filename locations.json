@@ -692,21 +692,13 @@
               {
                 "name": "Child Climb East/North",
                 "item_count": 2,
-                "clear_as_group": false,
                 "access_rules": [
-                  "spirit_keys:1,requiem,bombs",
-                  "lift2,@is_adult,bombs",
-                  "spirit_keys:1,requiem,boomerang,hookshot",
-                  "spirit_keys:1,requiem,boomerang,bow",
-                  "spirit_keys:1,requiem,slingshot,hookshot",
-                  "spirit_keys:1,requiem,slingshot,bow",
-                  "lift2,@is_adult,boomerang,hookshot",
-                  "lift2,@is_adult,boomerang,bow",
-                  "lift2,@is_adult,slingshot,hookshot",
-                  "lift2,@is_adult,slingshot,bow",
-                  "spirit_keys:3,lift2,@is_adult,hookshot",
-                  "spirit_keys:3,lift2,@is_adult,bow",
-                  "sprit_keys:5,requiem,boomerang,slingshot"
+                  "spirit_keys:1,requiem,[bombs],bombchu",
+                  "spirit_keys:1,requiem,boomerang",
+                  "spirit_keys:1,requiem,slingshot",
+                  "spirit_keys:1,@is_adult,lift2,[bombs],bombchu",
+                  "spirit_keys:1,@is_adult,lift2,hookshot",
+                  "spirit_keys:1,@is_adult,lift2,bow"
                 ]
               },
               {
