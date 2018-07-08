@@ -695,7 +695,7 @@
                 "name": "Map",
                 "item_count": 1,
                 "access_rules": [
-                  "lift2,[spirit_keys:3],spirit_keys:1,@is_adult,@has_fire_source",
+                  "lift2,spirit_keys:1,@is_adult,@has_fire_source",
                   "requiem,spirit_keys:1"
                 ]
               },
@@ -734,7 +734,10 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,@is_adult", "spirit_keys:5,requiem" ]
+                "access_rules": [
+                  "spirit_keys:2,lift2,@is_adult",
+                  "spirit_keys:2,requiem"
+                ]
               },
               {
                 "name": "Near Four Armos",
