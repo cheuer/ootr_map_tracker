@@ -834,6 +834,7 @@
           {
             "name": "Hyrule Castle Garden",
             "color": "#c3b103",
+            "access_rules": [ "egg" ],
             "sections": [
               {
                 "name": "Zelda",
@@ -868,8 +869,8 @@
             "map_locations": [
               {
                 "map": "child",
-                "x": 1710,
-                "y": 644
+                "x": 1795,
+                "y": 695
               }
             ]
           },
@@ -930,6 +931,23 @@
                 "map": "child",
                 "x": 1526,
                 "y": 824
+              }
+            ]
+          },
+          {
+            "name": "Malon",
+            "color": "#c3b103",
+            "sections": [
+              {
+                "name": "Weird Egg",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "child",
+                "x": 1666,
+                "y": 700
               }
             ]
           },
