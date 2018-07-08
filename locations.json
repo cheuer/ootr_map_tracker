@@ -689,7 +689,7 @@
               {
                 "name": "First Mirror",
                 "item_count": 2,
-                "access_rules": [ "lift2,@is_adult,[spirit_keys:3],spirit_keys:1" ]
+                "access_rules": [ "lift2,@is_adult,spirit_keys:1" ]
               },
               {
                 "name": "Map",
@@ -722,12 +722,12 @@
               {
                 "name": "Statue Hand",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,@is_adult,zl" ]
+                "access_rules": [ "spirit_keys:1,lift2,@is_adult,zl" ]
               },
               {
                 "name": "NE Main Room",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,@is_adult,zl,hookshot" ]
+                "access_rules": [ "spirit_keys:1,lift2,@is_adult,zl,hookshot" ]
               },
               {
                 "name": "Silver Gauntlets",
@@ -742,37 +742,41 @@
               {
                 "name": "Near Four Armos",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult,mirrorshield" ]
+                "access_rules": [ "spirit_keys:2,lift2,@is_adult,mirrorshield" ]
               },
               {
                 "name": "Hallway Invisible Chests",
                 "item_count": 2,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult,[lens],[magic]" ]
+                "access_rules": [ "spirit_keys:2,lift2,@is_adult,[lens],[magic]" ]
               },
               {
                 "name": "Mirror Shield",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult" ]
+                "access_rules": [ "spirit_keys:2,lift2,@is_adult" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
                 "chest_unopened_img": "images/chest_bk_closed.png",
                 "chest_opened_img": "images/chest_bk_open.png",
-                "access_rules": [ "[spirit_keys:5],spirit_keys:3,zl,[bow],[hookshot],@is_adult,lift2,@can_blast" ]
+                "access_rules": [ "spirit_keys:3,zl,[bow],[hookshot],@is_adult,lift2,@can_blast" ]
               },
               {
                 "name": "Topmost",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:3,hookshot,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bow,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bombs,mirrorshield,lift2,@is_adult" ]
+                "access_rules": [
+                  "spirit_keys:3,hookshot,mirrorshield,lift2,@is_adult",
+                  "spirit_keys:4,bow,mirrorshield,lift2,@is_adult",
+                  "spirit_keys:4,bombs,mirrorshield,lift2,@is_adult"
+                ]
               },
               {
                 "name": "Twinrova",
                 "hosted_item": "spirit",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:3,mirrorshield,bombs,hookshot,lift2,@is_adult" ]
+                "access_rules": [ "spirit_keys:3,mirrorshield,bombs,hookshot,lift2,@is_adult" ]
               }
             ],
             "map_locations": [
