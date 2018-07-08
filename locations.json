@@ -1900,7 +1900,7 @@
               {
                 "name": "Red Poe",
                 "item_count": 1,
-                "access_rules": [ "forest_keys:3" ]
+                "access_rules": [ "forest_keys:3,bow" ]
               },
               {
                 "name": "Bow",
@@ -1910,7 +1910,7 @@
               {
                 "name": "Blue Poe",
                 "item_count": 1,
-                "access_rules": [ "forest_keys:3" ]
+                "access_rules": [ "forest_keys:3,bow" ]
               },
               {
                 "name": "Falling Room",
