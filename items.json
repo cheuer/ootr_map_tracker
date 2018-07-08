@@ -413,9 +413,16 @@
   //Magic
   {
     "name": "Magic",
-    "type": "toggle",
-    "img": "images/magic.png",
-    "codes": "magic"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/magic.png",
+        "codes": "magic"
+      },
+      {
+        "img": "images/magic2.png"
+      }
+    ]
   },
 
   //Scales
