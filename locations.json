@@ -263,7 +263,7 @@
           {
             "name": "Tektite Grotto",
             "color": "#0071c3",
-            "access_rules": [ "[bombs],hammer", "bombs" ],
+            "access_rules": [ "[bombs],hammer", "bombs", "hammer" ],
             "sections": [
               {
                 "name": "Underwater HP",
@@ -295,7 +295,7 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "longshot,bow,@is_adult" ]
+                "access_rules": [ "longshot,bow,@is_adult", "water,bow,@is_adult" ]
               },
               {
                 "name": "Lake Hylia Lab",
@@ -510,6 +510,13 @@
                     "access_rules": [ "gtg_keys:2", "timesong" ]
                   },
                   {
+                  	"name": "Freestanding Key",
+                  	"item_count": 1,
+                  	"access_rules": [ "gtg_keys:2", "timesong" ],
+                	"chest_unopened_img": "images/small_key.png",
+                	"chest_opened_img": "images/small_key_disabled.png"
+                  },
+                  {
                     "name": "Underwater Silver Rupee",
                     "item_count": 1,
                     "capture_item": true,
@@ -641,7 +648,7 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "bean" ],
+                "access_rules": [ "bean,requiem" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               }
@@ -667,7 +674,7 @@
                 "name": "Child Section",
                 "item_count": 2,
                 "clear_as_group": false,
-                "access_rules": [ "boomerang", "slingshot" ]
+                "access_rules": [ "boomerang,requiem", "slingshot,requiem" ]
               },
               {
                 "name": "Compass",
@@ -682,89 +689,94 @@
               {
                 "name": "First Mirror",
                 "item_count": 2,
-                "access_rules": [ "lift2,@is_adult,[spirit_keys:3],spirit_keys:1" ]
+                "access_rules": [ "lift2,@is_adult,spirit_keys:1" ]
               },
               {
                 "name": "Map",
                 "item_count": 1,
-                "access_rules": [ "requiem,magic,din", "firearrow,magic,bow,lift2,[spirit_keys:3],spirit_keys:1,@is_adult", "requiem,[spirit_keys:5],spirit_keys:1" ]
+                "access_rules": [
+                  "lift2,spirit_keys:1,@is_adult,@has_fire_source",
+                  "requiem,spirit_keys:1"
+                ]
               },
               {
                 "name": "Child Climb East/North",
                 "item_count": 2,
-                "clear_as_group": false,
                 "access_rules": [
-                  "spirit_keys:1,requiem,bombs",
-                  "lift2,@is_adult,bombs",
-                  "spirit_keys:1,requiem,boomerang,hookshot",
-                  "spirit_keys:1,requiem,boomerang,bow",
-                  "spirit_keys:1,requiem,slingshot,hookshot",
-                  "spirit_keys:1,requiem,slingshot,bow",
-                  "lift2,@is_adult,boomerang,hookshot",
-                  "lift2,@is_adult,boomerang,bow",
-                  "lift2,@is_adult,slingshot,hookshot",
-                  "lift2,@is_adult,slingshot,bow",
-                  "spirit_keys:3,lift2,@is_adult,hookshot",
-                  "spirit_keys:3,lift2,@is_adult,bow",
-                  "sprit_keys:5,requiem,boomerang,slingshot"
+                  "spirit_keys:1,requiem,[bombs],bombchu",
+                  "spirit_keys:1,requiem,boomerang",
+                  "spirit_keys:1,requiem,slingshot",
+                  "spirit_keys:1,@is_adult,lift2,[bombs],bombchu",
+                  "spirit_keys:1,@is_adult,lift2,hookshot",
+                  "spirit_keys:1,@is_adult,lift2,bow"
                 ]
               },
               {
                 "name": "Sun Block Room",
                 "item_count": 1,
-                "access_rules": [ "spirit_keys:5,bombs,requiem", "@has_fire_source,bombs", "@has_fire_source,spirit_keys:2" ]
+                "access_rules": [
+                  "spirit_keys:1,requiem,[bombs],bombchu",
+                  "spirit_keys:1,@is_adult,lift2,@has_fire_source"
+                ]
               },
               {
                 "name": "Statue Hand",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,@is_adult,zl" ]
+                "access_rules": [ "spirit_keys:1,lift2,@is_adult,zl" ]
               },
               {
                 "name": "NE Main Room",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:1,lift2,@is_adult,zl,hookshot" ]
+                "access_rules": [ "spirit_keys:1,lift2,@is_adult,zl,hookshot" ]
               },
               {
                 "name": "Silver Gauntlets",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "[spirit_keys:3],spirit_keys:2,longshot,lift2,@is_adult", "spirit_keys:5,requiem" ]
+                "access_rules": [
+                  "spirit_keys:2,lift2,@is_adult",
+                  "spirit_keys:2,requiem"
+                ]
               },
               {
                 "name": "Near Four Armos",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult,mirrorshield" ]
+                "access_rules": [ "spirit_keys:2,lift2,@is_adult,mirrorshield" ]
               },
               {
                 "name": "Hallway Invisible Chests",
                 "item_count": 2,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult,[lens],[magic]" ]
+                "access_rules": [ "spirit_keys:2,lift2,@is_adult,[lens],[magic]" ]
               },
               {
                 "name": "Mirror Shield",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "[spirit_keys:4],spirit_keys:2,lift2,@is_adult" ]
+                "access_rules": [ "spirit_keys:2,lift2,@is_adult" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
                 "chest_unopened_img": "images/chest_bk_closed.png",
                 "chest_opened_img": "images/chest_bk_open.png",
-                "access_rules": [ "[spirit_keys:5],spirit_keys:3,zl,[bow],[hookshot],@is_adult,lift2,@can_blast" ]
+                "access_rules": [ "spirit_keys:3,zl,[bow],[hookshot],@is_adult,lift2,@can_blast" ]
               },
               {
                 "name": "Topmost",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:3,hookshot,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bow,mirrorshield,lift2,@is_adult", "[spirit_keys:5],spirit_keys:4,bombs,mirrorshield,lift2,@is_adult" ]
+                "access_rules": [
+                  "spirit_keys:3,hookshot,mirrorshield,lift2,@is_adult",
+                  "spirit_keys:4,bow,mirrorshield,lift2,@is_adult",
+                  "spirit_keys:4,bombs,mirrorshield,lift2,@is_adult"
+                ]
               },
               {
                 "name": "Twinrova",
                 "hosted_item": "spirit",
                 "item_count": 1,
-                "access_rules": [ "[spirit_keys:5],spirit_keys:3,mirrorshield,bombs,hookshot,lift2,@is_adult" ]
+                "access_rules": [ "spirit_keys:3,mirrorshield,bombs,hookshot,lift2,@is_adult" ]
               }
             ],
             "map_locations": [
@@ -829,6 +841,7 @@
           {
             "name": "Hyrule Castle Garden",
             "color": "#c3b103",
+            "access_rules": [ "egg" ],
             "sections": [
               {
                 "name": "Zelda",
@@ -863,8 +876,8 @@
             "map_locations": [
               {
                 "map": "child",
-                "x": 1710,
-                "y": 644
+                "x": 1795,
+                "y": 695
               }
             ]
           },
@@ -915,7 +928,9 @@
               },
               {
                 "name": "Save Richard",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/Doggo.png",
+                "chest_opened_img": "images/Doggo_disabled.png"
               }
             ],
             "map_locations": [
@@ -923,6 +938,23 @@
                 "map": "child",
                 "x": 1526,
                 "y": 824
+              }
+            ]
+          },
+          {
+            "name": "Malon",
+            "color": "#c3b103",
+            "sections": [
+              {
+                "name": "Weird Egg",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "child",
+                "x": 1666,
+                "y": 700
               }
             ]
           },
@@ -1090,7 +1122,7 @@
                 "name": "Dampé HP",
                 "item_count": 1,
                 "chest_unopened_img": "images/dampe.png",
-                "chest_opened_img": "images/heartpiece_empty.png"
+                "chest_opened_img": "images/dampe_disabled.png"
               },
               {
                 "name": "Dampé Race",
@@ -1177,7 +1209,9 @@
               },
               {
                 "name": "Sarcophagus Key",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/small_key.png",
+                "chest_opened_img": "images/small_key_disabled.png"
               },
               {
                 "name": "Basement",
@@ -1248,12 +1282,12 @@
               {
                 "name": "Falling Spikes Upper",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots,lift1" ]
+                "access_rules": [ "shadow_keys:1,hoverboots,[lift1]" ]
               },
               {
                 "name": "Falling Spikes Switch",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots,lift1" ]
+                "access_rules": [ "shadow_keys:1,hoverboots,[lift1]" ]
               },
               {
                 "name": "Invisible Spikes",
@@ -1263,7 +1297,9 @@
               {
                 "name": "Skull Key",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:2,hookshot" ]
+                "access_rules": [ "shadow_keys:2,hookshot" ],
+                "chest_unopened_img": "images/small_key.png",
+                "chest_opened_img": "images/small_key_disabled.png"
               },
               {
                 "name": "Wind Hint",
@@ -1283,21 +1319,21 @@
               {
                 "name": "Spike Walls Left",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:3,lift1,zl" ]
+                "access_rules": [ "shadow_keys:3,zl" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
                 "chest_unopened_img": "images/chest_bk_closed.png",
                 "chest_opened_img": "images/chest_bk_open.png",
-                "access_rules": [ "shadow_keys:3,lift1,zl" ]
+                "access_rules": [ "shadow_keys:3,zl" ]
               },
               {
                 "name": "Hidden Floormaster",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "shadow_keys:3,lift1,zl" ]
+                "access_rules": [ "shadow_keys:3,zl" ]
               },
               {
                 "name": "Bongo Bongo",
@@ -1413,7 +1449,7 @@
               {
                 "name": "Link the Goron",
                 "item_count": 1,
-                "access_rules": [ "@is_adult,lift1", "@is_adult,bombs" ]
+                "access_rules": [ "@is_adult,lift1", "@is_adult,bombs", "@is_adult,bow,[lift1]", "@is_adult,bow,[bombs]" ]
               }
             ],
             "map_locations": [
@@ -1511,7 +1547,7 @@
           {
             "name": "Death Mountain Crater",
             "color": "#c30017",
-            "access_rules": [ "@can_blast", "bolero", "lift1" ],
+            "access_rules": [ "@can_blast", "bolero", "@is_adult,[lift1]" ],
             "sections": [
               {
                 "name": "Sheik in Crater",
@@ -1586,14 +1622,14 @@
                 "item_count": 1,
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png",
-				"access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
+                "access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
               },
               {
                 "name": "Upper HP",
                 "item_count": 1,
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png",
-				"access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
+                "access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult,hoverboots" ]
               }
             ],
             "map_locations": [
@@ -1632,49 +1668,9 @@
             ]
           },
           {
-            "name": "Ice Cavern",
-            "color": "#0071c3",
-            "access_rules": [ "rutoletter,@is_adult,zl" ],
-            "sections": [
-              {
-                "name": "Map",
-                "item_count": 1
-              },
-              {
-                "name": "Compass",
-                "item_count": 1
-              },
-              {
-                "name": "HP",
-                "item_count": 1,
-                "chest_unopened_img": "images/heartpiece.png",
-                "chest_opened_img": "images/heartpiece_empty.png"
-              },
-              {
-                "name": "Iron Boots",
-                "item_count": 1
-              },
-              {
-                "name": "Sheik in Ice Cavern",
-                "capture_item": true,
-                "always_allow_chest_manipulation": true,
-                "item_count": 1,
-                "chest_unopened_img": "images/gnote.png",
-                "chest_opened_img": "images/gnote_disabled.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "adult",
-                "x": 2628,
-                "y": 1011
-              }
-            ]
-          },
-          {
             "name": "Adult Zora's Domain",
             "color": "#0071c3",
-            "access_rules": [ "zl" ],
+            "access_rules": [ "zl", "hoverboots,[zl]" ],
             "sections": [
               {
                 "name": "King Zora Thawed",
@@ -1705,14 +1701,14 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "zl,ironboots" ],
+                "access_rules": [ "@Adult Zora's Domain,ironboots" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               },
               {
                 "name": "Ice Platform HP",
                 "item_count": 1,
-				"access_rules": [ "zl" ],
+                "access_rules": [ "@Adult Zora's Domain" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               }
@@ -1762,6 +1758,46 @@
                 "map": "child",
                 "x": 2596,
                 "y": 1073
+              }
+            ]
+          },
+          {
+            "name": "Ice Cavern",
+            "color": "#0071c3",
+            "access_rules": [ "@Zora's Fountain,@Adult Zora's Domain" ],
+            "sections": [
+              {
+                "name": "Map",
+                "item_count": 1
+              },
+              {
+                "name": "Compass",
+                "item_count": 1
+              },
+              {
+                "name": "HP",
+                "item_count": 1,
+                "chest_unopened_img": "images/heartpiece.png",
+                "chest_opened_img": "images/heartpiece_empty.png"
+              },
+              {
+                "name": "Iron Boots",
+                "item_count": 1
+              },
+              {
+                "name": "Sheik in Ice Cavern",
+                "capture_item": true,
+                "always_allow_chest_manipulation": true,
+                "item_count": 1,
+                "chest_unopened_img": "images/gnote.png",
+                "chest_opened_img": "images/gnote_disabled.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "adult",
+                "x": 2628,
+                "y": 1011
               }
             ]
           },
@@ -1871,7 +1907,7 @@
               {
                 "name": "Red Poe",
                 "item_count": 1,
-                "access_rules": [ "forest_keys:3" ]
+                "access_rules": [ "forest_keys:3,bow" ]
               },
               {
                 "name": "Bow",
@@ -1881,7 +1917,7 @@
               {
                 "name": "Blue Poe",
                 "item_count": 1,
-                "access_rules": [ "forest_keys:3" ]
+                "access_rules": [ "forest_keys:3,bow" ]
               },
               {
                 "name": "Falling Room",
@@ -1911,7 +1947,12 @@
           {
             "name": "Fire Temple",
             "color": "#c30017",
-            "access_rules": [ "@is_adult,[@has_goron_tunic]" ],
+            "access_rules": [
+            	"@is_adult,[@has_goron_tunic],bolero",
+            	"@is_adult,[@has_goron_tunic],@Goron City/Link the Goron,hookshot",
+            	"@is_adult,[@has_goron_tunic],@Goron City/Link the Goron,hoverboots",
+            	"@is_adult,[@has_goron_tunic],@can_blast,hoverboots"
+            ],
             "sections": [
               {
                 "name": "Keys",
