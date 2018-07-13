@@ -1449,7 +1449,7 @@
               {
                 "name": "Link the Goron",
                 "item_count": 1,
-                "access_rules": [ "@is_adult,lift1", "@is_adult,bombs", "@is_adult,bow,[lift1]", "@is_adult,bow,[bombs]" ]
+                "access_rules": [ "@is_adult,lift1", "@is_adult,bombs", "@is_adult,bow,[lift1]", "@is_adult,bombchu,[bombs]" ]
               }
             ],
             "map_locations": [
