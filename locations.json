@@ -1593,9 +1593,14 @@
             ]
           },
           {
+            "name": "Zora's River Child Access",
+            "access_rules": [ "bombs", "[bombs],bombchu", "silverscale" ],
+            "sections": [ { "name": "access", "item_count": 1 }]
+          },
+          {
             "name": "Zora's River",
             "color": "#0071c3",
-            "access_rules": [ "bombs", "[bombs],bombchu", "silverscale", "@is_adult" ],
+            "access_rules": [ "@Zora's River Child Access", "@is_adult" ],
             "sections": [
               {
                 "name": "Magic Bean Salesman",
@@ -1648,7 +1653,7 @@
           {
             "name": "Zora's Domain",
             "color": "#0071c3",
-            "access_rules": [ "@Zora's River,[zl]", "@Zora's River,silverscale" ],
+            "access_rules": [ "@Zora's River Child Access,[zl]", "@Zora's River Child Access,silverscale" ],
             "sections": [
               {
                 "name": "Diving Minigame",
@@ -1675,7 +1680,7 @@
               {
                 "name": "King Zora Thawed",
                 "item_count": 1,
-                "access_rules": [ "rutoletter", "wallet2,bottle" ]
+                "access_rules": [ "@Zora's Domain,rutoletter", "wallet2,bottle" ]
               }
             ],
             "map_locations": [
