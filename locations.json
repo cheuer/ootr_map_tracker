@@ -1008,7 +1008,7 @@
               {
                 "name": "Windmill HP",
                 "item_count": 1,
-                "access_rules": [ "timesong","boomerang" ],
+                "access_rules": [ "[timesong],@is_adult", "boomerang" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               },
