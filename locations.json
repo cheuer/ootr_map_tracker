@@ -1505,30 +1505,52 @@
               },
               {
                 "name": "Bomb Flower Platform",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                  "bombs",
+                  "[bombs],bombchu",
+                  "[bombs],bow",
+                  "lift1",
+                  "din,magic"
+                ]
               },
               {
                 "name": "Bomb Bag",
                 "item_count": 1,
-                "access_rules": [ "slingshot", "@is_adult,bow", "@is_adult,[hoverboots]" ]
+                "access_rules": [
+                  "@Dodongo's Cavern/Bomb Flower Platform,slingshot",
+                  "@Dodongo's Cavern/Bomb Flower Platform,@is_adult,bow",
+                  "@Dodongo's Cavern/Bomb Flower Platform,@is_adult,[hoverboots]"
+                ]
               },
               {
                 "name": "End of Bridge",
                 "item_count": 1,
-                "access_rules": [ "bombs", "[bombs],bombchu", "@is_adult,hammer,bow", "@is_adult,hammer,hoverboots" ]
+                "access_rules": [
+                  "@Dodongo's Cavern/Bomb Flower Platform,bombs",
+                  "@Dodongo's Cavern/Bomb Flower Platform,[bombs],bombchu",
+                  "@Dodongo's Cavern/Bomb Flower Platform,@is_adult,hammer,bow",
+                  "@Dodongo's Cavern/Bomb Flower Platform,@is_adult,hammer,hoverboots"
+                ]
               },
               {
                 "name": "Above King Dodongo",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "@Dodongo's Cavern/End of Bridge,[bombs]" ]
+                "access_rules": [
+                  "@Dodongo's Cavern/End of Bridge,bombs",
+                  "@Dodongo's Cavern/End of Bridge,[bombs],bombchu"
+                ]
               },
               {
                 "name": "King Dodongo",
                 "hosted_item": "dc",
                 "item_count": 1,
-                "access_rules": [ "@Dodongo's Cavern/End of Bridge,[bombs]" ]
+                "access_rules": [
+                  "@Dodongo's Cavern/End of Bridge,bombs",
+                  "@Dodongo's Cavern/End of Bridge,[bombs],bombchu"
+                ]
               }
             ],
             "map_locations": [
