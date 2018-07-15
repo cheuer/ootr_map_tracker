@@ -1269,89 +1269,89 @@
               {
                 "name": "Compass",
                 "item_count": 1,
-                "access_rules": [ "hoverboots" ]
+                "access_rules": [ "[hoverboots]" ]
               },
               {
                 "name": "Early Silver Rupee",
                 "item_count": 1,
-                "access_rules": [ "hoverboots" ]
+                "access_rules": [ "[hoverboots]" ]
               },
               {
                 "name": "Invisible Blades Visible",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots" ]
+                "access_rules": [ "shadow_keys:1,[hoverboots]" ]
               },
               {
                 "name": "Invisible Blades Invisible",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots" ]
+                "access_rules": [ "shadow_keys:1,[hoverboots]" ]
               },
               {
                 "name": "Falling Spikes Lower",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots" ]
+                "access_rules": [ "shadow_keys:1,[hoverboots]" ]
               },
               {
                 "name": "Falling Spikes Upper",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots,[lift1]" ]
+                "access_rules": [ "shadow_keys:1,[hoverboots],[lift1]" ]
               },
               {
                 "name": "Falling Spikes Switch",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:1,hoverboots,[lift1]" ]
+                "access_rules": [ "shadow_keys:1,[hoverboots],[lift1]" ]
               },
               {
                 "name": "Invisible Spikes",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:2,hoverboots" ]
+                "access_rules": [ "shadow_keys:2,[hoverboots]" ]
               },
               {
                 "name": "Skull Key",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:2,hookshot" ],
+                "access_rules": [ "shadow_keys:2,hookshot,[hoverboots]" ],
                 "chest_unopened_img": "images/small_key.png",
                 "chest_opened_img": "images/small_key_disabled.png"
               },
               {
                 "name": "Wind Hint",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:2,hookshot" ]
+                "access_rules": [ "shadow_keys:2,hookshot,[hoverboots]" ]
               },
               {
                 "name": "After Wind Enemy",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:2,hookshot" ]
+                "access_rules": [ "shadow_keys:2,hookshot,[hoverboots]" ]
               },
               {
                 "name": "After Wind Hidden",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:2,hookshot" ]
+                "access_rules": [ "shadow_keys:2,hookshot,[hoverboots]" ]
               },
               {
                 "name": "Spike Walls Left",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:3,zl" ]
+                "access_rules": [ "shadow_keys:3,zl,[hoverboots]" ]
               },
               {
                 "name": "Boss Key",
                 "item_count": 1,
                 "chest_unopened_img": "images/chest_bk_closed.png",
                 "chest_opened_img": "images/chest_bk_open.png",
-                "access_rules": [ "shadow_keys:3,zl" ]
+                "access_rules": [ "shadow_keys:3,zl,[hoverboots]" ]
               },
               {
                 "name": "Hidden Floormaster",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "shadow_keys:3,zl" ]
+                "access_rules": [ "shadow_keys:3,zl,[hoverboots]" ]
               },
               {
                 "name": "Bongo Bongo",
                 "hosted_item": "shadow",
                 "item_count": 1,
-                "access_rules": [ "[shadow_keys:5],shadow_keys:4,zl,bow", "[shadow_keys:5],shadow_keys:4,zl,longshot" ]
+                "access_rules": [ "[shadow_keys:5],shadow_keys:4,zl,bow,[hoverboots]", "[shadow_keys:5],shadow_keys:4,zl,longshot,[hoverboots]" ]
               }
             ],
             "map_locations": [
