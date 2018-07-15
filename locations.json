@@ -1140,7 +1140,7 @@
               {
                 "name": "Crate HP",
                 "item_count": 1,
-                "access_rules": [ "bean","[hookshot],[boomerang]" ],
+                "access_rules": [ "bean", "[bean],hookshot", "[bean],boomerang" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               }
