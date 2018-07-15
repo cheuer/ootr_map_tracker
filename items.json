@@ -1053,11 +1053,23 @@
     "codes": "forest_keys"
   },
   {
+    "name": "Forest Temple Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "forest_bosskey"
+  },
+  {
     "name": "Fire Temple Keys",
     "type": "consumable",
     "max_quantity": 8,
     "img": "images/small_key.png",
     "codes": "fire_keys"
+  },
+  {
+    "name": "Fire Temple Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "fire_bosskey"
   },
   {
     "name": "Water Temple Keys",
@@ -1067,11 +1079,37 @@
     "codes": "water_keys"
   },
   {
+    "name": "Water Temple Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "water_bosskey"
+  },
+  {
+    "name": "Bottom of the Well Keys",
+    "type": "consumable",
+    "max_quantity": 3,
+    "img": "images/small_key.png",
+    "codes": "botw_keys"
+  },
+  {
     "name": "Shadow Temple Keys",
     "type": "consumable",
-    "max_quantity": 6,
+    "max_quantity": 5,
     "img": "images/small_key.png",
     "codes": "shadow_keys"
+  },
+  {
+    "name": "Shadow Temple Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "shadow_bosskey"
+  },
+  {
+    "name": "Gerudo Training Grounds Keys",
+    "type": "consumable",
+    "max_quantity": 2,
+    "img": "images/small_key.png",
+    "codes": "gtg_keys"
   },
   {
     "name": "Spirit Temple Keys",
@@ -1079,6 +1117,25 @@
     "max_quantity": 5,
     "img": "images/small_key.png",
     "codes": "spirit_keys"
+  },
+  {
+    "name": "Spirit Temple Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "spirit_bosskey"
+  },
+  {
+    "name": "Ganon's Castle Keys",
+    "type": "consumable",
+    "max_quantity": 2,
+    "img": "images/small_key.png",
+    "codes": "gc_keys"
+  },
+  {
+    "name": "Ganon's Castle Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "gc_bosskey"
   },
   {
     "name": "Small Key",

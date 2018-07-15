@@ -7,6 +7,213 @@
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_open.png",
   "layouts": {
+    "medallions_with_keys": {
+      "type": "canvas",
+      "width": 134,
+      "height": 196,
+      "content": [
+        {
+          "type": "item",
+          "item": "free",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 50,
+          "canvas_top": 0
+        },
+        {
+          "type": "item",
+          "item": "forest",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 82,
+          "canvas_top": 20
+        },
+        {
+          "type": "item",
+          "item": "forest_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 118,
+          "canvas_top": 20
+        },
+        {
+          "type": "item",
+          "item": "forest_bosskey",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 118,
+          "canvas_top": 36
+        },
+        {
+          "type": "item",
+          "item": "fire",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 82,
+          "canvas_top": 56
+        },
+        {
+          "type": "item",
+          "item": "fire_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 118,
+          "canvas_top": 56
+        },
+        {
+          "type": "item",
+          "item": "fire_bosskey",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 118,
+          "canvas_top": 72
+        },
+        {
+          "type": "item",
+          "item": "water",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 50,
+          "canvas_top": 78
+        },
+        {
+          "type": "item",
+          "item": "water_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 50,
+          "canvas_top": 112
+        },
+        {
+          "type": "item",
+          "item": "water_bosskey",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 66,
+          "canvas_top": 112
+        },
+        {
+          "type": "item",
+          "item": "spirit",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 18,
+          "canvas_top": 56
+        },
+        {
+          "type": "item",
+          "item": "spirit_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 0,
+          "canvas_top": 56
+        },
+        {
+          "type": "item",
+          "item": "spirit_bosskey",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 0,
+          "canvas_top": 72
+        },
+        {
+          "type": "item",
+          "item": "shadow",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 18,
+          "canvas_top": 20
+        },
+        {
+          "type": "item",
+          "item": "shadow_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 0,
+          "canvas_top": 20
+        },
+        {
+          "type": "item",
+          "item": "shadow_bosskey",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 0,
+          "canvas_top": 36
+        },
+        {
+          "type": "item",
+          "item": "dekutree",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 14,
+          "canvas_top": 132
+        },
+        {
+          "type": "item",
+          "item": "dc",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 50,
+          "canvas_top": 132
+        },
+        {
+          "type": "item",
+          "item": "jabujabu",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 86,
+          "canvas_top": 132
+        },
+        {
+          "type": "image",
+          "image": "images/botw.png",
+          "width": 16,
+          "height": 24,
+          "canvas_left": 2,
+          "canvas_top": 168
+        },
+        {
+          "type": "item",
+          "item": "botw_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 20,
+          "canvas_top": 172
+        },
+        {
+          "type": "image",
+          "image": "images/gtg.png",
+          "width": 16,
+          "height": 24,
+          "canvas_left": 54,
+          "canvas_top": 168
+        },
+        {
+          "type": "item",
+          "item": "gtg_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 72,
+          "canvas_top": 172
+        },
+        {
+          "type": "image",
+          "image": "images/gc.png",
+          "width": 16,
+          "height": 24,
+          "canvas_left": 100,
+          "canvas_top": 168
+        },
+        {
+          "type": "item",
+          "item": "gc_keys",
+          "width": 16,
+          "height": 16,
+          "canvas_left": 118,
+          "canvas_top": 172
+        },
+      ]
+    },
     "shared_item_grid": {
       "type": "array",
       "orientation": "vertical",
@@ -16,10 +223,10 @@
           "h_alignment": "center",
           "item_margin": "0,0,2,10",
           "rows": [
-            [ "sticks", "nuts", "bombs", "bow", "firearrow", "din" ],
-            [ "slingshot", "ocarina", "bombchu", "hookshot", "icearrow", "farore" ],
-            [ "boomerang", "lens", "bean", "hammer", "lightarrow", "nayru" ],
-            [ "bottle", "rutoletter", "soa", "adultwallet", "pocketegg", "egg" ]
+            [ "sticks", "nuts", "bombs", "bow", "firearrow", "din", "" ],
+            [ "slingshot", "ocarina", "bombchu", "hookshot", "icearrow", "farore", "" ],
+            [ "boomerang", "lens", "bean", "hammer", "lightarrow", "nayru", "" ],
+            [ "bottle", "rutoletter", "soa", "adultwallet", "pocketegg", "egg", "gs" ]
           ]
         },
         {
@@ -45,23 +252,9 @@
               "orientation": "vertical",
               "content": [
                 {
-                  "type": "itemgrid",
-                  "h_alignment": "center",
-                  "item_margin": "5,0,2,0",
-                  "rows": [
-                    [ "gs", "", "free", "" ],
-                    [ "", "shadow", "", "forest" ],
-                    [ "", "spirit", "", "fire" ],
-                    [ "", "", "water", "" ]
-                  ]
-                },
-                {
-                  "type": "itemgrid",
-                  "h_alignment": "center",
-                  "item_margin": "5,0,2,0",
-                  "rows": [
-                    [ "", "dekutree", "dc", "jabujabu" ]
-                  ]
+                  "type": "layout",
+                  "margin": 0,
+                  "key": "medallions_with_keys"
                 },
                 {
                   "type": "itemgrid",
@@ -69,8 +262,8 @@
                   "item_height": 24,
                   "item_margin": "-5,2",
                   "rows": [
-                    [ "", "zl", "eponasong", "sariasong", "sunsong", "timesong", "stormsong" ],
-                    [ "", "minuet", "bolero", "serenade", "requiem", "nocturne", "prelude" ]
+                    [ "zl", "eponasong", "sariasong", "sunsong", "timesong", "stormsong" ],
+                    [ "minuet", "bolero", "serenade", "requiem", "nocturne", "prelude" ]
                   ]
                 }
               ]

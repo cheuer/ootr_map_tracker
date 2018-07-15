@@ -347,6 +347,10 @@
                 "hosted_item": "water_keys"
               },
               {
+                "name": "Boss Key",
+                "hosted_item": "water_bosskey"
+              },
+              {
                 "name": "Map",
                 "item_count": 1
               },
@@ -669,6 +673,10 @@
               {
                 "name": "Keys",
                 "hosted_item": "spirit_keys"
+              },
+              {
+                "name": "Boss Key",
+                "hosted_item": "spirit_bosskey"
               },
               {
                 "name": "Child Section",
@@ -1245,6 +1253,10 @@
               {
                 "name": "Keys",
                 "hosted_item": "shadow_keys"
+              },
+              {
+                "name": "Boss Key",
+                "hosted_item": "shadow_bosskey"
               },
               {
                 "name": "Map",
@@ -1890,6 +1902,10 @@
                 "hosted_item": "forest_keys"
               },
               {
+                "name": "Boss Key",
+                "hosted_item": "forest_bosskey"
+              },
+              {
                 "name": "First",
                 "item_count": 1
               },
@@ -1984,6 +2000,10 @@
               {
                 "name": "Keys",
                 "hosted_item": "fire_keys"
+              },
+              {
+                "name": "Boss Key",
+                "hosted_item": "fire_bosskey"
               },
               {
                 "name": "Near Boss",
