@@ -1581,7 +1581,7 @@
           {
             "name": "Death Mountain Crater",
             "color": "#c30017",
-            "access_rules": [ "@can_blast", "bolero", "@is_adult,[lift1]" ],
+            "access_rules": [ "@can_blast", "bolero", "@is_adult" ],
             "sections": [
               {
                 "name": "Sheik in Crater",
@@ -1613,7 +1613,7 @@
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "@is_adult,bean,bolero" ],
+                "access_rules": [ "@is_adult,bean,bolero", "@is_adult,[bean],[bolero],hoverboots" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               }
