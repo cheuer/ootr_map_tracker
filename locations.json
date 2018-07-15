@@ -991,7 +991,6 @@
               {
                 "name": "Impa's Cow HP",
                 "item_count": 1,
-                "access_rules": [ "[@is_adult],[longshot]", "bombs" ],
                 "chest_unopened_img": "images/heartpiece.png",
                 "chest_opened_img": "images/heartpiece_empty.png"
               },
