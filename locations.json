@@ -1330,7 +1330,7 @@
                 "name": "Bongo Bongo",
                 "hosted_item": "shadow",
                 "item_count": 1,
-                "access_rules": [ "[shadow_keys:5],shadow_keys:4,zl,bow,[hoverboots]", "[shadow_keys:5],shadow_keys:4,zl,longshot,[hoverboots]" ]
+                "access_rules": [ "shadow_keys:5,zl,bow,[hoverboots]", "shadow_keys:5,zl,longshot,[hoverboots]" ]
               }
             ],
             "map_locations": [
