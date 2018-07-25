@@ -320,7 +320,7 @@
           {
             "name": "Water Temple",
             "color": "#0071c3",
-            "access_rules": [ "$is_adult,ironboots,hookshot,[$has_zora_tunic]" ],
+            "access_rules": [ "$is_adult,ironboots,hookshot" ],
             "sections": [
               {
                 "name": "Keys",
@@ -364,7 +364,8 @@
               },
               {
                 "name": "Central Pillar",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [ "[$has_zora_tunic]" ]
               },
               {
                 "name": "Cracked Wall",
