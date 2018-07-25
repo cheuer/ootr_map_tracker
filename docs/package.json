@@ -1,0 +1,14 @@
+---
+---
+{
+  "name": "Trackers by Spleebie & Darkened5ky",
+  "packages": [
+    {
+      "name": "OoTR Map Tracker",
+      "author": "Darkened5ky, Spleebie",
+      "version": "{{ site.github.latest_release.tag_name | remove: 'v' }}",
+      "uid": "ootr_map_tracker_spleebie_darkened5ky",
+      "link": "{{ site.github.latest_release.assets[0].browser_download_url }}"
+    }
+  ]
+}
