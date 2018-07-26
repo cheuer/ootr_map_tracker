@@ -346,7 +346,7 @@
               {
                 "name": "Dragon",
                 "item_count": 1,
-                "access_rules": [ "lift1,zl", "[water_keys:6],water_keys:2,zl,timesong,bow" ]
+                "access_rules": [ "lift1,zl", "[water_keys:6],water_keys:2,[zl],timesong,bow" ]
               },
               {
                 "name": "Central Bow Target",
