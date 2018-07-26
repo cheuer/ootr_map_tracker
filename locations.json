@@ -388,7 +388,7 @@
                 "name": "Morpha",
                 "hosted_item": "water",
                 "item_count": 1,
-                "access_rules": [ "longshot","[longshot],hookshot,hammer,hoverboots" ]
+                "access_rules": [ "longshot,water_bosskey","[longshot],hookshot,hammer,hoverboots,water_bosskey" ]
               }
             ],
             "map_locations": [
@@ -765,7 +765,7 @@
                 "name": "Twinrova",
                 "hosted_item": "spirit",
                 "item_count": 1,
-                "access_rules": [ "spirit_keys:3,mirrorshield,bombs,hookshot,lift2,$is_adult" ]
+                "access_rules": [ "spirit_bosskey,spirit_keys:3,mirrorshield,bombs,hookshot,lift2,$is_adult" ]
               }
             ],
             "map_locations": [
@@ -1331,7 +1331,7 @@
                 "name": "Bongo Bongo",
                 "hosted_item": "shadow",
                 "item_count": 1,
-                "access_rules": [ "shadow_keys:5,zl,bow,[hoverboots]", "shadow_keys:5,zl,longshot,[hoverboots]" ]
+                "access_rules": [ "shadow_keys:5,zl,bow,shadow_bosskey,[hoverboots]", "shadow_keys:5,zl,longshot,shadow_bosskey,[hoverboots]" ]
               }
             ],
             "map_locations": [
@@ -1956,7 +1956,7 @@
                 "name": "Phantom Ganon",
                 "hosted_item": "forest",
                 "item_count": 1,
-                "access_rules": [ "bow,lift1,forest_keys:3" ]
+                "access_rules": [ "bow,lift1,forest_keys:3,forest_bosskey" ]
               }
             ],
             "map_locations": [
@@ -2101,11 +2101,11 @@
                 "hosted_item": "fire",
                 "item_count": 1,
                 "access_rules": [
-                  "hammer,hoverboots,[$has_goron_tunic]",
-                  "hammer,fire_keys:7,timesong,[$has_goron_tunic]",
-                  "hammer,fire_keys:7,@can_blast,[$has_goron_tunic]",
-                  "hammer,fire_keys:6,hoverboots,timesong,[$has_goron_tunic]",
-                  "hammer,fire_keys:6,hoverboots,@can_blast,[$has_goron_tunic]"
+                  "hammer,hoverboots,fire_bosskey,[$has_goron_tunic]",
+                  "hammer,fire_keys:7,timesong,fire_bosskey,[$has_goron_tunic]",
+                  "hammer,fire_keys:7,@can_blast,fire_bosskey,[$has_goron_tunic]",
+                  "hammer,fire_keys:6,hoverboots,fire_bosskey,timesong,[$has_goron_tunic]",
+                  "hammer,fire_keys:6,hoverboots,fire_bosskey,@can_blast,[$has_goron_tunic]"
                 ]
               }
             ],
