@@ -365,24 +365,24 @@
               {
                 "name": "Central Pillar",
                 "item_count": 1,
-                "access_rules": [ "[$has_zora_tunic]" ]
+                "access_rules": [ "[$has_zora_tunic],zl" ]
               },
               {
                 "name": "Cracked Wall",
                 "item_count": 1,
-                "access_rules": [ "bombs", "[bombs],bombchu" ]
+                "access_rules": [ "bombs,zl", "[bombs],bombchu,zl" ]
               },
               {
                 "name": "Dark Link",
                 "item_count": 1,
-                "access_rules": [ "[water_keys:6],water_keys:2,zl" ]
+                "access_rules": [ "[water_keys:6],water_keys:2,[zl]" ]
               },
               {
                 "name": "River",
                 "item_count": 1,
                 "capture_item": true,
                 "always_allow_chest_manipulation": true,
-                "access_rules": [ "[water_keys:6],water_keys:2,timesong,bow,zl" ]
+                "access_rules": [ "[water_keys:6],water_keys:2,timesong,bow,[zl]" ]
               },
               {
                 "name": "Morpha",
