@@ -9,7 +9,8 @@
       "author": "Darkened5ky, Spleebie",
       "version": "{{ site.github.latest_release.tag_name | remove: 'v' }}",
       "uid": "ootr_map_tracker_spleebie_darkened5ky",
-      "link": "{{ site.github.latest_release.assets[0].browser_download_url }}"
+      "link": "{{ site.github.latest_release.assets[0].browser_download_url }}",
+      "flags": [ "map", "pins", "chathud" ]
     },
     {
       "name": "Wind Waker Item and Map Tracker",
@@ -17,7 +18,8 @@
       "author": "Darkened5ky, Spleebie",
       "version": "1.1.0.2",
       "uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
-      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/1.1.0.2/Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip"
+      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/1.1.0.2/Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip",
+      "flags": [ "map", "pins", "chathud" ]
     }
   ]
 }
