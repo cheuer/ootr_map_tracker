@@ -293,8 +293,7 @@
                 "name": "Child Fishing",
                 "item_count": 1,
                 "capture_item": true,
-                "always_allow_chest_manipulation": true,
-                "access_rules": [ "kokirisword" ]
+                "always_allow_chest_manipulation": true
               },
               {
                 "name": "Adult Fishing",
@@ -901,12 +900,12 @@
               {
                 "name": "Bombchu Bowling Bomb Bag",
                 "item_count": 1,
-                "access_rules": [ "bombs" ]
+                "access_rules": [ "bombchu" ]
               },
               {
                 "name": "Bombchu Bowling Piece of Heart",
                 "item_count": 1,
-                "access_rules": [ "bombs" ]
+                "access_rules": [ "bombchu" ]
               },
               {
                 "name": "Treasure Chest Game",
@@ -1003,7 +1002,7 @@
               {
                 "name": "Shooting Gallery",
                 "item_count": 1,
-                "access_rules": [ "bow,$is_adult" ]
+                "access_rules": [ "$is_adult" ]
               },
               {
                 "name": "Redead Grotto",
