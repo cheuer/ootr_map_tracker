@@ -16,9 +16,9 @@
       "name": "Wind Waker Item and Map Tracker",
       "game_name": "Wind Waker Randomizer",
       "author": "Darkened5ky, Spleebie",
-      "version": "1.1.0.2",
+      "version": "2.0.0.0",
       "uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
-      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/1.1.0.2/Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip",
+      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.0.0/Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip",
       "flags": [ "map", "pins", "chathud" ]
     }
   ]
