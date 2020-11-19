@@ -15,10 +15,26 @@
     {
       "name": "Wind Waker Item and Map Tracker",
       "game_name": "Wind Waker Randomizer",
+      "game_variant": "yes",
       "author": "Darkened5ky, Spleebie",
-      "version": "2.0.1.0",
+      "package_version": "2.0.1.2",
+      "required_app_version": "2.3.8.8",
       "uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
-      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.1.0/Wind-Waker-Item-and-Map-Tracker.zip",
+      "variants": {
+        "current":  {
+          "display_name": "Map / Item Tracker"
+        },
+        "simple": {
+          "display_name": "Simplified Horizontal Tracker"
+        },
+        "vertical": {
+          "display_name": "Simplified Vertical Tracker"
+        },
+        "old": {
+          "display_name": "Old Tracker"
+        }
+      },
+      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.1.2/Wind-Waker-Item-and-Map-Tracker.zip",
       "flags": [ "map", "pins", "chathud" ]
     }
   ]
