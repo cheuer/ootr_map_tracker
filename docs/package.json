@@ -36,6 +36,26 @@
       ],
       "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.1.2/Wind-Waker-Item-and-Map-Tracker.zip",
       "flags": [ "map", "pins", "chathud" ]
+    },
+    {
+      "name": "ALTTPR Glitched Modes",
+      "author": "deserteagle417, Spleebie",
+      "version": "2.0.2",
+      "uid": "alttpr_glitches_deserteagle417",
+      "game_name": "A Link to the Past Randomizer",
+      "flags": [ "map", "pins", "chathud", "autotracker" ],
+      "required_app_version": "2.3.6.5",
+      "link": "https://github.com/cheuer/alttpr_glitches_deserteagle417/releases/download/v2.0.2/alttpr_glitches_deserteagle417.zip",
+      "variants": [
+        {
+          "name": "Standard Map Tracker",
+          "flags": [ "map", "pins", "chathud", "autotracker" ]
+        },
+        {
+          "name": "Keysanity Map Tracker",
+          "flags": [ "map", "pins", "chathud", "autotracker" ]
+        }
+      ]
     }
   ]
 }
