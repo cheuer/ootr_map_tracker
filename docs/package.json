@@ -4,7 +4,7 @@
   "name": "Trackers by Spleebie & Darkened5ky",
   "packages": [
     {
-      "name": "OoTR Map Tracker",
+      "name": "OoTR Item Tracker",
       "game_name": "Ocarina of Time Randomizer",
       "author": "Darkened5ky, Spleebie",
       "version": "{{ site.github.latest_release.tag_name | remove: 'v' }}",
