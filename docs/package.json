@@ -10,7 +10,7 @@
       "version": "{{ site.github.latest_release.tag_name | remove: 'v' }}",
       "uid": "ootr_map_tracker_spleebie_darkened5ky",
       "link": "{{ site.github.latest_release.assets[0].browser_download_url }}",
-      "flags": [ "map", "pins", "chathud" ]
+      "flags": [ "chathud" ]
     },
     {
       "name": "Wind Waker Item and Map Tracker",

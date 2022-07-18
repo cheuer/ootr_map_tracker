@@ -1,8 +1,9 @@
 {
-  "map_enabled": true,
+  "map_enabled": false,
   "auto_pin_capturing_locations": false,
   "auto_unpin_on_clear": true,
   "layout_swap_left_right": false,
+  "allow_resize": "false",
   "disabled_image_filter": "grayscale, dim",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_open.png",
@@ -211,7 +212,7 @@
           "height": 16,
           "canvas_left": 118,
           "canvas_top": 172
-        },
+        }
       ]
     },
     "shared_item_grid": {
@@ -272,7 +273,7 @@
         }
       ]
     },
-    "tracker_capture_item": {
+    /*"tracker_capture_item": {
       "type": "itemgrid",
       "h_alignment": "center",
       "item_margin": "0,0,2,10",
@@ -322,7 +323,7 @@
             ]
           }
         },
-        /* {
+        {
           "title": "Dungeons",
           "icon": "images/dungeonmap.png",
           "content": {
@@ -411,12 +412,14 @@
               }
             ]
           }
-        } */
+        }
       ]
-    },
+    },*/
     "tracker_default": {
       "type": "container",
       "background": "#877373",
+      "width": "300",
+      "height": "470",
       "content": {
         "type": "dock",
         "dropshadow": true,
@@ -434,8 +437,8 @@
                   "type": "layout",
                   "key": "shared_item_grid"
                 }
-              },
-              {
+              }
+              /*{
                 "type": "group",
                 "header": "Pinned Locations",
                 "content": {
@@ -446,17 +449,17 @@
                   "orientation": "vertical",
                   "compact": true
                 }
-              }
+              }*/
             ]
-          },
-          {
+          }
+          /*{
             "type": "layout",
             "key": "all_maps"
-          }
+          }*/
         ]
       }
-    },
-    "tracker_horizontal": {
+    }
+    /*"tracker_horizontal": {
       "type": "container",
       "background": "#877373",
       "content": {
@@ -476,7 +479,7 @@
                   "type": "layout",
                   "key": "shared_item_grid"
                 }
-              },
+              }
               {
                 "type": "group",
                 "header": "Pinned Locations",
@@ -490,13 +493,13 @@
                 }
               }
             ]
-          },
+          }
           {
             "type": "layout",
             "key": "all_maps"
           }
         ]
       }
-    }
+    }*/
   }
 }
