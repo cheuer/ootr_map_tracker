@@ -45,12 +45,12 @@
     {
       "name": "ALTTPR Glitched Modes",
       "author": "deserteagle417, Spleebie",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "uid": "alttpr_glitches_deserteagle417",
       "game_name": "A Link to the Past Randomizer",
       "flags": [ "map", "pins", "chathud", "autotracker" ],
       "required_app_version": "2.3.6.5",
-      "link": "https://github.com/cheuer/alttpr_glitches_deserteagle417/releases/download/v2.1.1/alttpr_glitches_deserteagle417.zip",
+      "link": "https://github.com/cheuer/alttpr_glitches_deserteagle417/releases/download/v2.1.2/alttpr_glitches_deserteagle417.zip",
       "variants": [
         {
           "name": "Standard Map Tracker",
